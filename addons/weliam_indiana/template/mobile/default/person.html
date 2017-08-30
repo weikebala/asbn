@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>个人中心  - {php echo $this->module['config']['sname']}</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+	<meta content="telephone=no" name="format-detection">
+    <link href="{WELIAM_INDIANA_STATIC}css/common.css" rel="stylesheet">
+   	<link href="{WELIAM_INDIANA_STATIC}css/user.css" rel="stylesheet">
+   	<link href="{WELIAM_INDIANA_STATIC}css/newaccounts.css" rel="stylesheet">
+   	<link href="{WELIAM_INDIANA_STATIC}/css/member.css" rel="stylesheet" type="text/css">	
+   	<script language="javascript" src="{WELIAM_INDIANA_STATIC}js/jquery.js"></script>
+   	<script language="javascript" type="text/javascript">
+    	//蒙层
+    	function showdiv() { 
+    		document.getElementById("bg").style.display ="block";
+    		document.getElementById("show").style.display ="block";
+    	}
+    	function hidediv() {
+    		document.getElementById("bg").style.display ='none';
+    		document.getElementById("show").style.display ='none';
+    	}
+    </script>
+</head>
+{template wxshare}
+<style type="text/css">
+	#bg{ display: none; position: absolute; top: 0%; left: 0%; width: 100%; height: 115%; background-color: black; z-index:1001; -moz-opacity: 0.7; opacity:.70; filter: alpha(opacity=70);}
+	.acc-pop {
+		    padding: 13px 15px 10px;
+		    border-radius: 8px;
+		    text-align: center;
+		    font-size: 14px;
+		    position: fixed;
+		    z-index: 10;
+		    background: #fff;
+		    top: 126px;
+		}
+	
+</style>
+<body>
+<div class="m-user" id="dvWrapper" style="padding-top: 0px;">
+        <div class="m-nav">
+        <div class="g-wrap h_fix">
+            <ul class="m-nav-list">
+                <li data-op='index'><a href="{php echo $this->createMobileUrl('index', array())}"><span>首页<span></span></span></a></li>
+                <li><a href="{php echo $this->createMobileUrl('allgoods', array())}" data-op=''><span>全部商品<span></span></span></a></li>
+                <li><a href="{php echo $this->createMobileUrl('allshare', array())}" ><span>晒单<span></span></span></a></li>
+                <li class="selected" ><a href="{php echo $this->createMobileUrl('person', array())}"><span>个人中心<span></span></span></a></li>
+            </ul>
+        </div>
+        {template 'followed'}	
+    </div>
+    <style>
+	.h_fix{position: fixed;background-color: #fff;border-bottom: 1px solid #d5d5d5;box-shadow: 0 1px 3px 0px rgba(160,160,160,0.2);z-index: 10;}
+	</style>
+    <div class="m-user-index" style="margin-top: 10px;">
+    <div class="m-user-summary" style="clear: both;">
+        <img class="bg" src="http://mimg.127.net/p/yymobile/lib/img/user/summary_bg.png" width="100%">
+        <div class="info" id='shaidan'>
+            <div class="m-user-avatar"><img width="50" height="50" onerror="" src="{$reply['avatar']}"></div>
+            <div class="txt">
+                <div class="name">{$reply['nickname']}</div>
+                <div class="money">余额：
+                	<span class="num">{$reply['credit2']}夺宝币</span>
+                    {if $this->module['config']['paytype'] == 2 && $this->module['config']['ispayee'] == 2}
+                	<a href="javascript:showdiv();" class="w-button w-button-s m-user-summary-btn-normal" style="margin-left: 3px;">提现</a>
+                    {/if}
+                	<a href="{php echo $this->createMobileUrl('recharge', array())}" class="w-button w-button-s m-user-summary-btn-normal" style="margin-left: 3px;">充值</a>
+                </div>
+            </div>
+        </div>
+        <!-- 资料链接 -->
+        <a href="{php echo $this->createMobileUrl('profile')}" class="aside">
+            <b class="ico-next"></b>
+        </a>
+    </div>
+        <div class="m-user-bar">
+            <a href="{php echo $this->createMobileUrl('order')}" class="w-bar m-user-bar-border">夺宝记录<span class="w-bar-ext"><b class="ico-next"></b></span></a>
+            <a href="{php echo $this->createMobileUrl('order_get')}" class="w-bar">中奖记录<span class="w-bar-ext"><b class="ico-next"></b></span></a>
+            <a href="{php echo $this->createMobileUrl('myshare')}" class="w-bar">我的晒单<span class="w-bar-ext"><b class="ico-next"></b></span></a>
+            <a href="{php echo $this->createMobileUrl('invite')}" class="w-bar">我的邀请<span class="w-bar-ext"><b class="ico-next"></b></span></a>
+            {if $this->module['config']['creditstatus'] == 2}
+            <a href="{php echo $this->createMobileUrl('credit1_credit2')}" class="w-bar">积分兑换<span class="w-bar-ext"><b class="ico-next"></b></span></a>
+            {/if}
+           {if WELIAM_INDIANA_VERSION=='special'}
+           <a href="{php echo $this->createMobileUrl('credit')}" class="w-bar">我的优惠券<span class="w-bar-ext"><b class="ico-next"></b></span></a>
+           {/if}
+           <a href="{php echo $this->createMobileUrl('recharge_records')}" class="w-bar">充值记录<span class="w-bar-ext"><b class="ico-next"></b></span></a>
+             <a href="{php echo $this->createMobileUrl('consume')}" class="w-bar">消费记录<span class="w-bar-ext"><b class="ico-next"></b></span></a>
+        </div>
+        <div class="m-user-bar">
+        </div>
+    </div>
+</div>
+{template 'footer'}
+<button class="w-button w-button-round w-button-backToTop" style="display:none" id="pro-view-0">返回顶部</button>
+<!-- 提现框 -->
+<div id="bg"></div>	
+    <div class="acc-pop" id='show' style=" display:none; margin-left:20%;z-index:1002">
+                <input type="text" placeholder="请输入提现金额" id="transfer_num" style="height: 50px;font-size: 18px;text-align: center;border: 0;border-radius: 0;font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;"/>
+                <a id="closeDiag"  href="javascript:transfer();" style="background: #E23D59; color: #F8F8F8; text-align: center;border-radius: 5px;text-decoration: none;font-size: 14px;">提现</a>
+                <a id="closeDiag" href="javascript:hidediv();"  style="background: #E23D59; color: #F8F8F8; text-align: center;border-radius: 5px;text-decoration: none;font-size: 14px;">取消</a>
+    </div>
+</body>
+<script>
+	function transfer(){
+		var num = document.getElementById('transfer_num').value;
+		if(isNaN(num)||num<1){
+				tip('输入大于1的正整数',true);
+				return false;
+			}
+		if(num > {$reply['credit2']}){
+				tip('没有足够提现金额',true);
+				return false;
+		}
+		$.ajax({
+			type:"POST",
+			url:"{php echo $this->createMobileUrl('transfer_ping')}",
+			data:{num:num},
+			dataType: "json",
+	          success: function(data)
+	           {
+	             if(data == 1){
+	             	tip('非法登陆',true);
+	             	return false;
+	             }
+	             if(data == 2){
+	             	tip('余额不足',true);
+	             	return false;
+	             }
+	             if(data.status == 'pending'){
+	             	tip('退款申请提交成功',true);
+	             	hidediv();
+	             }else{
+	             	alert(JSON.stringify(data));
+	             	tip('退款申请提交失败',true);
+	             	hidediv();
+	             }
+	             
+	           },
+	          error:function(XMLResponse){alert(XMLResponse.responseText)}
+		});
+	}
+	
+</script>
+{template 'common_message'}
+</html>

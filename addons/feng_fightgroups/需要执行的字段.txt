@@ -1,0 +1,4 @@
+安装后执行以下字段
+ALTER TABLE ims_tg_goods ADD `category_childid` int(11) NOT NULL;
+
+ALTER TABLE ims_tg_goods ADD `category_parentid` int(11) NOT NULL;

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+{template wxshare}
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>最新揭晓 - {php echo $this->module['config']['sname']}</title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+		<link href="../addons/weliam_indiana/static/css/newcomm.css" rel="stylesheet" type="text/css">
+		<link href="../addons/weliam_indiana/static/css/newlottery.css" rel="stylesheet" type="text/css">
+		<script src="../addons/weliam_indiana/static/js/jquery.js"></script>
+	</head>
+
+	<body id="loadingPicBlock" fnav="1" class="g-acc-bg" style="zoom: 1;">
+		<!--分类筛选遮罩-->
+		<div class="weixin-mask" style="display: none;"></div>
+		<div class="marginB">
+			<div class="revCon" id="divLottery">
+				{loop $newannounce $newannounce}
+					{if $newannounce['status'] == 2}
+					<ul class="rNow rFirst" id="rNow{$newannounce['id']}">
+						<li class="revConL"><a href="{php echo $this->createMobileUrl('detail', array('periodid' => $newannounce['id']))}"><img alt="" src="{php echo tomedia($newannounce['picarr'])}"></a><cite><em>第{$newannounce['periods']}期</em><i></i></cite></li>
+						<li class="revConR">
+							<h4>{$newannounce['title']}</h4>
+							<h5>价值：￥{$newannounce['price']}<span style="color: #db3652;">({$newannounce['init_money']}元/人次)</span></h5>
+							<p name="pTime"><s></s>揭晓倒计时 <strong id="one{$newannounce['id']}">正在计算...</strong></p>
+						</li>
+						<div class="rNowTitle">正在揭晓</div>
+					</ul>
+					<script>
+						$(document).ready(function(){
+						    function FreshTime(){
+						        var str ='{php echo date('Y-m-d H:i:s',$newannounce['endtime'])}';
+						        str = str.replace(/-/g,"/");
+						        var starttime= new Date(str);//开始时间
+						        var nowtime = new Date();//当前时间
+						        var now_time = parseInt(nowtime.getTime());
+						        var start_time = parseInt(starttime.getTime());
+						        var jiexiao_time = start_time;
+						        var lefttime = (jiexiao_time-now_time)/1000;
+						       if (lefttime > 0) {
+						            mm=parseInt((lefttime/60)%60);
+						            if(10>mm>0){
+						            	mm="0"+mm;
+						            }
+						            ss=(lefttime%60).toFixed(2);
+						            if(10>parseInt(ss)>0){
+						            	ss="0"+ss;
+						            }
+						            $("#one{$newannounce['id']}").html(mm+":"+ss);						            
+						        }else{
+						             var rNow = document.getElementById('rNow{$newannounce['id']}');
+						             var img = "{php echo tomedia($newannounce['picarr'])}";
+						             var times = "{php echo date("Y-m-d H:s:i",$newannounce['endtime'])}";
+						             var nickname = "{$newannounce['nickname']}";
+						             var personurl = "{php echo $this->createMobileUrl('otherpersonal')}&openid={$newannounce['openid']}";
+						             var goodsprice = "{$newannounce['price']}";
+						             var partakes = "{$newannounce['partakes']}";
+						             var init_money = "{$newannounce['init_money']}";
+						             var jiexiaohou ='<li class="revConL"><a href="{php echo $this->createMobileUrl('detail')}&periodid='+{$newannounce['id']}+'"><img src="'+img+'"></a><cite><em>第'+{$newannounce['periods']}+'期</em><i></i></cite></li><li class="revConR"><dl><dt><i>获得者:</i><span><a href="'+personurl+'" class="blue">'+nickname+'</a></span></dt><dd>商品价值：￥'+goodsprice+'<span style="color: #db3652;">('+init_money+'元/人次)</span></dd><dd>本期参与：<em class="orange">'+partakes+'</em>人次</dd><dd class="jx_time">揭晓时间：'+times+'</dd></dl></li>';
+						             rNow.className = '';
+						             rNow.innerHTML = jiexiaohou;
+						             return false;
+						        }
+						  }
+						    FreshTime();
+						    var sh;
+						    sh=setInterval(FreshTime,10);
+						});
+					</script>
+					{else}
+					<ul>
+						<li class="revConL">
+							<a href="{php echo $this->createMobileUrl('detail', array('periodid' => $newannounce['id']))}">
+								<img src="{php echo tomedia($newannounce['picarr'])}">
+							</a>
+							<cite><em>第{$newannounce['periods']}期</em><i></i></cite>
+						</li>
+						<li class="revConR">
+							<dl>
+								<dt>
+									<i>获得者：</i>
+									<span>
+										<a href="{php echo $this->createMobileUrl('otherpersonal')}&openid={$newannounce['openid']}" class="blue">{$newannounce['nickname']}</a>
+									</span>
+								</dt>
+								<dd>商品价值：￥{$newannounce['price']}<span style="color: #db3652;">({$newannounce['init_money']}元/人次)</span></dd>
+								<dd>本期参与：<em class="orange">{$newannounce['partakes']}</em>人次</dd>
+								<dd class="jx_time">揭晓时间：{php echo date("Y-m-d H:s:i",$newannounce['endtime'])}</dd>
+							</dl>
+						</li>
+					</ul>
+					{/if}
+				{/loop}					
+			</div>
+			<div class="loading clearfix" id="refresh">上拉加载</div>
+		</div>
+
+		<input id="hidPageType" type="hidden" value="1">
+		</div>
+	</body>
+	<script>
+		//自动刷新
+		var flag=0;
+		var page = 1;
+		//判断div是否在可视区域
+		  $(document).ready(function () {
+	            $(window).scroll(function () {
+	                var a = document.getElementById("refresh").offsetTop;
+	                if (a >= $(window).scrollTop() && a < ($(window).scrollTop()+$(window).height())&& flag==0) {
+	                   document.getElementById('refresh').innerHTML='<b></b>正在加载';
+						flag = 1;
+						down_load();	
+	                }
+	            });
+	        });
+		//下拉加载数据
+		function down_load(){
+			//传值验证返回	
+		    $.post("{php echo $this->createMobileUrl('newannounce')}",
+		    {
+		    	page:page
+		    },
+		    function(m){
+					if(m==''){
+						document.getElementById('refresh').innerHTML="没有可加载项";
+						flag=1;
+					}else{
+						page = page+1;
+						for(var i=0;i<m.length;i++){
+							var img = m[i].picarr;
+				            var endtime = m[i].endtime;
+				            var nickname = m[i].nickname;
+				            var personurl = "{php echo $this->createMobileUrl('otherpersonal')}&openid="+m[i].openid;
+				            var goodsprice = m[i].price;
+				            var partakes = m[i].partakes;
+							var more = '<ul><li class="revConL"><a href="{php echo $this->createMobileUrl('detail')}&periodid='+m[i].id+'"><img src="'+img+'"></a><cite><em>第'+m[i].periods+'期</em><i></i></cite></li><li class="revConR"><dl><dt><i>获得者:</i><span><a href="'+personurl+'" class="blue">'+nickname+'</a></span></dt><dd>商品价值：￥'+goodsprice+'<span style="color: #db3652;">('+m[i].init_money+'元/人次)</span></dd><dd>本期参与：<em class="orange">'+partakes+'</em>人次</dd><dd class="jx_time">揭晓时间：'+endtime+'</dd></dl></li></ul>';
+							$('#divLottery').append(more);
+							document.getElementById('refresh').innerHTML="上拉加载";
+							flag=0;
+						}
+					}
+	
+	             },"json");
+		}
+	</script>
+</html>

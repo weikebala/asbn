@@ -1,0 +1,22 @@
+2016-06-23 14:56:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3v6cQLcsvTSlAkdB72MLXl-s]]></FromUserName>
+<CreateTime>1466664986</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://fx5.iseasoft.cn/app/./index.php?i=4&c=entry&id=2&do=research&m=we7_research]]></EventKey>
+<MenuId>403646506</MenuId>
+</xml>
+
+2016-06-23 14:56:26 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-23 14:56:26 response :
+------------
+

@@ -1,0 +1,392 @@
+{template 'common/header'}
+    <div class="banner" id="banner">
+        <div class="banner_box">
+            <div class="banner_list" id="banner_list">
+            {if $advs_pc}
+				{loop $advs_pc $row}
+                <a href="{$row['link']}" target="_blank"><img src="{$row['thumb_pc']}" alt="{$row['advname']}"></a>
+                {/loop}
+				{else}
+                <a href="{$row['link']}" target="_blank"><img src="./addons/sea/template/pc/default/static/images/banner.jpg" alt="默认效果图片"></a>
+                {/if}
+            </div>
+            <div class="ban_ctrl"> <span class="current"></span><span class=""></span> </div>
+            <div class="banner_ad">
+                <div class="banner_ad1200">
+                    <div class="banner_left">
+                        <p>你的创意设计，让WERGOO轻松帮你定制，<span>一件</span>可定制</p>
+                    </div>
+                    <div class="banner_right">
+                        <a href="#"><span class="buy">购买自己设计</span></a>
+                        <a href="{php echo $this->createPluginMobileUrl('commission')}"><span class="self">开店卖创意</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mainbody" class="container">
+
+        <div class="w100 customized">
+            <ul>
+            {loop $categorylist $v}
+                <li class="cusbox">
+                    <a href="{php echo $this->createMobileUrl('shop/list')}&ccate={$v['id']}"><img src="{$v['advimg']}"></a>
+                    <a href="{php echo $this->createMobileUrl('shop/list')}&ccate={$v['id']}"><span>{$v['name']}</span></a>
+                </li>
+            {/loop}
+            </ul>
+        </div>
+
+        <div class="container designer">
+            <div class="w100 designer1200">
+                <ul>
+                {loop $supplierinfo $v}
+                    <li class="desbox">
+                        <a href="{php echo $this->createMobileUrl('shop/list',array('op'=>'myshop'))}&supplier_uid={$v['uid']}"><img src="{$v['member_message']['avatar']}"></a>
+                        <div class="despro">
+                            <a href="{php echo $this->createMobileUrl('shop/list',array('op'=>'myshop'))}&supplier_uid={$v['uid']}"><img class="desphoto" src="{$v['member_message']['avatar']}"></a>
+                            <div class="desinf">
+                                <a href="{php echo $this->createMobileUrl('shop/list',array('op'=>'myshop'))}&supplier_uid={$v['uid']}"><h4>{$v['member_message']['nickname']}</h4></a>
+                                <p><span class="sex">{if $v['member_message']['gender']==1}男{else}女{/if}</span> / <span class="from">{$v['member_message']['bonus_province']}</span> / <span class="profession">环艺设计师</span></p>
+                                <p>作品销量：<span class="number">{$v['saler_num']}</span> / 件</p>
+                            </div>
+                        </div>
+                    </li> 
+               {/loop}
+                </ul>
+            </div>
+        </div>
+        <style type="text/css">
+        	.shadow{
+        	    width: 1200px;
+        	}
+        	.imgbox{
+        		position: relative;
+        		width: 248px;
+        		height: 160px;
+        	}
+        	.imgbox a{
+        		position: absolute;
+        		top: 0px;
+        		width: 248px;
+        		display: block;
+        		margin-top: 0px;
+        	}
+        	.infospad{
+        		position: absolute;
+        		top: 180px;
+        		width: 260px;
+        	}
+        	.shop a{
+        		position: absolute;
+        		left: 20px;
+        	}
+        </style>
+        <div class="w100 outbox">
+
+            <div class="bt">精选活动　<span>ACTIVITIES</span></div>
+            <div class="shadow jingxuan red " >
+                <div class="l"></div>
+                <div class="r"></div>
+                <div class="hoverbor">
+                {loop $goodsall[0]['goodslist'] $v}
+                    <div class="campaignone">
+                        <div class="imgbox">
+                            <a target="_blank" href="{php echo $this->createMobileUrl('shop/detail')}&id={$v['id']}" >
+                                <img data-loadsrc="" alt="" src="{$v['thumb']}">
+                                <span class="ohe">{$v['title']}</span>
+                            </a>
+                        </div>
+                        <div class="infospad" >
+                            <!--<div class="line">
+                                <div class="ing" style="width: 10%;"></div>
+                            </div>-->
+                            <div class="info clearfix">
+                                <div class="price">￥{$v['marketprice']}</div>
+                                
+                                <div class="fr black">已售:{$v['sales']}</div>
+                            </div>
+                            <div class="shop ohe">
+                                <a target="_blank" href="{php echo $this->createMobileUrl('shop/list',array('op'=>'myshop'))}&supplier_uid={$v['supplier_uid']}" >
+                                    <img  src='{$v['supplier_message']['avatar']}' alt="">{$v['supplier_message']['nickname']}</a>
+                            </div>
+                        </div>
+                    </div>
+                {/loop}          
+                </div>
+                <div class="fl LABEL">
+                    <div class="tit">{$goodsall[0]['name']}</div>
+                    <div class="bg">
+                        <p>热门TOP</p>
+                        {loop $goodsall[0]['child'] $v}
+                        <a target="_blank" href="{php echo $this->createMobileUrl('shop/list')}&ccate={$v['id']}" class="tab SEARCH">{$v['name']}</a>
+                        {/loop}
+                    </div>
+                </div>
+            </div>
+            <div class="shadow jingxuan orange">
+                <div class="l"></div>
+                <div class="r"></div>
+                <div class="hoverbor">
+                {loop $goodsall[1]['goodslist'] $v}
+                    <div class="campaignone">
+                        <div class="imgbox">
+                            <a target="_blank" href="{php echo $this->createMobileUrl('shop/detail')}&id={$v['id']}">
+                                <img data-loadsrc="" alt="" src="{$v['thumb']}">
+                                <span class="ohe">{$v['title']}</span>
+                            </a>
+                        </div>
+                        <div class="infospad">
+                            <div class="info clearfix">
+                                <div class="price">￥{$v['marketprice']}</div>
+                                
+                                <div class="fr black">已售:{$v['sales']}</div>
+                            </div>
+                            <div class="shop ohe">
+                                <a target="_blank" href="{php echo $this->createMobileUrl('shop/list')}&supplier_uid={$v['uid']}" >
+                                    <img  src='{$v['supplier_message']['avatar']}' alt="">{$v['supplier_message']['nickname']}</a>
+                            </div>
+                        </div>
+                    </div>
+                    {/loop} 
+                </div>
+                <div class="fl LABEL">
+                    <div class="tit">{$goodsall[1]['name']}</div>
+                    <div class="bg">
+                        <p>热门TOP</p>
+                        {loop $goodsall[1]['child'] $v}
+                        <a target="_blank" href="{php echo $this->createMobileUrl('shop/list')}&ccate={$v['id']}" class="tab SEARCH">{$v['name']}</a>
+                        {/loop}
+                    </div>
+                </div>
+            </div>
+            <div class="shadow jingxuan red">
+                <div class="l"></div>
+                <div class="r"></div>
+                <div class="hoverbor">
+                {loop $goodsall[2]['goodslist'] $v}
+                    <div class="campaignone">
+                        <div class="imgbox">
+                            <a target="_blank" href="{php echo $this->createMobileUrl('shop/detail')}&id={$v['id']}">
+                                <img data-loadsrc="" alt="" src="{$v['thumb']}">
+                                <span class="ohe">{$v['title']}</span>
+                            </a>
+                        </div>
+                        <div class="infospad">
+                            <div class="info clearfix">
+                                <div class="price">￥{$v['marketprice']}</div>
+                                
+                                <div class="fr black">已售:{$v['sales']}</div>
+                            </div>
+                            <div class="shop ohe">
+                                <a target="_blank" href="{php echo $this->createMobileUrl('shop/list')}&supplier_uid={$v['supplier_message']['uid']}" >
+                                    <img  src='{$v['supplier_message']['avatar']}' alt="">{$v['supplier_message']['nickname']}</a>
+                            </div>
+                        </div>
+                    </div>
+                   {/loop}
+                </div>
+                <div class="fl LABEL">
+                    <div class="tit">{$goodsall[2]['name']}</div>
+                    <div class="bg">
+                        <p>热门TOP</p>
+                    {loop $goodsall[2]['child'] $v}
+                        <a target="_blank" href="{php echo $this->createMobileUrl('shop/list')}&ccate={$v['id']}" class="tab SEARCH">{$v['name']}</a>
+                    {/loop}
+                    </div>
+                </div>
+            </div>
+            <div class="shadow jingxuan orange">
+                <div class="l"></div>
+                <div class="r"></div>
+                <div class="hoverbor">
+                {loop $goodsall[3]['goodslist'] $v}
+                    <div class="campaignone">
+                        <div class="imgbox">
+                            <a target="_blank" href="{php echo $this->createMobileUrl('shop/detail')}&id={$v['id']}">
+                                <img data-loadsrc="" alt="" src="{$v['thumb']}">
+                                <span class="ohe">{$v['title']}</span>
+                            </a>
+                        </div>
+                        <div class="infospad">
+                            <div class="info clearfix">
+                                <div class="price">￥{$v['marketprice']}</div>
+                                
+                                <div class="fr black">已售:{$v['sales']}</div>
+                            </div>
+                            <div class="shop ohe">
+                                <a target="_blank" href="{php echo $this->createMobileUrl('shop/list')}&supplier_uid={$v['supplier_message']['uid']}" >
+                                    <img  src='{$v['supplier_message']['avatar']}' alt="">{$v['supplier_message']['nickname']}</a>
+                            </div>
+                        </div>
+                    </div>
+                {/loop}               
+                </div>
+                <div class="fl LABEL">
+                    <div class="tit">{$goodsall[3]['name']}</div>
+                    <div class="bg">
+                        <p>热门TOP</p>
+                        {loop $goodsall[3]['child'] $v}
+                        <a target="_blank" href="{php echo $this->createMobileUrl('shop/list')}&ccate={$v['id']}" class="tab SEARCH">{$v['name']}</a>
+                        {/loop}
+                    </div>
+                </div>
+            </div>
+            
+            <div class="shadow jingxuan red">
+                <div class="l"></div>
+                <div class="r"></div>
+                <div class="hoverbor">  
+                {loop $goodsall[4]['goodslist'] $v}
+                    <div class="campaignone">
+                        <div class="imgbox">
+                            <a target="_blank" href="{php echo $this->createMobileUrl('shop/detail')}&id={$v['id']}">
+                                <img data-loadsrc="" alt="" src="{$v['thumb']}">
+                                <span class="ohe">{$v['title']}</span>
+                            </a>
+                        </div>
+                        <div class="infospad">
+                            <div class="info clearfix">
+                                <div class="price">￥{$v['marketprice']}</div>
+                                
+                                <div class="fr black">已售:{$v['sales']}</div>
+                            </div>
+                            <div class="shop ohe">
+                                <a target="_blank" href="{php echo $this->createMobileUrl('shop/list')}&supplier_uid={$v['supplier_message']['uid']}" >
+                                    <img  src='{$v['supplier_message']['avatar']}' alt="">{$v['supplier_message']['nickname']}</a>
+                            </div>
+                        </div>
+                    </div>
+                 {/loop}
+                </div>
+                <div class="fl LABEL">
+                    <div class="tit">{$goodsall[4]['name']}</div>
+                    <div class="bg">
+                        <p>热门TOP</p>
+                        {loop $goodsall[4]['child'] $v}
+                        <a target="_blank" href="{php echo $this->createMobileUrl('shop/list')}&ccate={$v['id']}" class="tab SEARCH">{$v['name']}</a>
+                        {/loop}
+                    </div>
+                </div>
+            </div>
+            
+            <div class="shadow jingxuan orange">
+                <div class="l"></div>
+                <div class="r"></div>
+                <div class="hoverbor">
+                {loop $goodsall[5]['goodslist'] $v}
+                    <div class="campaignone">
+                        <div class="imgbox">
+                            <a target="_blank" href="{php echo $this->createMobileUrl('shop/detail')}&id={$v['id']}">
+                                <img data-loadsrc="" alt="" src="{$v['thumb']}">
+                                <span class="ohe">{$v['title']}</span>
+                            </a>
+                        </div>
+                        <div class="infospad">
+                            <div class="info clearfix">
+                                <div class="price">￥{$v['marketprice']}</div>
+                                
+                                <div class="fr black">已售:{$v['sales']}</div>
+                            </div>
+                            <div class="shop ohe">
+                                <a target="_blank" href="{php echo $this->createMobileUrl('shop/list')}&supplier_uid={$v['supplier_message']['uid']}" >
+                                    <img  src='{$v['supplier_message']['avatar']}' alt="">{$v['supplier_message']['nickname']}</a>
+                            </div>
+                        </div>
+                    </div>
+                    {/loop}
+                </div>
+                <div class="fl LABEL">
+                    <div class="tit">{$goodsall[5]['name']}</div>
+                    <div class="bg">
+                    {loop $goodsall[5]['child'] $v}
+                        <p>热门TOP</p>
+                        <a target="_blank" href="{php echo $this->createMobileUrl('shop/list')}&ccate={$v['id']}" class="tab SEARCH">{$v['name']}</a>
+                    {/loop}
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="custom">
+        <div class="buyershowbg"></div>
+        <div class="w100 clearfix">
+            <h2><span>买家秀</span>，让WERGOO打造个性的你</h2>
+
+            <div class="custom-box">
+                <div class="custom-img left">
+                    <img src="../addons/sea/template/pc/default/static/style/img/buyershow_1.png">
+                </div>
+                <div class="custom-info left">
+                    <p>收到T恤后，发现T恤本身质量非常的好，很多<br>的定制文化衫质量真的没法和这个比，价格也是<br>非常的划算，印刷质量一流，夏天穿起来一点都<br>感觉不到闷，更感觉不到有胶贴在身上，感谢云勾勾！</p>
+                    <div class="custom-pro">
+                        <img src="../addons/sea/template/pc/default/static/style/img/buyer_1.jpg">
+                        <div class="custom-name">Kim Springer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="custom-box">
+                <div class="custom-img left">
+                    <img src="../addons/sea/template/pc/default/static/style/img/buyershow_1.png">
+                </div>
+                <div class="custom-info left">
+                    <p>收到T恤后，发现T恤本身质量非常的好，很多的定制文化衫质量真的没法和这个比，价格也是非常的划算。印刷质量一流，夏天穿起来一点都感觉不到闷，更感觉不到有胶贴在身上，感谢云勾勾！</p>
+                    <div class="custom-pro">
+                        <img src="../addons/sea/template/pc/default/static/style/img/buyer_1.jpg">
+                        <div class="custom-name">Kim Springer</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="aboutus">
+        <div class="w100 clearfix">
+            <div class="fl">
+                <video preload="metadata" controls src="" style="width: 100%; height: 100%;" poster="../addons/sea/template/pc/default/static/style/img/videoposter.jpg">
+                    <source type="video/mp4" src="">
+                    <a href="../addons/sea/template/pc/default/static/style/img/static.udz.jpg/statics/player/udz.mp4"></a>
+                </video>
+            </div>
+            <div class="fr">
+                <h1>关于我们 ———</h1>
+                <p>关于上海云肯制——来自美国的C2B平台，以预售的模式，为用户完成创业梦想。</p>
+                <p>用户只需脑洞大开，即可利用智能化在线设计工具，创做出独一无二的个性化服装。</p>
+                <p>全产业链无忧服务，让您不费心、不费力，轻松获取丰厚利润。</p>
+                <a class="our btn-o8" href="#">开始设计</a>
+            </div>
+        </div>
+    </div>
+    <!--<script type="text/template" id="campaignone">
+        <div class="campaignone">
+            <div class="imgbox">
+                <a target="_blank" href="<%= obj.url %>">
+                    <img src="../addons/sea/template/pc/default/static/style/img/static.udz.jpg/<%= obj.image1 %>.360.png" alt="">
+                    <span class="ohe"><%= obj.name %></span>
+                </a>
+            </div>
+            <div class="infospad">
+                <div class="line">
+                    <% if(obj.saled>obj.goal){ %>
+                    <div class="ing" style="width:100%"></div>
+                    <% }else if(obj.saled<1){ %>
+                    <div class="ing" style="width:1%"></div>
+                    <% }else{ %>
+                    <div class="ing" style="width:<%= obj.saled/obj.goal*100 %>%"></div>
+                    <% } %>
+                </div>
+                <div class="info clearfix">
+                    <div class="price">￥<%= obj.lowprice %></div>
+                    <div class="fr">目标:<%= obj.goal %></div>
+                    <div class="fr black">已售:<%= obj.saled %></div>
+                </div>
+                <div class="shop ohe"><a target="_blank" href="_shop?storeid=<%= obj.storeid %>"><img src="../addons/sea/template/pc/default/static/style/img/static.udz.jpg/<%= obj.photo?obj.photo:'statics/common/images/160.jpg' %>" alt=""><%= obj.storename %></a></div>
+            </div>
+        </div>
+    </script>-->
+{template 'common/footer'}
+    

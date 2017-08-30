@@ -1,0 +1,126 @@
+{template 'web/_header'}
+{template 'web/leaderboard/tabs'}
+
+<div class="clearfix">
+
+<div class="panel panel-default">
+    <div class="panel-heading">总数：{$total}   </div>
+    <div class="panel-body">
+        <table class="table table-hover" style="overflow:visible;">
+            <thead class="navbar-inner">
+            <tr>
+                <th style='width:80px;'>排行</th>
+                <th style='width:80px;'>会员ID</th>
+                {if $opencommission}
+                <th style='width:120px;'>推荐人</th>
+                {/if}
+
+                <th style='width:120px;'>粉丝</th>
+                <th style='width:80px;'>会员姓名</th>
+                <th style='width:120px;'>手机号码</th>
+                <th style='width:120px;'>会员等级/分组</th>
+                <th style='width:130px;'>注册时间</th>
+
+                <th style='width:80px;'>推广总金额</th>
+
+                <th style='width:100px'>关注</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <?php
+              $i=1;
+            ?>
+            {loop $newlist $row}
+
+            <tr>
+                <td>   {$i}</td>
+                <td>   {$row['id']}</td>
+                {if $opencommission}
+                <td  {if !empty($row['agentid'])}title='ID: {$row['agentid']}'{/if}>
+                {if empty($row['agentid'])}
+                {if $row['isagent']==1}
+                <label class='label label-primary'>总店</label>
+                {else}
+                <label class='label label-default'>暂无</label>
+                {/if}
+                {else}
+
+                {if !empty($row['agentavatar'])}
+                <img src='{$row['agentavatar']}' style='width:30px;height:30px;padding1px;border:1px solid #ccc' />
+                {/if}
+                {if empty($row['agentnickname'])}未更新{else}{$row['agentnickname']}{/if}
+                {/if}
+
+                </td>
+                {/if}
+
+                <td>
+                    {if !empty($row['avatar'])}
+                    <img src='{$row['avatar']}' style='width:30px;height:30px;padding1px;border:1px solid #ccc' />
+                    {/if}
+                    {if empty($row['nickname'])}未更新{else}{$row['nickname']}{/if}
+
+                </td>
+                <td>{$row['realname']}</td>
+                <td>{$row['mobile']}</td>
+                <td>{if empty($row['levelname'])}普通会员{else}{$row['levelname']}{/if}
+                    <br/>{if empty($row['groupname'])}无分组{else}{$row['groupname']}{/if}</td>
+
+                <td>{php echo date('Y-m-d H:i',$row['createtime'])}</td>
+
+                <td>{$row['ordersum']}</td>
+                <td>
+                    {if $row['isblack']==1}
+                    <span class="label label-default" style='color:#fff;background:black'>黑名单</span>
+                    {else}
+                    {if empty($row['followed'])}
+                    {if empty($row['uid'])}
+                    <label class='label label-default'>未关注</label>
+                    {else}
+                    <label class='label label-warning'>取消关注</label>
+                    {/if}
+                    {else}
+                    <label class='label label-success'>已关注</label>
+                    {/if}{/if}
+
+                </td>
+
+
+                </td>
+            </tr>
+            <?php
+              $i++;
+            ?>
+            {/loop}
+            </tbody>
+        </table>
+        {$pager}
+    </div>
+</div>
+</div>
+
+<script language='javascript'>
+
+         function search_members() {
+             if( $.trim($('#search-kwd-notice').val())==''){
+                 Tip.focus('#search-kwd-notice','请输入关键词');
+                 return;
+             }
+		$("#module-menus-notice").html("正在搜索....")
+		$.get('{php echo $this->createPluginWebUrl('commission/agent')}', {
+			keyword: $.trim($('#search-kwd-notice').val()),'op':'query',selfid:"{$id}"
+		}, function(dat){
+			$('#module-menus-notice').html(dat);
+		});
+	}
+	function select_member(o) {
+		$("#agentid").val(o.id);
+                  $("#parentagentavatar").show();
+                  $("#parentagentavatar").find('img').attr('src',o.avatar);
+		$("#parentagent").val( o.nickname+ "/" + o.realname + "/" + o.mobile );
+		$("#modal-module-menus-notice .close").click();
+	}
+
+    </script>
+{template 'web/_footer'}

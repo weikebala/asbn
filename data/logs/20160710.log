@@ -1,0 +1,263 @@
+2016-07-10 06:39:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuDByr5yJ1HXywF32CZQFnII]]></FromUserName>
+<CreateTime>1468103944</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wxgx.iseasoft.cn/app/index.php?i=3&c=entry&p=commission&m=sea&do=plugin]]></EventKey>
+<MenuId>448611809</MenuId>
+</xml>
+
+2016-07-10 06:39:04 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-10 06:39:04 response :
+------------
+
+2016-07-10 06:39:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuDByr5yJ1HXywF32CZQFnII]]></FromUserName>
+<CreateTime>1468103952</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wxgx.iseasoft.cn/app/index.php?i=3&c=entry&p=commission&m=sea&do=plugin]]></EventKey>
+<MenuId>448611809</MenuId>
+</xml>
+
+2016-07-10 06:39:12 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-10 06:39:12 response :
+------------
+
+2016-07-10 08:44:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuASWGcywCFrzC1m9gXElIzI]]></FromUserName>
+<CreateTime>1468111466</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 09:05:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuPi80ENvqH8U31e-4n-OWsQ]]></FromUserName>
+<CreateTime>1468112727</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 10:11:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuI60-MI_wCyhwYI8h1TFRKE]]></FromUserName>
+<CreateTime>1468116694</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 10:36:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuNRhcaKKpQtAb_gjMbpD_s8]]></FromUserName>
+<CreateTime>1468118209</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 10:55:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuFHe7jyXxvH9cTWYSVCuRE4]]></FromUserName>
+<CreateTime>1468119312</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 10:55:13 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-10 10:55:13 response :
+------------
+
+2016-07-10 11:59:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuJ_PyZ4IL84OkMM44wh8ddE]]></FromUserName>
+<CreateTime>1468123194</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 12:14:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuFKbw32Dy3cH5wz4dezfuBA]]></FromUserName>
+<CreateTime>1468124051</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 15:22:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuHxPp8Qx1eqtvPtR_Skr8Uc]]></FromUserName>
+<CreateTime>1468135378</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 15:36:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuGmXWhQUtlXdjJTjaFTSnwA]]></FromUserName>
+<CreateTime>1468136168</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 16:53:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuDiK91pIQ37dj4zo-DjUj9I]]></FromUserName>
+<CreateTime>1468140798</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 17:35:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuP_PnLgacrw2HKS3Jh6UIM0]]></FromUserName>
+<CreateTime>1468143303</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 17:57:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuCF2ieoIwaMs9zRsKOvmgHA]]></FromUserName>
+<CreateTime>1468144678</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 19:51:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuAKMoWUUZyabTkPetEKTBaM]]></FromUserName>
+<CreateTime>1468151496</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 20:49:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuKT-DnG8WcNZTi0Tk83AhE0]]></FromUserName>
+<CreateTime>1468154955</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 21:40:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuO_zCjd-GneuwHQosfC4dxg]]></FromUserName>
+<CreateTime>1468158059</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wxgx.iseasoft.cn/app/index.php?i=3&c=entry&eid=1226]]></EventKey>
+<MenuId>448611809</MenuId>
+</xml>
+
+2016-07-10 21:40:59 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-10 21:40:59 response :
+------------
+
+2016-07-10 22:13:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuM4OHs8TrBfGGzO0wuuVnMg]]></FromUserName>
+<CreateTime>1468160023</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 23:27:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuEMYaTFTkEIoeuh27ak5s-U]]></FromUserName>
+<CreateTime>1468164471</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-10 23:29:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_698b7dfb6a39]]></ToUserName>
+<FromUserName><![CDATA[oHQrCuP71BTK4EhM_7fafrCBPJD0]]></FromUserName>
+<CreateTime>1468164575</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

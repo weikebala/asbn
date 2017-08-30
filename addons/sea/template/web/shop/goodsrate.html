@@ -1,0 +1,51 @@
+﻿{template 'web/_header'}
+{template 'web/shop/tabs'}
+<div class="main">
+    <form action="" method="post" class="form-horizontal form" enctype="multipart/form-data">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                商品税率管理
+            </div>
+            <div class="panel-body">
+                <div class="input-group form-group">
+                    <span class="input-group-addon">海外直邮税率</span>
+                    <input type="text" name="seaRate" id="seaRate"  class="form-control" value="{$seaRate}" />
+                    <span class="input-group-addon">%（百分制）</span>
+                </div>
+                <div class="input-group form-group">
+                    <span class="input-group-addon">进口保税税率</span>
+                    <input type="text" name="bondedRate" id="bondedRate"  class="form-control" value="{$bondedRate}" />
+                    <span class="input-group-addon">%（百分制）</span>
+                </div>
+                <div class="input-group form-group">
+                    <span class="input-group-addon">贸易进口税率</span>
+                    <input type="text" name="ordinaryRate" id="ordinaryRate"  class="form-control" value="{$ordinaryRate}" />
+                    <span class="input-group-addon">%（百分制）</span>
+                </div>
+                <div class="form-group col-sm-12">
+                    <input type="submit" name="submit" value="提交" class="btn btn-primary col-lg-1" onclick="return formcheck()" />
+                    <input type="hidden" name="token" value="{$_W['token']}" />
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+    function formcheck() {
+        if(isNan($("#seaRate").val())){
+            alert("海外直邮税率必须是数字！！！");
+            return false;
+        }
+        if(isNan($("#bondedRate").val())){
+            alert("进口保税税率必须是数字！！！");
+            return false;
+        }
+        if(isNan($("#ordinaryRate").val())){
+            alert("贸易进口税率必须是数字！！！");
+            return false;
+        }
+        return true;
+    }
+</script>
+{template 'web/_footer'}
+

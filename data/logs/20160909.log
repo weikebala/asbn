@@ -1,0 +1,29 @@
+2016-09-09 08:48:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3128f28e9fe3]]></ToUserName>
+<FromUserName><![CDATA[oW-Cejr8e62tsdZ0Of3uXefxn8dA]]></FromUserName>
+<CreateTime>1473382102</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6328127943028313784</MsgId>
+</xml>
+
+2016-09-09 08:48:22 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 82 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-09-09 08:48:22 response :
+------------
+Array:
+FromUserName : gh_3128f28e9fe3 ;
+ToUserName : oW-Cejr8e62tsdZ0Of3uXefxn8dA ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

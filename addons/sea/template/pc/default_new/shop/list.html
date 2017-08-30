@@ -1,0 +1,149 @@
+{template 'common/search_header'}
+    <div class="wid1200">
+        <p class="top"><a href="{php echo $this->createMobileUrl('shop/list',array('ccate'=>$v['id']))}">所有分类</a><span>></span></p>
+        <div class="findmodel">
+            <!--<div class="selecttab">
+                在“<span></span>”中筛选
+            </div>-->
+            <div class="selectone clearfix">
+                <div class="tt">相关类别：</div>
+                <div class="tabs" id='category_nav'>　
+                <a href="{php echo $this->createMobileUrl('shop/list',array('ccate'=>$v['id']))}">所有分类</a>
+                {loop $category $v}
+                    <a {if $current_category == $v['id']} style='color:red'{/if}  href="{php echo $this->createMobileUrl('shop/list',array('ccate'=>$v['id']))}">{$v['name']}</a>
+                {/loop}
+                </div>
+            </div>
+
+            <div class="selectone clearfix">
+                <div class="tt">热门标签：</div>
+                <div class="tabs">　
+                    <a href="javascript:void(0)" onclick="hot_keyword(this);">篮球</a>
+                    <a href="javascript:void(0)" onclick="hot_keyword(this);">足球</a>
+                    <a href="javascript:void(0)" onclick="hot_keyword(this);">跑步</a>
+                    <a href="javascript:void(0)" onclick="hot_keyword(this);">欧洲杯</a>
+                    <a href="javascript:void(0)" onclick="hot_keyword(this);">DOTA</a>
+                    <a href="javascript:void(0)" onclick="hot_keyword(this);">LOL</a>
+                    <a href="javascript:void(0)" onclick="hot_keyword(this);">魔兽世界</a>
+                    <a href="javascript:void(0)" onclick="hot_keyword(this);">极客</a>
+                    <a href="javascript:void(0)" onclick="hot_keyword(this);">红人</a>
+                    <a href="javascript:void(0)" onclick="hot_keyword(this);">其他</a>
+                    <a href="javascript:void(0)" onclick="hot_keyword(this);">火影忍者</a>
+                    <a href="javascript:void(0)" onclick="hot_keyword(this);">海底总动员</a>
+                    <a href="javascript:void(0)" onclick="hot_keyword(this);">童年</a>
+                </div>
+            </div>
+        </div>
+        <div class="searchtype">
+            <div class="typeone act" {if isset($is_search_num) || isset($is_search_canfree) || isset($is_search_price)}style="color:#000000"{/if}>综合排序<input type="hidden" name="search_comp" value="0" ><i></i></div>
+            <div class="typeone hid {if $is_search_num ==1}red{/if}">销量<input type="hidden" name="search_num" value="{if $is_search_num ==1}1{else}0{/if}" ><i></i></div>
+            <div class="typeone price hid {if $is_search_price ==1}red{/if}">价格<input type="hidden" name="search_price" value="{if $is_search_price ==1} 1 {else}0{/if}" ><i></i></div>
+            <div class="canfree hid {if $is_search_canfree ==1 }red{/if}" style="position:relative;">包邮 <input style="position:absolute;top:10px;right:10px;" type="checkbox" name="search_canfree" value="{if $is_search_canfree ==1 }1{else}0{/if}" {if $is_search_canfree ==1 }checked='checked'{/if}></div>
+        </div>
+        <div class="clearfix contentbox">
+        {loop $goods $v}
+            <div class="searchone" style="width:210px;height:290px;">  
+                <a target="_blank" class="img" href="{php echo $this->createMobileUrl('shop/detail',array('id'=>$v['id']))}"><img src="{$v['thumb']}" alt="" style="width:210px;height:170px;"></a>
+                <p class="ohe"><a target="_blank" href="{php echo $this->createMobileUrl('shop/detail',array('id'=>$v['id']))}">{$v['title']}</a></p>
+                <div class="info clearfix" >
+                    <div class="fl">￥{$v['marketprice']}</div>
+                    <div class="fr"><span>已售:{$v['sales']}</span></div>
+                </div>
+                <p class="shop ohe"><a target="_blank" href="{php echo $this->createMobileUrl('shop/list',array('op'=>'myshop','supplier_uid'=>$v['supplier_uid']))}"><img src="{$v['supplier_message']['member_message']['avatar']}" alt="">{$v['supplier_message']['member_message']['nickname']}</a></p>
+            </div>
+        {/loop}
+        </div>
+        <div id="new_pager">{$pager}</div>
+    </div> 
+    <style type="text/css">
+        .red{
+            color: red;
+        }
+    </style>
+    <script type="text/javascript">
+        $(".canfree>input[name='search_canfree']").click( function () { 
+            var search_canfree = $(".canfree>input[name='search_canfree']");
+
+            if (search_canfree.val() == 0) {
+                search_canfree.parent().addClass('red');
+                search_canfree.attr('value','1');
+                $(".typeone>input[name='search_num']").parent().removeClass('red');
+                $(".typeone>input[name='search_num']").attr('value','0');
+                $(".typeone>input[name='search_price']").parent().removeClass('red');
+                $(".typeone>input[name='search_price']").attr('value','0');
+                $(".typeone>input[name='search_comp']").parent().attr('style','color:#000000');
+                $(".typeone>input[name='search_comp']").attr('value','0');
+
+            } else {
+                search_canfree.parent().removeClass('red');
+                search_canfree.attr('value','0');
+            }
+            window.location.href="{php echo $this->createMobileUrl('shop/list')}&search_canfree="+search_canfree.val(); 
+        });
+        $(".typeone>input[name='search_comp']").parent().click( function () { 
+            var search_comp = $(".typeone>input[name='search_comp']");
+            if (search_comp.val() == 0) {
+                search_comp.parent().attr('style','color:red');
+                search_comp.attr('value','1');   
+                $(".canfree>input[name='search_canfree']").parent().removeClass('red');
+                $(".canfree>input[name='search_canfree']").attr('value','0');
+                $(".typeone>input[name='search_price']").parent().removeClass('red');
+                $(".typeone>input[name='search_price']").attr('value','0');
+                $(".typeone>input[name='search_num']").parent().removeClass('red');
+                $(".typeone>input[name='search_num']").attr('value','0');
+            } else {
+                search_comp.parent().attr('style','color:red');
+                search_comp.attr('value','0');
+            }
+            window.location.href="{php echo $this->createMobileUrl('shop/list')}"
+        });
+        $(".typeone>input[name='search_num']").parent().click( function () { 
+            var search_num = $(".typeone>input[name='search_num']");
+            if (search_num.val() == 0) {
+                search_num.parent().addClass('red');
+                search_num.attr('value','1');
+                $(".canfree>input[name='search_canfree']").parent().removeClass('red');
+                $(".canfree>input[name='search_canfree']").attr('value','0');
+                $(".typeone>input[name='search_comp']").parent().attr('style','color:#000000');
+                $(".typeone>input[name='search_comp']").attr('value','0');
+                $(".typeone>input[name='search_price']").parent().removeClass('red');
+                $(".typeone>input[name='search_price']").attr('value','0');
+                
+            } else {
+                search_num.parent().removeClass('red');
+                search_num.attr('value','0');
+            }
+            window.location.href="{php echo $this->createMobileUrl('shop/list')}&search_num="+search_num.val(); 
+        });
+        $(".typeone>input[name='search_price']").parent().click( function () { 
+
+            var search_price = $(".typeone>input[name='search_price']");
+
+            if (search_price.val() == 0) {
+                search_price.parent().addClass('red');
+                search_price.attr('value','1');
+                $(".canfree>input[name='search_canfree']").parent().removeClass('red');
+                $(".canfree>input[name='search_canfree']").attr('value','0');
+                $(".typeone>input[name='search_comp']").parent().attr('style','color:#000000');
+                $(".typeone>input[name='search_comp']").attr('value','0');
+                $(".typeone>input[name='search_num']").parent().removeClass('red');;
+                $(".typeone>input[name='search_num']").attr('value','0');
+                
+            } else {
+                search_price.parent().removeClass('red');
+                search_price.attr('value','0');
+            }
+            window.location.href="{php echo $this->createMobileUrl('shop/list')}&search_price="+search_price.val(); 
+
+        });
+
+        /*function get_select_value(){
+            var search_comp = $(".typeone>input[name='search_comp']").val();
+            var search_num = $(".typeone>input[name='search_num']").val();
+            var search_price = $(".typeone>input[name='search_price']").val();
+            var canfree = $(".canfree>input[name='search_canfree']").val();
+            alert(search_comp+search_num+search_price+canfree);
+            window.location.href="{php echo $this->createMobileUrl('shop/list')}&supplier_uid={$v['supplier_message']['uid']}"; 
+        }*/
+    </script>
+{template 'common/footer'}

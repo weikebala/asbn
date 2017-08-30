@@ -1,0 +1,206 @@
+2016-06-28 10:28:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3vy23Rp3VMybykUjaquIloLw]]></FromUserName>
+<CreateTime>1467080903</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6301064499374868396</MsgId>
+</xml>
+
+2016-06-28 10:28:24 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-28 10:28:24 response :
+------------
+Array:
+FromUserName : gh_d6462660ad6d ;
+ToUserName : o9gg3vy23Rp3VMybykUjaquIloLw ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-06-28 10:29:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3v6cQLcsvTSlAkdB72MLXl-s]]></FromUserName>
+<CreateTime>1467080946</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6301064684058462126</MsgId>
+</xml>
+
+2016-06-28 10:29:07 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-28 10:29:07 response :
+------------
+Array:
+FromUserName : gh_d6462660ad6d ;
+ToUserName : o9gg3v6cQLcsvTSlAkdB72MLXl-s ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-06-28 14:29:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3vy23Rp3VMybykUjaquIloLw]]></FromUserName>
+<CreateTime>1467095364</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[111]]></Content>
+<MsgId>6301126608896935932</MsgId>
+</xml>
+
+2016-06-28 14:29:25 params :
+------------
+Array:
+message : Array ;
+module : fm_photosvote ;
+rule : 113 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-28 14:29:25 response :
+------------
+Array:
+FromUserName : gh_d6462660ad6d ;
+ToUserName : o9gg3vy23Rp3VMybykUjaquIloLw ;
+MsgType : text ;
+Content : 为防止恶意刷票，请回复验证码：5801 ;
+
+2016-06-28 14:29:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3vy23Rp3VMybykUjaquIloLw]]></FromUserName>
+<CreateTime>1467095369</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[5801]]></Content>
+<MsgId>6301126630371772414</MsgId>
+</xml>
+
+2016-06-28 14:29:29 params :
+------------
+Array:
+message : Array ;
+module : fm_photosvote ;
+rule : 113 ;
+priority : 0 ;
+context : 1 ;
+
+2016-06-28 14:29:29 response :
+------------
+Array:
+FromUserName : gh_d6462660ad6d ;
+ToUserName : o9gg3vy23Rp3VMybykUjaquIloLw ;
+MsgType : text ;
+Content : 未找到参赛者编号为 111 的用户，请重新输入！<a href='http://testf.iseasoft.cn/app/index.php?i=4&j=4&c=entry&rid=113&m=fm_photosvote&do=photosvote'>活动首页</a>
+ ;
+
+2016-06-28 14:56:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3vwC8Ysjdm8jpquWb5dUHl5E]]></FromUserName>
+<CreateTime>1467096993</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6301133605398661124</MsgId>
+</xml>
+
+2016-06-28 14:56:33 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-28 14:56:33 response :
+------------
+Array:
+FromUserName : gh_d6462660ad6d ;
+ToUserName : o9gg3vwC8Ysjdm8jpquWb5dUHl5E ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-06-28 15:04:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3v6F49fPq_diT0E7mmtxg0ZM]]></FromUserName>
+<CreateTime>1467097482</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6301135705637668873</MsgId>
+</xml>
+
+2016-06-28 15:04:42 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-28 15:04:42 response :
+------------
+Array:
+FromUserName : gh_d6462660ad6d ;
+ToUserName : o9gg3v6F49fPq_diT0E7mmtxg0ZM ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-06-28 17:23:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3v3-8CPk-o0ICRvZbV0dvakk]]></FromUserName>
+<CreateTime>1467105797</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://fx5.iseasoft.cn/app/index.php?i=4&j=4&c=entry&rid=61&do=photosvote&m=fm_photosvote]]></EventKey>
+<MenuId>403646506</MenuId>
+</xml>
+
+2016-06-28 17:23:17 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-28 17:23:17 response :
+------------
+
+2016-06-28 17:23:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3v3-8CPk-o0ICRvZbV0dvakk]]></FromUserName>
+<CreateTime>1467105817</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

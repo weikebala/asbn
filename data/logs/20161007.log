@@ -1,0 +1,404 @@
+2016-10-07 09:20:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwHhnY8wNNZF9vb8pSdK32Cc]]></FromUserName>
+<CreateTime>1475803217</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 09:20:17 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 09:20:17 response :
+------------
+
+2016-10-07 09:21:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwHhnY8wNNZF9vb8pSdK32Cc]]></FromUserName>
+<CreateTime>1475803298</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 09:21:38 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 09:21:38 response :
+------------
+
+2016-10-07 09:24:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwHhnY8wNNZF9vb8pSdK32Cc]]></FromUserName>
+<CreateTime>1475803444</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 09:24:04 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 09:24:04 response :
+------------
+
+2016-10-07 09:41:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBBh19PcWrVnGIMzPTnwuDA]]></FromUserName>
+<CreateTime>1475804465</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 09:41:05 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 09:41:05 response :
+------------
+
+2016-10-07 09:49:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBBh19PcWrVnGIMzPTnwuDA]]></FromUserName>
+<CreateTime>1475804974</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 09:49:34 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 09:49:34 response :
+------------
+
+2016-10-07 10:43:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwHhnY8wNNZF9vb8pSdK32Cc]]></FromUserName>
+<CreateTime>1475808181</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 10:43:01 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 10:43:01 response :
+------------
+
+2016-10-07 11:12:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGc4YmOPxtxX75NvVFmtd_w]]></FromUserName>
+<CreateTime>1475809926</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【收到不支持的消息类型，暂无法显示】]]></Content>
+<MsgId>6338555367693338215</MsgId>
+</xml>
+
+2016-10-07 11:12:06 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 11:12:06 response :
+------------
+
+2016-10-07 14:12:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBBh19PcWrVnGIMzPTnwuDA]]></FromUserName>
+<CreateTime>1475820758</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 14:12:38 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 14:12:38 response :
+------------
+
+2016-10-07 15:47:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBBh19PcWrVnGIMzPTnwuDA]]></FromUserName>
+<CreateTime>1475826459</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 15:47:39 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 15:47:39 response :
+------------
+
+2016-10-07 16:18:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwImv13u5bBBQhMOlt2lHdAw]]></FromUserName>
+<CreateTime>1475828291</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-07 16:18:11 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 16:18:11 response :
+------------
+
+2016-10-07 16:18:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwImv13u5bBBQhMOlt2lHdAw]]></FromUserName>
+<CreateTime>1475828294</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 16:18:14 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 16:18:14 response :
+------------
+
+2016-10-07 20:34:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJf-_E6eVYl20bRFNdfWx0A]]></FromUserName>
+<CreateTime>1475843674</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-07 20:34:34 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 20:34:34 response :
+------------
+
+2016-10-07 20:34:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJf-_E6eVYl20bRFNdfWx0A]]></FromUserName>
+<CreateTime>1475843678</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 20:34:38 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 20:34:38 response :
+------------
+
+2016-10-07 20:35:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJf-_E6eVYl20bRFNdfWx0A]]></FromUserName>
+<CreateTime>1475843738</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 20:35:38 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 20:35:38 response :
+------------
+
+2016-10-07 20:48:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBBh19PcWrVnGIMzPTnwuDA]]></FromUserName>
+<CreateTime>1475844529</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 20:48:49 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 20:48:49 response :
+------------
+
+2016-10-07 20:53:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBBh19PcWrVnGIMzPTnwuDA]]></FromUserName>
+<CreateTime>1475844789</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 20:53:09 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 20:53:09 response :
+------------
+
+2016-10-07 21:06:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBBh19PcWrVnGIMzPTnwuDA]]></FromUserName>
+<CreateTime>1475845574</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 21:06:14 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 21:06:14 response :
+------------
+
+2016-10-07 21:11:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJf-_E6eVYl20bRFNdfWx0A]]></FromUserName>
+<CreateTime>1475845870</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-07 21:12:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBBh19PcWrVnGIMzPTnwuDA]]></FromUserName>
+<CreateTime>1475845975</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-07 21:12:55 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-07 21:12:55 response :
+------------
+

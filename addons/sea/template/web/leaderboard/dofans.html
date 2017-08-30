@@ -1,0 +1,27 @@
+{template 'web/_header'}
+{template 'web/leaderboard/tabs'}
+
+
+<button id="run">粉丝计算任务</button>
+<div id="dospace" style="display: none">
+    正在执行:第(<span id="page">0</span>)页数据,总计{$pagesum}页,请等待......
+</div>
+{template 'web/_footer'}
+<script type="text/javascript">
+    var page = 1;
+    function doFans(){
+        $("#page").text(page);
+        $.post("/web/index.php?c=site&a=entry&p=dofans&do=leaderboard&m=sea&op=run",{'dopage':page},function(res){
+            if(res.type == "success"){
+                page++;
+                doFans();
+            }else{
+                $("#dospace").text("粉丝计算任务完成");
+            }
+        },"json");
+    }
+    $("#run").click(function(){
+        $("#dospace").show();
+        doFans();
+    });
+</script>

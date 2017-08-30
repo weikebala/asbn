@@ -1,0 +1,66 @@
+2016-10-05 02:08:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGc4YmOPxtxX75NvVFmtd_w]]></FromUserName>
+<CreateTime>1475604529</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-05 02:08:49 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-05 02:08:49 response :
+------------
+
+2016-10-05 02:08:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGc4YmOPxtxX75NvVFmtd_w]]></FromUserName>
+<CreateTime>1475604539</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-05 02:08:59 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-05 02:08:59 response :
+------------
+
+2016-10-05 17:49:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBVGRlU42uUP3CFMiQGlBfA]]></FromUserName>
+<CreateTime>1475660992</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411008066</MenuId>
+</xml>
+
+2016-10-05 17:49:52 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-05 17:49:52 response :
+------------
+

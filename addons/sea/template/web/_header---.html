@@ -1,0 +1,80 @@
+{template 'common/header-base'}
+	<div class="navbar navbar-inverse navbar-static-top" role="navigation" style="position:static;">
+		<div class="container-fluid">
+				<ul class="nav navbar-nav">
+				<li><a href="./?refresh"><i class="fa fa-reply-all"></i>返回</a></li>
+				 <li><a href="{url 'site&a=entry&p=goods&do=shop&m=sea'}"><i class='fa fa-shopping-cart'></i>商品</a></li>
+				  <li><a href="{url 'site&a=entry&op=display&do=order&m=sea'}"><i class='fa fa-file-text-o'></i> 订单</a></li>
+				   <li><a href="{url 'site&a=entry&p=log&type=0&do=finance&m=sea'}"><i class='fa fa-money'></i>财务</a></li>
+				    <li><a href="{url 'site&a=entry&p=sale&do=statistics&m=sea'}"><i class='fa fa-bar-chart-o '></i>统计</a></li>	
+                    <li><a href="{url 'site&a=entry&p=list&do=member&m=sea'}"><i class='fa fa-user'></i>会员</a></li>							
+				<li><a href="{url 'home&a=welcome&do=ext&m=sea'}"><i class='fa fa-sitemap fa-fw'></i>入口</a></li>
+				<li><a href="{url 'site&a=entry&op=list&do=plugins&m=sea'}"><i class='fa fa-cubes'></i>插件</a></li>
+				<li><a href="{url 'site&a=entry&op=shop&do=sysset&m=sea'}"><i class="fa fa-cog"></i>设置</a></li>
+				<li ><a href="{url 'home/welcome/platform'}"><i class="fa fa-weixin fa-fw"></i>微信</a></li>
+				<li><a href="{url 'home/welcome/mc'}"><i class="fa fa-gift"></i>粉丝</a></li>
+				<li><a href="{url 'home/welcome/ext'}"><i class="fa fa-cubes"></i>其他</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" style="display:block; max-width:200px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; "><i class="fa fa-group"></i>{$_W['account']['name']} <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						{if $_W['role'] != 'operator'}
+						<li><a href="{url 'account/post' array('uniacid' => $_W['uniacid'])}" target="_blank"><i class="fa fa-weixin fa-fw"></i> 编辑当前账号资料</a></li>
+						{/if}
+						<li><a href="{url 'account/display'}" target="_blank"><i class="fa fa-cogs fa-fw"></i> 管理其它公众号</a></li>
+						<li><a href="{url 'utility/emulator'}" target="_blank"><i class="fa fa-mobile fa-fw"></i> 模拟测试</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" style="display:block; max-width:185px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; "><i class="fa fa-user"></i>{$_W['user']['username']} ({if $_W['role'] == 'founder'}系统管理员{elseif $_W['role'] == 'manager'}公众号管理员{else}公众号操作员{/if}) <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="{url 'user/profile/profile'}" target="_blank"><i class="fa fa-weixin fa-fw"></i> 我的账号</a></li>
+						{if $_W['role'] != 'operator'}
+						<li class="divider"></li>
+						<li><a href="{url 'system/welcome'}" target="_blank"><i class="fa fa-sitemap fa-fw"></i> 系统选项</a></li>
+						<li><a href="{url 'system/welcome'}" target="_blank"><i class="fa fa-cloud-download fa-fw"></i> 自动更新</a></li>
+						<li><a href="{url 'system/updatecache'}" target="_blank"><i class="fa fa-refresh fa-fw"></i> 更新缓存</a></li>
+						<li class="divider"></li>
+						{/if}
+						<li><a href="{url 'user/logout'}"><i class="fa fa-sign-out fa-fw"></i> 退出系统</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="container-fluid">
+		{if defined('IN_MESSAGE')}
+            
+		<div class="jumbotron clearfix alert alert-{$label}">
+			<div class="row">
+				<div class="col-xs-12 col-sm-3 col-lg-2">
+					<i class="fa fa-5x fa-{if $label=='success'}check-circle{/if}{if $label=='danger'}times-circle{/if}{if $label=='info'}info-circle{/if}{if $label=='warning'}exclamation-triangle{/if}"></i>
+				</div>
+			 	<div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
+					{if is_array($msg)}
+						<h2>MYSQL 错误：</h2>
+					 	<p>{php echo cutstr($msg['sql'], 300, 1);}</p>
+						<p><b>{$msg['error'][0]} {$msg['error'][1]}：</b>{$msg['error'][2]}</p>
+					{else}
+					<h2>{$caption}</h2>
+					<p>{$msg}</p>
+					{/if}
+					{if $redirect}
+					<p><a href="{$redirect}">如果你的浏览器没有自动跳转，请点击此链接</a></p>
+					<script type="text/javascript">
+						setTimeout(function () {
+							location.href = "{$redirect}";
+						}, 3000);
+					</script>
+					{else}
+						<p>[<a href="javascript:history.go(-1);">点击这里返回上一页</a>] &nbsp; [<a href="./?refresh">首页</a>]</p>
+					{/if}
+				</div>
+		{else}
+		 
+		{/if}
+
+{template 'web/_common'}
+{template 'web/_menu'}

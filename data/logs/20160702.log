@@ -1,0 +1,80 @@
+2016-07-02 09:32:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3v4U_gUwjKHeQF_Du-G7LCsY]]></FromUserName>
+<CreateTime>1467423124</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6302534327377883473</MsgId>
+</xml>
+
+2016-07-02 09:32:05 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-02 09:32:05 response :
+------------
+Array:
+FromUserName : gh_d6462660ad6d ;
+ToUserName : o9gg3v4U_gUwjKHeQF_Du-G7LCsY ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-07-02 12:03:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3v1j6_ea0slubn5Be36mAees]]></FromUserName>
+<CreateTime>1467432189</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://v8.iseasoft.cn/app/index.php?i=4&c=entry&p=commission&m=sea&do=plugin]]></EventKey>
+<MenuId>403646506</MenuId>
+</xml>
+
+2016-07-02 12:03:09 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-02 12:03:09 response :
+------------
+
+2016-07-02 17:05:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3vyoXj9c2O7YMD07eQs7kdm8]]></FromUserName>
+<CreateTime>1467450322</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6302651141898400271</MsgId>
+</xml>
+
+2016-07-02 17:05:22 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-02 17:05:22 response :
+------------
+Array:
+FromUserName : gh_d6462660ad6d ;
+ToUserName : o9gg3vyoXj9c2O7YMD07eQs7kdm8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

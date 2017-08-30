@@ -1,0 +1,97 @@
+{template 'web/_header'}
+{template 'web/leaderboard/tabs'}
+
+<div class="clearfix">
+
+<div class="panel panel-default">
+    <div class="panel-heading">总数：{$total}   </div>
+    <div class="panel-body">
+        <table class="table table-hover" style="overflow:visible;">
+            <thead class="navbar-inner">
+                <tr>
+                    <th style='width:80px;'>排行</th>
+		  {if $opencommission}
+			<th style='width:120px;'>推荐人</th>	
+		  {/if}
+                    <th style='width:120px;'>粉丝ID</th>
+                    <th style='width:120px;'>粉丝</th>
+                    <th style='width:120px;'>店铺</th>
+                    <th style='width:80px;'>店主姓名</th>
+                    <th style='width:120px;'>手机号码</th>
+
+                    <th style='width:130px;'>店铺注册时间</th>
+
+                    <th style='width:80px;'>店铺销售总额</th>
+                </tr>
+            </thead>
+            <tbody>
+                 <?php
+                  $i=1;
+                 ?>
+                {loop $newlist $key=>$row}
+                <tr>
+                    <td>{$i}</td>
+                    <td>   {$row['id']}</td>
+                    <td>
+                        {if !empty($row['avatar'])}
+                        <img src='{$row['avatar']}' style='width:30px;height:30px;padding1px;border:1px solid #ccc' />
+                        {/if}
+                        {if empty($row['nickname'])}未更新{else}{$row['nickname']}{/if}
+
+                    </td>
+                    <td>
+                    	{if !empty($row['logo'])}
+                         <img src='{$row['logo']}' style='width:30px;height:30px;padding1px;border:1px solid #ccc' />
+                       {/if}
+                       {if empty($row['shop_name'])}
+                            {if empty($row['realname'])}
+                                未设置店名
+                            {else}
+                                 {$row['realname']}的店铺
+                            {/if}
+                        {else}
+                            {$row['shop_name']}
+                        {/if}
+                        
+                    </td>
+
+                    <td>{$row['realname']}/{$row['nickname']}</td>
+                    <td>{$row['mobile']}</td>
+                    <td>{php echo date('Y-m-d H:i',$row['agenttime'])}</td>
+                    <td>{php echo floatval($row['ordersell'])}元</td>
+                </tr>
+                <?php
+                  $i=$i+1;
+                 ?>
+                {/loop}
+            </tbody>
+        </table>
+           {$pager}
+    </div>
+</div>
+</div>
+
+<script language='javascript'>
+    
+         function search_members() {
+             if( $.trim($('#search-kwd-notice').val())==''){
+                 Tip.focus('#search-kwd-notice','请输入关键词');
+                 return;
+             }
+		$("#module-menus-notice").html("正在搜索....")
+		$.get('{php echo $this->createPluginWebUrl('commission/agent')}', {
+			keyword: $.trim($('#search-kwd-notice').val()),'op':'query',selfid:"{$id}"
+		}, function(dat){
+			$('#module-menus-notice').html(dat);
+		});
+	}
+	function select_member(o) {
+		$("#agentid").val(o.id);
+                  $("#parentagentavatar").show();
+                  $("#parentagentavatar").find('img').attr('src',o.avatar);
+		$("#parentagent").val( o.nickname+ "/" + o.realname + "/" + o.mobile );
+		$("#modal-module-menus-notice .close").click();
+	}
+        
+    </script>
+{template 'web/_footer'}

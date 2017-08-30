@@ -1,0 +1,45 @@
+﻿/*
+ * Put here your custom fonts, you only need to include woff files. Copy the @font-face code and replace THE_FONT_NAME and FONT_FILE.
+ *
+ * @font-face {
+ *		font-family: 'THE_FONT_NAME';
+ *		src: local('?'), url('../fonts/FONT_FILE.woff') format('woff');
+ *		font-weight: normal;
+ *		font-style: normal;
+ *	}
+ *
+ */
+@font-face { font-family: 'Carme'; src: url('img/Carme.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'alien'; src: url('img/alien.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'bay'; src: url('img/bay.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'bells'; src: url('img/bells.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'blazed'; src: url('img/blazed.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'cubic'; src: url('img/cubic.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'glass'; src: url('img/glass.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'jaw'; src: url('img/jaw.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'mmd'; src: url('img/mmd.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'upd'; src: url('img/upd.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'opensans-semibold'; src: url('img/opensans-semibold-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'permanentmarker'; src: url('img/permanentmarker-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'creampuff'; src: url('img/creampuff-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'distantgalaxy'; src: url('img/distantgalaxy-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'lindenhill'; src: url('img/lindenhill-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'bebas'; src: url('img/bebas-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'wasabi'; src: url('img/wasabi-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'russian'; src: url('img/russian-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'college'; src: url('img/college-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'Bradley Hand Bold'; src: url('img/Bradley Hand Bold.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Chalkduster'; src: url('img/Chalkduster.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Comic Sans MS Bold'; src: url('img/Comic Sans MS Bold.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Comic Sans MS'; src: url('img/Comic Sans MS.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Courier New'; src: url('img/Courier New.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Herculanum'; src: url('img/Herculanum.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Trebuchet MS'; src: url('img/Trebuchet MS.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+
+@font-face { font-family: 'Marlett'; src: url('img/Marlett.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Skia'; src: url('img/Skia.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'MshtakanBold'; src: url('img/MshtakanBold.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Silom'; src: url('img/Silom.ttf') format('truetype'); font-weight: normal; font-style: normal; }

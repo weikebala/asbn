@@ -1,0 +1,75 @@
+a:5:{s:2:"id";s:1:"5";s:7:"uniacid";s:1:"2";s:4:"sets";s:3409:"a:7:{s:3:"pay";a:9:{s:6:"weixin";s:1:"1";s:11:"weixin_cert";s:0:"";s:10:"weixin_key";s:0:"";s:11:"weixin_root";s:0:"";s:6:"alipay";s:1:"1";s:11:"abcchinapay";s:1:"1";s:6:"credit";s:1:"1";s:4:"cash";s:1:"0";s:6:"yunpay";N;}s:4:"shop";a:20:{s:4:"name";s:12:"爱尚彼岸";s:8:"cservice";s:56:"https://static.meiqia.com/dist/standalone.html?eid=38634";s:3:"img";s:0:"";s:4:"logo";s:51:"images/2/2016/10/wIwpiD5dNBNAscTsMTAinN5SyB3PbS.jpg";s:7:"signimg";s:51:"images/2/2016/10/P3kdb3Nn68fD864HNk4uDNHngDDN08.jpg";s:7:"diycode";s:0:"";s:9:"copyright";s:0:"";s:9:"levelname";s:12:"爱尚会员";s:8:"levelurl";s:0:"";s:12:"isbindmobile";i:1;s:2:"qq";s:0:"";s:7:"address";s:0:"";s:5:"phone";s:11:"15388160769";s:11:"description";s:650:"“爱尚彼岸”创建于2016年9月7日，是重庆得道客电子商务有限公司设立的全新的跨境网络购物连锁分享平台。
+得道客电子商务有限公司负责澳洲Back To Nature Foods Pty Ltd在中国跨境电子商务的运营工作，是国内最大跨境电子商务公司之一。
+    公司由澳籍华裔Mr. Simon Lin创办，从2009年至今，公司在澳洲、新西兰、日本、美国、英国、德国、荷兰、香港、台湾等多个国家和地区拥有强大的供应链，与几百个世界著名品牌深度合作，销售产品覆盖母婴产品、保健品、美食、美妆、洗护五大品类。";s:7:"btnname";s:12:"正品保障";s:7:"btnlink";s:1:"/";s:10:"hotkeyword";s:29:"奶粉,护肤,澳洲爱他美";s:5:"style";s:7:"default";s:5:"theme";s:5:"style";s:6:"pstyle";s:7:"default";}s:3:"phb";a:14:{s:6:"switch";s:1:"1";s:7:"phbname";s:9:"竞赛榜";s:10:"isintegral";s:1:"0";s:12:"integralname";s:9:"积分榜";s:9:"isexpense";s:1:"0";s:11:"expensename";s:9:"销售榜";s:12:"iscommission";s:1:"0";s:14:"commissionname";s:9:"分红榜";s:6:"isfans";s:1:"1";s:8:"fansname";s:9:"粉丝榜";s:7:"issales";s:1:"1";s:9:"salesname";s:9:"销售榜";s:10:"istuiguang";s:1:"1";s:12:"tuiguangname";s:9:"推广榜";}s:5:"trade";a:13:{s:10:"closeorder";s:1:"1";s:14:"closeordertime";s:2:"60";s:7:"receive";s:2:"15";s:11:"receivetime";s:2:"60";s:10:"refunddays";s:1:"2";s:13:"refundcontent";s:69:"请务必填写退款原因，以便我们及时处理谢谢支持！";s:13:"closerecharge";s:1:"1";s:8:"withdraw";s:1:"0";s:13:"withdrawmoney";s:2:"20";s:5:"money";s:0:"";s:6:"credit";s:0:"";s:12:"shareaddress";s:1:"1";s:6:"paylog";s:1:"0";}s:6:"notice";a:17:{s:3:"new";s:0:"";s:7:"newtype";s:1:"1";s:6:"submit";s:6:"000000";s:7:"carrier";s:0:"";s:6:"cancel";s:6:"000000";s:3:"pay";s:0:"";s:4:"send";s:0:"";s:6:"finish";s:0:"";s:6:"refund";s:0:"";s:7:"refund1";s:6:"000000";s:7:"refund2";s:0:"";s:7:"upgrade";s:6:"000000";s:11:"recharge_ok";s:6:"000000";s:15:"recharge_refund";s:6:"000000";s:8:"withdraw";s:6:"000000";s:11:"withdraw_ok";s:0:"";s:13:"withdraw_fail";s:0:"";}s:5:"share";a:5:{s:9:"followurl";s:0:"";s:5:"title";s:24:"爱尚彼岸连锁商城";s:4:"icon";s:51:"images/2/2016/10/bmxSbR89Bs9O0XXp9Rz8SX0oP0UsNN.jpg";s:4:"desc";s:57:"爱尚生活，彼岸臻品，我们只卖正品洋货！";s:3:"url";s:0:"";}s:3:"sms";a:9:{s:4:"type";s:1:"2";s:7:"account";s:0:"";s:8:"password";s:0:"";s:6:"appkey";s:8:"23484872";s:6:"secret";s:32:"c1756a46c7b7c04c9667caa2155d72a6";s:8:"signname";s:12:"注册验证";s:7:"product";s:12:"爱尚彼岸";s:12:"templateCode";s:12:"SMS_18235904";s:18:"templateCodeForget";s:12:"SMS_18235902";}}";s:7:"plugins";s:3481:"a:4:{s:10:"commission";a:32:{s:5:"texts";a:21:{s:5:"agent";s:9:"加盟商";s:4:"shop";s:9:"连锁店";s:6:"myshop";s:12:"爱尚彼岸";s:6:"center";s:12:"加盟中心";s:6:"become";s:6:"加盟";s:8:"withdraw";s:6:"提现";s:10:"commission";s:6:"分红";s:11:"commission1";s:12:"加盟分红";s:16:"commission_total";s:12:"累计分红";s:13:"commission_ok";s:15:"可提现分红";s:16:"commission_apply";s:15:"已申请分红";s:16:"commission_check";s:15:"待打款分红";s:15:"commission_lock";s:15:"未结算分红";s:14:"commission_pay";s:18:"成功提现分红";s:17:"commission_detail";s:12:"分红明细";s:5:"order";s:12:"推广订单";s:6:"myteam";s:12:"我的团队";s:2:"c1";s:6:"一级";s:2:"c2";s:3:"无";s:2:"c3";s:3:"无";s:10:"mycustomer";s:12:"我的客户";}s:5:"level";s:1:"2";s:11:"commission1";s:1:"7";s:11:"commission2";s:1:"3";s:11:"commission3";s:0:"";s:7:"selfbuy";s:1:"0";s:13:"culate_method";s:1:"0";s:12:"become_child";s:1:"0";s:6:"become";s:1:"1";s:17:"become_ordercount";s:0:"";s:17:"become_moneycount";s:0:"";s:14:"become_goodsid";s:0:"";s:12:"become_order";s:1:"0";s:15:"upgrade_by_good";s:1:"0";s:10:"become_reg";s:1:"0";s:12:"become_check";s:1:"1";s:8:"withdraw";s:2:"20";s:16:"consume_withdraw";s:1:"0";s:13:"closetocredit";s:1:"1";s:10:"settledays";s:1:"3";s:8:"levelurl";s:0:"";s:12:"select_goods";s:1:"0";s:11:"closemyshop";s:1:"0";s:15:"openorderdetail";s:1:"0";s:14:"openorderbuyer";s:1:"0";s:14:"remind_message";s:1:"0";s:9:"levelname";s:9:"加盟商";s:9:"leveltype";s:1:"0";s:5:"style";s:7:"default";s:5:"regbg";s:0:"";s:10:"buttontext";s:12:"我要分享";s:4:"dzbg";s:51:"images/2/2016/12/SrC094WZWAxREiaR0SRX9zriIccwKi.jpg";}s:5:"bonus";a:22:{s:5:"texts";a:11:{s:5:"agent";s:9:"加盟商";s:11:"premiername";s:12:"全球享佣";s:6:"center";s:12:"分红中心";s:10:"commission";s:12:"推广佣金";s:16:"commission_total";s:18:"累计推广佣金";s:13:"commission_ok";s:15:"待推广佣金";s:15:"commission_lock";s:15:"未结算佣金";s:14:"commission_pay";s:15:"已结算佣金";s:17:"commission_detail";s:12:"结算明细";s:5:"order";s:12:"推广订单";s:10:"mycustomer";s:6:"团队";}s:5:"start";s:1:"0";s:13:"isdistinction";s:1:"1";s:10:"area_start";s:1:"0";s:18:"isdistinction_area";s:1:"1";s:17:"bonus_commission1";s:1:"8";s:17:"bonus_commission2";s:1:"8";s:17:"bonus_commission3";s:1:"8";s:7:"selfbuy";s:1:"0";s:9:"paymethod";s:1:"1";s:10:"sendmethod";s:1:"1";s:9:"sendmonth";s:1:"0";s:12:"interval_day";s:0:"";s:11:"senddaytime";s:2:"15";s:10:"settledays";s:1:"5";s:16:"consume_withdraw";s:1:"0";s:8:"levelurl";s:0:"";s:15:"openorderdetail";s:1:"0";s:14:"openorderbuyer";s:1:"0";s:8:"bonushow";s:1:"1";s:9:"levelname";s:9:"加盟商";s:9:"leveltype";a:1:{i:0;s:1:"4";}}s:7:"diyform";a:8:{s:17:"user_diyform_open";s:1:"1";s:12:"user_diyform";s:1:"5";s:23:"commission_diyform_open";s:1:"1";s:18:"commission_diyform";s:1:"3";s:18:"order_diyform_open";s:1:"1";s:13:"order_diyform";s:1:"4";s:21:"supplier_diyform_open";s:1:"0";s:16:"supplier_diyform";s:1:"0";}s:4:"sale";a:13:{s:10:"enoughfree";i:0;s:11:"enoughorder";d:99;s:11:"enoughareas";s:0:"";s:11:"enoughmoney";N;s:12:"enoughdeduct";N;s:7:"enoughs";N;s:9:"sale_type";s:1:"2";s:13:"enoughmoneydz";d:199;s:8:"enoughzk";d:0.94999999999999996;s:9:"enoughszk";a:2:{i:0;a:2:{s:8:"enoughzk";d:299;s:6:"givezk";d:0.90000000000000002;}i:1;a:2:{s:8:"enoughzk";d:399;s:6:"givezk";d:0.84999999999999998;}}s:13:"enoughmoneydp";d:0;s:14:"enoughdeductdp";d:0;s:9:"enoughsdp";a:0:{}}}";s:3:"sec";s:4530:"a:3:{s:4:"cert";s:1594:"-----BEGIN CERTIFICATE-----
+MIIEazCCA9SgAwIBAgIDS57GMA0GCSqGSIb3DQEBBQUAMIGKMQswCQYDVQQGEwJD
+TjESMBAGA1UECBMJR3Vhbmdkb25nMREwDwYDVQQHEwhTaGVuemhlbjEQMA4GA1UE
+ChMHVGVuY2VudDEMMAoGA1UECxMDV1hHMRMwEQYDVQQDEwpNbXBheW1jaENBMR8w
+HQYJKoZIhvcNAQkBFhBtbXBheW1jaEB0ZW5jZW50MB4XDTE2MDkyODExNDAwOFoX
+DTI2MDkyNjExNDAwOFowgZsxCzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlHdWFuZ2Rv
+bmcxETAPBgNVBAcTCFNoZW56aGVuMRAwDgYDVQQKEwdUZW5jZW50MQ4wDAYDVQQL
+EwVNTVBheTEwMC4GA1UEAxQn6YeN5bqG5b6X6YGT5a6i55S15a2Q5ZWG5Yqh5pyJ
+6ZmQ5YWs5Y+4MREwDwYDVQQEEwgxNDkzNTEwNjCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAMuxR687Fqqt1AOD8POo2ybZCulGbzh1roeGWFXhplH+z3zd
+Er+lZ194hlQpoyhSgBm7gjQMpZDHNSJMbeBU5wkdy6RNWW/iMz9CHrDr9q98Frlp
+Wkab3hw05zLVJ57/habrZ3aXJjni4YdPlRZ+dNj+z812Pj+EF90nL56DewQULGx8
+wRUjwZn54vu09SrdsVDqD/o+3eywd3QVkC5Jd+zCG6eS9PUNs2OFMFhaXj7DgPb+
+iTUZX+0SNuqhbsyKfVpdGF0aCS5S60KkXP2TnBcMK6Zfq2N9kqJWJIFpk/5nvG7F
+2+KM7HZfhr55jL8W9ssliMozSDfBbgdAVlQDSBUCAwEAAaOCAUYwggFCMAkGA1Ud
+EwQCMAAwLAYJYIZIAYb4QgENBB8WHSJDRVMtQ0EgR2VuZXJhdGUgQ2VydGlmaWNh
+dGUiMB0GA1UdDgQWBBQQOCZRRfHf4lKqJnQi4e6zvFmy8TCBvwYDVR0jBIG3MIG0
+gBQ+BSb2ImK0FVuIzWR+sNRip+WGdKGBkKSBjTCBijELMAkGA1UEBhMCQ04xEjAQ
+BgNVBAgTCUd1YW5nZG9uZzERMA8GA1UEBxMIU2hlbnpoZW4xEDAOBgNVBAoTB1Rl
+bmNlbnQxDDAKBgNVBAsTA1dYRzETMBEGA1UEAxMKTW1wYXltY2hDQTEfMB0GCSqG
+SIb3DQEJARYQbW1wYXltY2hAdGVuY2VudIIJALtUlyu8AOhXMA4GA1UdDwEB/wQE
+AwIGwDAWBgNVHSUBAf8EDDAKBggrBgEFBQcDAjANBgkqhkiG9w0BAQUFAAOBgQAm
+AzbJDxDzJSHtQjxNOCYTHXT0+rGnVpV6rMak68Df/VMun5q/IBAffqLZeajkdM6K
+k2905mmDJSrmCmxsbFIFyweJdINMowElXhS+iRSTui7AM1GKlgePU81t/d2C5rR8
+Atw6VYitd7ku0StiRIA76jEsU7F5oMmNPiop2EFI/w==
+-----END CERTIFICATE-----
+";s:3:"key";s:1708:"-----BEGIN PRIVATE KEY-----
+MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDLsUevOxaqrdQD
+g/DzqNsm2QrpRm84da6HhlhV4aZR/s983RK/pWdfeIZUKaMoUoAZu4I0DKWQxzUi
+TG3gVOcJHcukTVlv4jM/Qh6w6/avfBa5aVpGm94cNOcy1See/4Wm62d2lyY54uGH
+T5UWfnTY/s/Ndj4/hBfdJy+eg3sEFCxsfMEVI8GZ+eL7tPUq3bFQ6g/6Pt3ssHd0
+FZAuSXfswhunkvT1DbNjhTBYWl4+w4D2/ok1GV/tEjbqoW7Min1aXRhdGgkuUutC
+pFz9k5wXDCumX6tjfZKiViSBaZP+Z7xuxdvijOx2X4a+eYy/FvbLJYjKM0g3wW4H
+QFZUA0gVAgMBAAECggEAckh68cPzSbvRsk86x1q76qXny04rZMASNhOYSEcca/DN
+NT9MH56LyzLyGxJpalwvZ0CfItjdo8dA9odvNmgsYB8JfJuxTGbbXeiZE6awd3Dl
+xw1nCyq0iZrdBNY3LqwqrqZxHEZduiijZKmv+jjlEkKVELAA6N4SDZDI1OTsBjLS
+dQRzjijq+3E9G6KxPKFsjxy0fk9+rcv7c25QRLo0JbT0wLKZKigaaP67C55/Lqpd
+aJo6sy3f92F9DVxtzKvcEKk9bjQJjzpOgSM90P/v7M62XE1OX6NsyzeqAk5fcGx2
+ZXXj+pT4i24z1R0rjoxinuSf5AIlhiejemQn9t7DgQKBgQD1pJDnH0QOAVFZ1NNY
+ZD5MhycBYtis6oO2HiLtD21dM0dNR6gPCAv72vEWb35TZR+TXuw+g8+gK7jzzF5g
+nodOHUgtsHsG1iC00zWKU6hGQh6XgJRKvD/IzzqidYgeeQHQpr4vHP29mp50jWq+
+piSMJArp20u96d3RvG9Z541y8QKBgQDUR+hzKpMKMItKapjWYsQlVLf2RbgBGX5b
+fy34m+znsTcBTHEdyQRqEIAiIvD+Nm+Hs9bW5sD2NHAGioqpFLplhrRvFdLZ8Ofp
+92R4bpbSWjjKR1OjEOo9LwwLGrxBPk0EvALf9+rPx6RkVh4acmXMyHG59MCf9F//
+68x/+WXfZQKBgQDtu/ZtaMoRj97uxNZCbsoIgKkUY1j2iQUuBZ6htdOPZuhz94zD
+93K5rlyz7PXiujTECRM1MZaJGqemdD1G30ZuKFLJvUpkBGqk9uCTXoG2dZlr4Qok
+Bmro6v6BaqRxcYV7LVVU/YbpsLH4dUFBAETQyLUzPYThaWy/5tIRvdMc0QKBgQDG
+QJnw5LQKcifESiWPIxJ4otRj5dzg+gQuQ2qVolnwUGtEhTWnUZMT03E3cFaNtB0Z
+KXXdoghYZ8Sv9zdkjX0/UDy2+jS/YePVeDyW1QF6VtRu5YpQ4n1Awu2GeWOTszGO
+2F/+97SOdK8tHdhjbq9wP0snFlPHjx0REBEe+7aOmQKBgQDR1sxiFN14MjlKrbO2
+gQdC0PdQB4RLEDevsBF2NX5QIvupMAEj/SWfT39eVBPABsFGTprxpUk1gid33Wb1
+ZmMByd0REexm+xiOThGXvXJGy8J5eGD1IrJQVKhwcbUja/VPHSLXj9ww2s7qjcwc
+Yg9iRayzIZ+eAD8SnZguk9csyA==
+-----END PRIVATE KEY-----
+";s:4:"root";s:1160:"-----BEGIN CERTIFICATE-----
+MIIDIDCCAomgAwIBAgIENd70zzANBgkqhkiG9w0BAQUFADBOMQswCQYDVQQGEwJV
+UzEQMA4GA1UEChMHRXF1aWZheDEtMCsGA1UECxMkRXF1aWZheCBTZWN1cmUgQ2Vy
+dGlmaWNhdGUgQXV0aG9yaXR5MB4XDTk4MDgyMjE2NDE1MVoXDTE4MDgyMjE2NDE1
+MVowTjELMAkGA1UEBhMCVVMxEDAOBgNVBAoTB0VxdWlmYXgxLTArBgNVBAsTJEVx
+dWlmYXggU2VjdXJlIENlcnRpZmljYXRlIEF1dGhvcml0eTCBnzANBgkqhkiG9w0B
+AQEFAAOBjQAwgYkCgYEAwV2xWGcIYu6gmi0fCG2RFGiYCh7+2gRvE4RiIcPRfM6f
+BeC4AfBONOziipUEZKzxa1NfBbPLZ4C/QgKO/t0BCezhABRP/PvwDN1Dulsr4R+A
+cJkVV5MW8Q+XarfCaCMczE1ZMKxRHjuvK9buY0V7xdlfUNLjUA86iOe/FP3gx7kC
+AwEAAaOCAQkwggEFMHAGA1UdHwRpMGcwZaBjoGGkXzBdMQswCQYDVQQGEwJVUzEQ
+MA4GA1UEChMHRXF1aWZheDEtMCsGA1UECxMkRXF1aWZheCBTZWN1cmUgQ2VydGlm
+aWNhdGUgQXV0aG9yaXR5MQ0wCwYDVQQDEwRDUkwxMBoGA1UdEAQTMBGBDzIwMTgw
+ODIyMTY0MTUxWjALBgNVHQ8EBAMCAQYwHwYDVR0jBBgwFoAUSOZo+SvSspXXR9gj
+IBBPM5iQn9QwHQYDVR0OBBYEFEjmaPkr0rKV10fYIyAQTzOYkJ/UMAwGA1UdEwQF
+MAMBAf8wGgYJKoZIhvZ9B0EABA0wCxsFVjMuMGMDAgbAMA0GCSqGSIb3DQEBBQUA
+A4GBAFjOKer89961zgK5F7WF0bnj4JXMJTENAKaSbn+2kmOeUJXRmm/kEd5jhW6Y
+7qj/WsjTVbJmcVfewCHrPSqnI0kBBIZCe/zuf6IWUrVnZ9NA2zsmWLIodz2uFHdh
+1voqZiegDfqnc1zqcPGUIWVEX/r87yloqaKHee9570+sB3c4
+-----END CERTIFICATE-----";}";}

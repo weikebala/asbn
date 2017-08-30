@@ -1,0 +1,126 @@
+{template 'common/base_header'}
+<style type="text/css">
+    #newhead .navones {
+    color: #000;
+    float: right;
+    border-right: 1px solid #ddd;
+    height: 16px;
+    line-height: 16px;
+    padding: 7px 18px;
+    position: relative;
+}
+
+</style>
+<body class="index" id="newest" onResize="doresize();">
+    <div id="newhead">
+        <div class="nav">
+            <div class="navbox">
+                <div class="navone help">
+                    <a href="javascript:void(0)">客户服务<i></i></a>
+                    <div class="menu">
+                        <a href="{php echo $this->createMobileUrl('shop/notice')}" class="menuone">买家问题</a>
+                        <a href="{php echo $this->createMobileUrl('shop/notice')}" class="menuone">卖家问题</a>
+                        <a href="javascript:void(0)" onClick="mechatClick();return false;" class="menuone">联系客服</a>
+                    </div>
+                </div>
+                <div class="navone seller">
+                    <a href="{php echo $this->createMobileUrl('member/info')}">个人中心</a>
+                </div>
+                <a href="{php echo $this->createMobileUrl('shop/cart')}" class="navone cart" style="width:66px;background:#f2f2f2;"><i></i>购物车</a>
+                <div class="navone">
+                    <a href="{php echo $this->createMobileUrl('order/list')}">我的订单</a>
+                </div>
+                {if $_COOKIE[__cookie_sea_userid_.$_W['uniacid']]}
+                	<span style="line-height:31px">
+               		您的账号：{php echo $_COOKIE['member_mobile']}
+               		<a href="{php echo $this->createMobileUrl('member/logout')}">[退出登录]</a></span>
+                {else}
+                <div class="navone queryorder ">
+                    <span>
+                <a href="{php echo $this->createMobileUrl('member/register')}">注册</a>
+                <a href="{php echo $this->createMobileUrl('member')}" class="udz-popup-login">登录</a>
+                </span>
+                    <div class="menu none">
+                        <a href="{php echo $this->createMobileUrl('member/forget')}" class="menuone">修改密码</a>
+                        <a href="{php echo $this->createMobileUrl('member/logout')}" class="menuone logout">退出</a>
+                    </div>
+                </div>
+                {/if}
+                <a href="{php echo $this->createMobileUrl('shop/index')}" class="navone">首页</a>
+            </div>
+        </div>
+
+        <div class="search">
+        <a href="{php echo $this->createMobileUrl('shop/index')}" class="logo" style="line-height:0px;position: absolute;top:14px;left:0px;">
+                {if $this->yzShopSet['pclogo']}
+                <img style="width:240px;height:35px" src="{php echo $_W['siteroot'] . "attachment/" . $this->yzShopSet['pclogo']}"  title="{php echo $this->yzShopSet['pctitle']}" >
+                {else}
+                <img src="../addons/sea/template/pc/default/static/images/logo.png" title="" alt="我是默认logo">
+                {/if}
+            </a>
+            <div class="searchmain" style="position: absolute;top:44px;left:220px;">
+                <div class="searchbor">
+                    <input type="text" placeholder="搜索你喜欢的风格T恤" id="keyword">
+                    <div class="select"><span>搜商品</span><!-- <i></i> -->
+                        <!-- <div class="searchtypelist">
+                            <div class="searchtypeone">搜商品</div>
+                            <div class="searchtypeone">搜店铺</div>
+                        </div> -->
+                    </div>
+                    <div class="searchbtn " id="search"><i></i></div>
+                </div>
+                <p class="KEYWORD">
+                    <a  class="SEARCH" onClick="hot_keyword(this);" >动漫</a>
+                    <a  class="SEARCH" onClick="hot_keyword(this);">篮球</a>
+                    <a  class="SEARCH" onClick="hot_keyword(this);">美剧</a>
+                    <a  class="SEARCH" onClick="hot_keyword(this);">足球</a>
+                    <a  class="SEARCH" onClick="hot_keyword(this);">哲学</a>
+                    <a  class="SEARCH" onClick="hot_keyword(this);">dota</a>
+                    <a  class="SEARCH" onClick="hot_keyword(this);">火影</a>
+                </p>
+            </div>
+            <a href="#" class="appdown">
+                <img src="../addons/sea/template/pc/default_new/static/style/img/design.png" alt="">
+            </a>
+        </div>
+        <div class="st-line">
+            <div class="y-l"></div>
+            <div class="r-l"></div>
+            <div class="g-l"></div>
+            <div class="b-l"></div>
+        </div>
+    </div>
+<script type="text/javascript">
+    require(['tpl', 'core'], function(tpl, core) {
+    $('#keyword').keyup(function(){
+        if(event.keyCode == 13){
+        $('#search').click();
+        return;
+        }
+    });
+
+        $('#search').click(function(){
+            var args  = {
+                   page:"{$_GPC['page']}",
+                   isnew: "{$_GPC['isnew']}",
+                   ishot: "{$_GPC['ishot']}",
+                   isrecommand:"{$_GPC['isrecommand']}",
+                   isdiscount:"{$_GPC['isdiscount']}",
+                   keywords:"{$_GPC['keywords']}",
+                   istime:"{$_GPC['istime']}",
+                   pcate:"{$_GPC['pcate']}",
+                   ccate:"{$_GPC['ccate']}",
+                   tcate:"{$_GPC['tcate']}",
+                   order:"{$_GPC['order']}",
+                   by:"{$_GPC['by']}",
+                   shopid:"{$_GPC['shopid']}",
+                   keywords:$("#keyword").val()
+            };
+            location.href=core.getUrl('shop/list', args);
+        });
+    })
+function hot_keyword(obj){
+    var hotword = obj.innerHTML; 
+    location.href="{php echo $this->createMobileUrl('shop/list')}&keywords="+hotword;  
+}
+</script>

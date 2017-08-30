@@ -1,0 +1,477 @@
+﻿{template 'common/base_header'}
+<body class="campaign" style="overflow:auto;overflow-x:hidden">
+<div id="newhead">
+    <div class="nav">
+            <div class="navbox">
+                <div class="navone help">
+                    <a href="javascript:void(0)">客户服务<i></i></a>
+                    <div class="menu">
+                        <a href="{php echo $this->createMobileUrl('shop/notice')}" class="menuone">买家问题</a>
+                        <a href="{php echo $this->createMobileUrl('shop/notice')}" class="menuone">卖家问题</a>
+                        <a href="javascript:void(0)" onClick="mechatClick();return false;" class="menuone">联系客服</a>
+                    </div>
+                </div>
+                <div class="navone seller">
+                    <a href="{php echo $this->createMobileUrl('member/info')}">个人中心</a>
+                </div>
+                <a href="{php echo $this->createMobileUrl('shop/cart')}" class="navone cart" style="width:66px;background:#f2f2f2;"><i></i>购物车</a>
+                <div class="navone">
+                    <a href="{php echo $this->createMobileUrl('order/list')}">我的订单</a>
+                </div>
+                <div class="navone queryorder ">
+                    <span>
+                <a href="{php echo $this->createMobileUrl('member/register')}">注册</a>
+                <a href="{php echo $this->createMobileUrl('member')}" class="udz-popup-login">登录</a>
+                </span>
+                    <div class="menu none">
+                        <a href="{php echo $this->createMobileUrl('member/forget')}" class="menuone">修改密码</a>
+                        <a href="{php echo $this->createMobileUrl('member/logout')}" class="menuone logout">退出</a>
+                    </div>
+                </div>
+                <a href="{php echo $this->createMobileUrl('shop/index')}" class="navone">首页</a>
+            </div>
+        </div>
+        <div class="search">
+        <a href="{php echo $this->createMobileUrl('shop/index')}" class="logo" style="line-height:0px;position: absolute;top:14px;left:0px;">
+                {if $this->yzShopSet['pclogo']}
+                <img style="width:240px;height:35px" src="{php echo $_W['siteroot'] . "attachment/" . $this->yzShopSet['pclogo']}"  title="{php echo $this->yzShopSet['pctitle']}" >
+                {else}
+                <img src="../addons/sea/template/pc/default/static/images/logo.png" title="" alt="我是默认logo">
+                {/if}
+            </a>
+            <div class="searchmain" style="position: absolute;top:44px;left:220px;">
+                <div class="searchbor">
+                    <input type="text" placeholder="搜索你喜欢的风格T恤" id="keyword">
+                    <div class="select"><span>搜商品</span><!-- <i></i> -->
+                        <!-- <div class="searchtypelist">
+                            <div class="searchtypeone">搜商品</div>
+                            <div class="searchtypeone">搜店铺</div>
+                        </div> -->
+                    </div>
+                    <div class="searchbtn " id="search"><i></i></div>
+                </div>
+                <p class="KEYWORD">
+                    <a  class="SEARCH" onClick="hot_keyword(this);" >动漫</a>
+                    <a  class="SEARCH" onClick="hot_keyword(this);">篮球</a>
+                    <a  class="SEARCH" onClick="hot_keyword(this);">美剧</a>
+                    <a  class="SEARCH" onClick="hot_keyword(this);">足球</a>
+                    <a  class="SEARCH" onClick="hot_keyword(this);">哲学</a>
+                    <a  class="SEARCH" onClick="hot_keyword(this);">dota</a>
+                    <a  class="SEARCH" onClick="hot_keyword(this);">火影</a>
+                </p>
+            </div>
+            <a href="#" class="appdown">
+                <img src="../addons/sea/template/pc/default_new/static/style/img/design.png" alt="">
+            </a>
+        </div>
+        <div class="st-line">
+            <div class="o-l"></div>
+            <div class="g-l"></div>
+            <div class="v-l"></div>
+            <div class="b-l"></div>
+            <div class="l-l"></div>
+            <div class="r-l"></div>
+        </div>
+
+        <!--<div id="indexmenu">
+            <div class="w100">
+                <a href="javascript:void(0)" class="menuone act">首页</a>
+                <a href="search.html" class="menuone">分类</a>
+                <a href="" class="menuone">专题</a>
+            </div>
+        </div>-->
+    </div>
+    <script type="text/javascript">
+    require(['tpl', 'core'], function(tpl, core) {
+    $('#keyword').keyup(function(){
+        if(event.keyCode == 13){
+        $('#search').click();
+        return;
+        }
+    });
+
+        $('#search').click(function(){
+            var args  = {
+                   page:"{$_GPC['page']}",
+                   isnew: "{$_GPC['isnew']}",
+                   ishot: "{$_GPC['ishot']}",
+                   isrecommand:"{$_GPC['isrecommand']}",
+                   isdiscount:"{$_GPC['isdiscount']}",
+                   keywords:"{$_GPC['keywords']}",
+                   istime:"{$_GPC['istime']}",
+                   pcate:"{$_GPC['pcate']}",
+                   ccate:"{$_GPC['ccate']}",
+                   tcate:"{$_GPC['tcate']}",
+                   order:"{$_GPC['order']}",
+                   by:"{$_GPC['by']}",
+                   shopid:"{$_GPC['shopid']}",
+                   keywords:$("#keyword").val()
+            };
+            location.href=core.getUrl('shop/list', args);
+        });
+    })
+function hot_keyword(obj){
+    var hotword = obj.innerHTML; 
+    location.href="{php echo $this->createMobileUrl('shop/list')}&keywords="+hotword;  
+}
+</script>
+
+    <section id="mainbody" class="container clearfix">
+      <!--<script id='goods_info'  type='text/html'>-->
+        <!--<input type="hidden" id="followed" value="<%followed%>" />
+        <input type="hidden" id="needfollow" value="<%goods.needfollow%>" />
+        <input type="hidden" id="followurl" value="<%followurl%>" />
+        <input type='hidden' id='followtip' value='<%followtip%>'/>-->
+        <div class="clearfix mb15" style="width:1200px;">
+        <div class="left-area">
+            <div class="show-area norightkey clearfix">
+                <div class="show-img">
+                    <img src="{$pics[0]}" />
+                </div>
+                <div id="divsmallpic" class="thumb-area mt10 clearfix">
+                    <div class="btn lbtn disable"><i id="next" class="icon"></i></div>
+                    <div class="sthumb">
+                      <div class="rthumb" style="">
+                        {loop $pics $p}
+                        <div class="btn-thumb imgList">
+                            <span class="bd" style="z-index:-1;"></span>
+                                <img data-src="{$p}"   src="{$p}" data-imgsrc=""/>
+                        </div>
+                        {/loop}
+                      </div>
+                    </div>
+                    <div class="btn rbtn disable"><i id="prev" class="icon"></i></div>
+                </div>
+            </div>
+<script type="text/javascript">
+$(".imgList img").bind("click",function(){
+    var big_img = this.getAttribute("src");
+    $(".show-img img").attr('src',big_img);
+});
+    var curIndex = 0, //当前index
+     imgLen = $(".imgList img").length; //图片总数
+     // 定时器自动变换2.5秒每次
+var autoChange = setInterval(function(){ 
+  if(curIndex < imgLen-1){ 
+    curIndex ++; 
+  }else{ 
+    curIndex = 0;
+  }
+  //调用变换处理函数
+  changeTo(curIndex); 
+},2500);
+
+//左箭头滑入滑出事件处理
+$("#prev").hover(function(){ 
+  //滑入清除定时器
+  clearInterval(autoChange);
+},function(){ 
+  //滑出则重置定时器
+  autoChangeAgain();
+});
+//左箭头点击处理
+$("#prev").click(function(){ 
+  //根据curIndex进行上一个图片处理
+  curIndex = (curIndex > 0) ? (--curIndex) : (imgLen - 1);
+  changeTo(curIndex);
+});
+
+//右箭头滑入滑出事件处理
+ $("#next").hover(function(){ 
+   //滑入清除定时器
+   clearInterval(autoChange);
+ },function(){ 
+   //滑出则重置定时器
+   autoChangeAgain();
+ });
+ //右箭头点击处理
+ $("#next").click(function(){ 
+   curIndex = (curIndex < imgLen - 1) ? (++curIndex) : 0;
+   changeTo(curIndex);
+ });
+//清除定时器时候的重置定时器--封装
+function autoChangeAgain(){ 
+      autoChange = setInterval(function(){ 
+      if(curIndex < imgLen-1){ 
+        curIndex ++;
+      }else{ 
+        curIndex = 0;
+      }
+    //调用变换处理函数
+      changeTo(curIndex); 
+    },2500);
+}
+
+    function changeTo(num){ 
+    var goLeft = num * 90;
+    $(".imgList").animate({left: "-" + goLeft + "px"},500);
+  }
+</script>
+            <div class="sc-fx-area clearfix">
+                 <div class="fx-area">
+                     <span class="fx"><i class="icon"></i>分享</span>
+                     <span class="icon wechat" title="扫一扫分享到微信">
+                            <img id="qrcode" class="none" data-src="../addons/sea/template/pc/default_new/static/style/img/qrcode822221.jpg" />
+                     </span>
+                     <a id="shareSinaWeibo" title="分享到微博" class="icon weibo" href="#"></a>
+                     <a id="shareQzone" title="分享到QQ空间" class="icon qq" href="#"></a>
+                 </div>
+            </div>
+        </div>
+        <div class="right-area">
+            <h1 class="name">欧洲杯 西班牙地图版纪念T恤</h1>
+            <div class="price-status">
+                <div class="numa">
+                    <div class="num-s">
+                        已售出：
+                        <span>1</span>
+                    </div>
+                </div>
+                <div class="h2-price">
+                    <span class="price-title">价格</span>
+                    <div class="price-area">
+                            ￥ <span class="price">88</span>
+                    </div>
+                </div>
+                <!--<div class="status-area">
+                    <div class="countdown">
+                        <span class="js">距离活动结束</span>
+                        <span id="span-day" class="sj">00</span>天<span id="span-hour" class="sj">00</span>小时<span id="span-minute" class="sj">00</span>分<span id="span-second" class="sj">00</span>秒
+                    </div>
+                </div>-->
+            </div>
+
+            <div class="choose-area">
+                <div class="clearfix">
+                    <span class="area-title category-name">性别</span>
+                    <ul class="clearfix">
+                        <li class="enable" data-val="m" data-category="性别">男款</li>
+                        <li class="enable" data-val="f" data-category="性别">女款</li>
+                    </ul>
+                </div>
+                <div class="clearfix">
+                    <span class="area-title category-name">款式</span>
+                    <ul class="clearfix">
+                        <li class="enable" data-val="cm180" data-category="款式">纯棉圆领T恤</li>
+                        <li class="enable" data-val="vl" data-category="款式">V领T恤</li>
+                        <li class="enable" data-val="ydt" data-category="款式">运动T恤</li>
+                        <li class="enable" data-val="fxt" data-category="款式">方形时尚T恤</li>
+                        <li class="enable" data-val="ckt" data-category="款式">中长时尚T恤</li>
+                    </ul>
+                </div>
+                <div class="clearfix">
+                    <span class="area-title category-name">颜色</span>
+                    <ul class="clearfix">
+                        <li class="color enable" data-realname="黑色" data-val="1" data-category="颜色">
+                            <span class="color" style="background-color: #000000;"></span>
+                        </li>
+                        <li class="color enable" data-realname="白色" data-val="2" data-category="颜色">
+                            <span class="color" style="background-color: #ffffff;"></span>
+                        </li>
+                        <li class="color enable" data-realname="浅花灰" data-val="3" data-category="颜色">
+                            <span class="color" style="background-color: #949494;"></span>
+                        </li>
+                        <li class="color enable" data-realname="西瓜红" data-val="4" data-category="颜色">
+                            <span class="color" style="background-color: #da4a52;"></span>
+                        </li>
+                        <li class="color enable" data-realname="深蓝" data-val="5" data-category="颜色">
+                            <span class="color" style="background-color: #305376;"></span>
+                        </li>
+                        <li class="color enable" data-realname="嫩粉" data-val="6" data-category="颜色">
+                            <span class="color" style="background-color: #cf598b;"></span>
+                        </li>
+                        <li class="color enable" data-realname="浅灰" data-val="9" data-category="颜色">
+                            <span class="color" style="background-color: #bababa;"></span>
+                        </li>
+                        <li class="color enable" data-realname="深灰" data-val="10" data-category="颜色">
+                            <span class="color" style="background-color: #464646;"></span>
+                        </li>
+                        <li class="color enable" data-realname="藏青" data-val="11" data-category="颜色">
+                            <span class="color" style="background-color: #333656;"></span>
+                        </li>
+                        <li class="color enable" data-realname="粉绿" data-val="12" data-category="颜色">
+                            <span class="color" style="background-color: #00cd6d;"></span>
+                        </li>
+                        <li class="color enable" data-realname="中黄" data-val="13" data-category="颜色">
+                            <span class="color" style="background-color: #eddf57;"></span>
+                        </li>
+                        <li class="color enable" data-realname="酒红" data-val="14" data-category="颜色">
+                            <span class="color" style="background-color: #8e2534;"></span>
+                        </li>
+                        <li class="color enable" data-realname="绯红" data-val="15" data-category="颜色">
+                            <span class="color" style="background-color: #c32c31;"></span>
+                        </li>
+                        <li class="color enable" data-realname="绛紫" data-val="16" data-category="颜色">
+                            <span class="color" style="background-color: #5d2151;"></span>
+                        </li>
+                        <li class="color enable" data-realname="宝蓝" data-val="24" data-category="颜色">
+                            <span class="color" style="background-color: #1855a5;"></span>
+                        </li>
+                        <li class="color enable" data-realname="荧光绿" data-val="25" data-category="颜色">
+                            <span class="color" style="background-color: #cedf70;"></span>
+                        </li>
+                        <li class="color enable" data-realname="亮橙" data-val="26" data-category="颜色">
+                            <span class="color" style="background-color: #e75832;"></span>
+                        </li>
+                        <li class="color enable" data-realname="炭灰色" data-val="37" data-category="颜色">
+                            <span class="color" style="background-color: #50504b;"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix">
+                    <span class="area-title category-name">尺码</span>
+                    <ul class="clearfix w500">
+                            <li class="enable" data-val="XS" data-category="尺码">XS</li>
+                            <li class="enable" data-val="S" data-category="尺码">S</li>
+                            <li class="enable" data-val="M" data-category="尺码">M</li>
+                            <li class="enable" data-val="L" data-category="尺码">L</li>
+                            <li class="enable" data-val="XL" data-category="尺码">XL</li>
+                            <li class="enable" data-val="XXL" data-category="尺码">XXL</li>
+                            <li class="enable" data-val="XXXL" data-category="尺码">XXXL</li>
+                    </ul>
+                        <span class="size-table">查看尺码表</span>
+                </div>
+                <div id="div-number-area" class="number-area clearfix ">
+                    <span class="area-title">数量</span>
+                    <span class="minus">－</span><input type="text" name="number" value="1" class="rs-ipt" /><span class="plus">＋</span>
+                </div>
+                <div id="div-number-area" class="freight-area clearfix ">
+                    <span class="area-title">运费</span>
+                    <div class="freight-con">
+                        <b class="change-price" xc_no_trans="on">US$6.50</b>
+                        <em>&nbsp;to&nbsp;</em>
+                        <a onClick="get_shipping(1)" href="javascript:void(0)" xc_no_trans="on">
+                        United States via Air Parcel Register<span><i></i></span>
+                        </a>
+                        <p xc_no_trans="on">10-20 business days</p></div>
+                    </div>
+            </div>
+            <div class="btn-area">
+                    <span class="btn-addcart btn-o8 ">加入购物车</span><span class="btn-reserve btn-o8 " id="btn-pc-campaign">立刻购买</span>
+            </div>
+            <div class="ext-area">
+                <div class="row"><span class="tlt">服务承诺</span><span class="th7 mr15"><i class="icon"></i>7天退换货</span><span class="pzsy"><i class="icon"></i>品质溯源</span></div>
+                <div class="row"><span class="tlt">支付方式</span><span title="银行卡" class="icon yhk"></span><span title="支付宝" class="icon zfb"></span><span title="微信" class="icon wx"></span><span title="银联" class="icon yl"></span></div>
+                <div class="row">
+                    <span class="tlt">温馨提示</span>
+                    <ul>
+                                <li>目标10件，达到即可开始制作，期待你的支持！</li>
+                        <li>这是毫无风险的预订：假如活动未成功，你预订时支付的费用将在活动结束后的一个工作日内返还到你的支付账户。假如在活动进行中时，你想取消预订，可以随时取消！</li>
+                            <li>预计发货时间：<span class="fhsj">2016年06月25日</span>左右。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+
+            <div class="shop-head-ct clearfix">
+                <div class="shop-area">
+                    <div class="shop-photo">
+                            <img width="80" height="80" src="../addons/sea/template/pc/default_new/static/style/img/4179144595063930.png">
+                    </div>
+                    <div class="shop-name">
+                        <span>十二人</span>
+                    </div>
+                    <div class="shop-btn">
+                        <span class="act-num"><em class="icon e1">&nbsp;</em>活动数：37</span>
+                        <span class="fans-num"><em class="icon e2">&nbsp;</em>粉丝数：241</span>
+                        <a target="_blank" href="" class="enter-shop btn-s1 btn-o8">进店逛逛</a>
+                    </div>
+                </div>
+                <div class="shop-cp">
+                    <p class="txt">
+                        爱我所爱！
+                    </p>
+                </div>
+            </div>
+        <div class="zgtj">
+            <h4>掌柜推荐</h4>
+            <div id="div-recommend"></div>
+        </div>
+        <div class="detail">
+            <div class="dt-tlt">
+                商品详情<span>PRODUCT DETAILS</span>
+            </div>
+            <div class="desc-area">
+                <div class="desc" id="div-description"></div>
+                <div class="style"><div class="style-ct">
+                        <img class="styleimg" src="http://static.udz.com/uploads/2016/5/26/5144930593688828.png.720.png">
+                        <div class="pd-info"><h4 class="hd">男款纯棉圆领T恤</h4><p class="ct">100%优质精梳棉，细腻编织，表面经特殊工艺处理，质感顺滑，合身的剪裁，领口不变形技术</p></div>
+                        <img class="sizeimg" src="http://static.udz.com/statics/images/sizespec/mcm180.jpg">
+                    </div><div class="style-ct">
+                        <img class="styleimg" src="http://static.udz.com/uploads/2016/5/26/5144941140444114.png.720.png">
+                        <div class="pd-info"><h4 class="hd">女款纯棉圆领T恤</h4><p class="ct">100%优质精梳棉，细腻编织，表面经特殊工艺处理，质感顺滑，合身的剪裁，领口不变形技术</p></div>
+                        <img class="sizeimg" src="http://static.udz.com/statics/images/sizespec/fcm180.jpg">
+                    </div></div>
+                <div class="size"></div>
+                <div class="intro">
+                    <h4>优质面料 品质源于用心</h4>
+                    <img class="img1" src="../addons/sea/template/pc/default_new/static/style/img/5483648876183191.png.360.png" data-loadsrc="style/img/tee.jpg" />
+                    <img class="img2" src="../addons/sea/template/pc/default_new/static/style/img/5483648876183191.png.360.png" data-loadsrc="style/img/wy.jpg" />
+                    <p class="p1">只做品质好面料，匠心贯穿始终——</p>
+                    <p>精梳棉纺纱，进一步降低杂质，经过多层特殊处理，纱织精细绵密，布面平整光洁，手感柔软，穿着舒适，每分每秒都有细腻亲肤体验。采用环保染色，鲜艳饱满，光泽柔和。</p>
+                </div>
+                <div class="example">
+                    <img src="../addons/sea/template/pc/default_new/static/style/img/kefutime.jpg" data-loadsrc="style/img/kefutime.jpg" />
+                    <p class="mt10">?关于洗涤</p>
+                    <p>1. 含有印花及装饰的产品建议手洗，并减少机洗频率；洗涤时请将印花机装饰部位反面水洗。</p>
+                    <p>2. 建议采用缓和程序洗涤，并将深、浅色衣物与其他衣物分开清洗。</p>
+                    <p>3. 深色衣物建议在初次穿着前用清水漂洗，因衣物做了特殊处理使得表面更为顺滑，如有残留毛屑并非掉色，属于正常现象。</p>
+                    <p class="mt10">?关于色差</p>
+                    <p>由于灯光、显示器及个人对颜色的理解度不同，色差不可避免，不属质量问题，最终以商品实物为准，敬请谅解。</p>
+                </div>
+            </div>
+        </div>
+        <div class="zgtj">
+            <h4>猜你喜欢</h4>
+            <div id="div-cnxh-ct" class="zgtj-ct">
+                <div id="div-cnxh"></div>
+            </div>
+        </div>
+        <!--</script>--> 
+    </section>       
+<div id="newfooter">
+    <div class="up-top-btn none">
+        <img width="50" src="../addons/sea/template/pc/default_new/static/style/img/gotop.png">
+        <i></i>
+    </div>
+    <div class="w100 clearfix">
+        <div class="fl">
+            <div class="logo"><img src="../addons/sea/template/pc/default_new/static/style/img/logo.png" alt=""></div>
+            <div class="text">
+                Copyright ?udz.com. All Rights Reserved. <br>优定制科技（北京）有限公司<br> 京ICP备14053608号 京公网安备号 11010802017620
+            </div>
+        </div>
+        <div class="fr">
+            <div class="footone">
+                <div class="tit">关于优定制</div>
+                <p><a href="_aboutus">关于我们</a></p>
+                <p><a href="wordpress/">最新动态</a></p>
+                <p><a href="_join">招聘信息</a></p>
+                <p><a href="_contact">联系我们</a></p>
+            </div>
+            <div class="footone">
+                <div class="tit">消费者权益</div>
+                <p><a href="_faqbuyer">消费者服务</a></p>
+                <p><a href="_contact">意见反馈</a></p>
+                <p><a href="_download">手机版下载</a></p>
+            </div>
+            <div class="footone">
+                <div class="tit">商家</div>
+                <p><a href="_guide">如何开始</a></p>
+                <p><a href="_faqseller">商家问题</a></p>
+            </div>
+            <div class="footone other">
+                <div class="tit">权威认证</div>
+                <a class="icon-i" id='___szfw_logo___' href='https://search.szfw.org/cert/l/CX20150630010586010672' target='_blank'>
+                    <img height="50" src='../addons/sea/template/pc/default_new/static/style/img/cert1.png'>
+                </a>
+                <img class="icon-i" height="50" src='../addons/sea/template/pc/default_new/static/style/img/zfbtysj.jpg'>
+                <img class="icon-i" height="50" src='../addons/sea/template/pc/default_new/static/style/img/yltysh.jpg'>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

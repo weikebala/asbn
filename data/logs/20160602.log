@@ -1,0 +1,510 @@
+2016-06-02 11:51:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wbDdVARzSenJw7AF0JeARuU]]></FromUserName>
+<CreateTime>1464839464</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=5&c=entry&do=shop&m=sea]]></EventKey>
+<MenuId>409281329</MenuId>
+</xml>
+
+2016-06-02 11:51:04 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-02 11:51:04 response :
+------------
+
+2016-06-02 14:30:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wNbNmFdmpDuv6jTZiG6pqX4]]></FromUserName>
+<CreateTime>1464849053</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-02 14:31:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wNbNmFdmpDuv6jTZiG6pqX4]]></FromUserName>
+<CreateTime>1464849073</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-02 14:31:13 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-02 14:31:13 response :
+------------
+
+2016-06-02 14:36:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wNbNmFdmpDuv6jTZiG6pqX4]]></FromUserName>
+<CreateTime>1464849415</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[进入商城]]></EventKey>
+</xml>
+
+2016-06-02 14:36:55 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-02 14:36:55 response :
+------------
+
+2016-06-02 14:57:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wQtXX_EuCkfboHj00Iie0Fk]]></FromUserName>
+<CreateTime>1464850672</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6291485730172907157</MsgId>
+</xml>
+
+2016-06-02 14:57:52 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 65 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 14:57:52 response :
+------------
+Array:
+FromUserName : gh_9ef36f25dc50 ;
+ToUserName : oN38-wQtXX_EuCkfboHj00Iie0Fk ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-06-02 15:07:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wC2gmilxXnyklDRjkwlxaec]]></FromUserName>
+<CreateTime>1464851259</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-02 15:07:39 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 15:07:39 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wC2gmilxXnyklDRjkwlxaec ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-02 15:07:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wC2gmilxXnyklDRjkwlxaec]]></FromUserName>
+<CreateTime>1464851266</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[企业介绍]]></EventKey>
+</xml>
+
+2016-06-02 15:07:46 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 15:07:46 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wC2gmilxXnyklDRjkwlxaec ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-02 15:07:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wC2gmilxXnyklDRjkwlxaec]]></FromUserName>
+<CreateTime>1464851269</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[进入商城]]></EventKey>
+</xml>
+
+2016-06-02 15:07:49 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 15:07:49 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wC2gmilxXnyklDRjkwlxaec ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-02 15:07:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wC2gmilxXnyklDRjkwlxaec]]></FromUserName>
+<CreateTime>1464851272</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[成为经销商]]></EventKey>
+</xml>
+
+2016-06-02 15:07:52 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 15:07:52 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wC2gmilxXnyklDRjkwlxaec ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-02 15:28:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wNbNmFdmpDuv6jTZiG6pqX4]]></FromUserName>
+<CreateTime>1464852508</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[招商加盟]]></EventKey>
+</xml>
+
+2016-06-02 15:28:28 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 83 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 15:28:28 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wNbNmFdmpDuv6jTZiG6pqX4 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-06-02 15:28:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wNbNmFdmpDuv6jTZiG6pqX4]]></FromUserName>
+<CreateTime>1464852520</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[企业介绍]]></EventKey>
+</xml>
+
+2016-06-02 15:28:40 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 15:28:40 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wNbNmFdmpDuv6jTZiG6pqX4 ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-02 15:28:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wNbNmFdmpDuv6jTZiG6pqX4]]></FromUserName>
+<CreateTime>1464852522</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[联系我们]]></EventKey>
+</xml>
+
+2016-06-02 15:28:43 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 84 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 15:28:43 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wNbNmFdmpDuv6jTZiG6pqX4 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-06-02 15:31:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wNbNmFdmpDuv6jTZiG6pqX4]]></FromUserName>
+<CreateTime>1464852680</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[企业介绍]]></EventKey>
+</xml>
+
+2016-06-02 15:31:20 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 82 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 15:31:20 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wNbNmFdmpDuv6jTZiG6pqX4 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-06-02 16:12:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wNbNmFdmpDuv6jTZiG6pqX4]]></FromUserName>
+<CreateTime>1464855148</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[进入商城]]></EventKey>
+</xml>
+
+2016-06-02 16:12:28 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 16:12:28 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wNbNmFdmpDuv6jTZiG6pqX4 ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-02 16:13:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wNbNmFdmpDuv6jTZiG6pqX4]]></FromUserName>
+<CreateTime>1464855193</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[进入商城]]></EventKey>
+</xml>
+
+2016-06-02 16:13:13 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 16:13:13 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wNbNmFdmpDuv6jTZiG6pqX4 ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-02 16:13:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wNbNmFdmpDuv6jTZiG6pqX4]]></FromUserName>
+<CreateTime>1464855198</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-02 16:13:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wNbNmFdmpDuv6jTZiG6pqX4]]></FromUserName>
+<CreateTime>1464855211</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-02 16:13:31 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 16:13:31 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wNbNmFdmpDuv6jTZiG6pqX4 ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-02 16:13:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wNbNmFdmpDuv6jTZiG6pqX4]]></FromUserName>
+<CreateTime>1464855212</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[进入商城]]></EventKey>
+</xml>
+
+2016-06-02 16:13:33 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 16:13:33 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wNbNmFdmpDuv6jTZiG6pqX4 ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-02 16:14:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wNbNmFdmpDuv6jTZiG6pqX4]]></FromUserName>
+<CreateTime>1464855287</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[成为经销商]]></EventKey>
+</xml>
+
+2016-06-02 16:14:47 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 16:14:47 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wNbNmFdmpDuv6jTZiG6pqX4 ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-02 17:24:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-weBE8Q3mUj9ZY7bIWwt80bI]]></FromUserName>
+<CreateTime>1464859488</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-02 17:24:48 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 79 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-02 17:24:48 response :
+------------
+Array:
+FromUserName : gh_9ef36f25dc50 ;
+ToUserName : oN38-weBE8Q3mUj9ZY7bIWwt80bI ;
+MsgType : text ;
+Content : 欢迎您的关注！！！ ;
+

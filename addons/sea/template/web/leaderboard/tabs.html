@@ -1,0 +1,6 @@
+<ul class="nav nav-tabs">
+    <li {if $_GPC['p'] == 'fans'} class="active" {/if}><a href="{php echo $this->createWebUrl('leaderboard/fans')}">粉丝榜</a></li>
+    <li {if $_GPC['p'] == 'sale'} class="active" {/if}><a href="{php echo $this->createWebUrl('leaderboard/sale')}">店铺销售榜</a></li>
+    <li {if $_GPC['p'] == 'promotion'} class="active" {/if}><a href="{php echo $this->createWebUrl('leaderboard/promotion')}">推广榜</a></li>
+    <li {if $_GPC['p'] == 'dofans'} class="active" {/if}><a href="{php echo $this->createWebUrl('leaderboard/dofans')}">粉丝计算任务</a></li>
+</ul>

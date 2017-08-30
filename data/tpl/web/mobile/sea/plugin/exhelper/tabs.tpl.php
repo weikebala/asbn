@@ -1,0 +1,9 @@
+<?php defined('IN_IA') or exit('Access Denied');?><ul class="nav nav-tabs">
+    <?php if(cv('exhelper.print.single')) { ?><li <?php  if($_GPC['method']=='doprint' && $_GPC['type']==1) { ?>class="active"<?php  } ?>><a href="<?php  echo $this->createPluginWebUrl('exhelper/doprint',array('type'=>1))?>"><i class="fa fa-print"></i> 单个打印</a></li><?php  } ?>
+    <?php if(cv('exhelper.print.more')) { ?><li <?php  if($_GPC['method']=='doprint' && $_GPC['type']==2) { ?>class="active"<?php  } ?>><a href="<?php  echo $this->createPluginWebUrl('exhelper/doprint',array('type'=>2))?>"><i class="fa fa-print"></i> 批量打印</a></li><?php  } ?>
+    <?php if(cv('exhelper.exptemp1')) { ?><li <?php  if($_GPC['method']=='express' && $_GPC['op']=='list' && $_GPC['cate']==1) { ?>class="active"<?php  } ?>><a href="<?php  echo $this->createPluginWebUrl('exhelper/express',array('op'=>'list','cate'=>1))?>"><i class="fa fa-copy"></i> 快递单模版管理</a></li><?php  } ?>
+    <?php if(cv('exhelper.exptemp2')) { ?><li <?php  if($_GPC['method']=='express' && $_GPC['op']=='list' && $_GPC['cate']==2) { ?>class="active"<?php  } ?>><a href="<?php  echo $this->createPluginWebUrl('exhelper/express',array('op'=>'list','cate'=>2))?>"><i class="fa fa-copy"></i> 发货单模版管理</a></li><?php  } ?>
+    <?php if(cv('exhelper.senduser')) { ?><li <?php  if($_GPC['method']=='senduser') { ?>class="active"<?php  } ?>><a href="<?php  echo $this->createPluginWebUrl('exhelper/senduser')?>"><i class="fa fa-file"></i> 发货人信息管理</a></li><?php  } ?>
+    <?php if(cv('exhelper.short')) { ?><li <?php  if($_GPC['method']=='short') { ?>class="active"<?php  } ?>><a href="<?php  echo $this->createPluginWebUrl('exhelper/short')?>"><i class="fa fa-tasks"></i> 商品简称</a></li><?php  } ?>
+    <?php if(cv('exhelper.printset')) { ?><li <?php  if($_GPC['method']=='printset') { ?>class="active"<?php  } ?>><a href="<?php  echo $this->createPluginWebUrl('exhelper/printset')?>"><i class="fa fa-cogs"></i> 打印设置</a></li><?php  } ?>
+</ul>

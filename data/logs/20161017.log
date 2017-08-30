@@ -1,0 +1,5490 @@
+2016-10-17 00:08:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBvzcXfamB-GzGwboFnrYds]]></FromUserName>
+<CreateTime>1476634103</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 00:08:24 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 00:08:24 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBvzcXfamB-GzGwboFnrYds ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 00:51:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGxR6SERBeG_F_v8q45Lr80]]></FromUserName>
+<CreateTime>1476636678</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 00:51:18 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 00:51:18 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGxR6SERBeG_F_v8q45Lr80 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 00:55:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwHuJ9wYOKXMnpcVrSf5UQmA]]></FromUserName>
+<CreateTime>1476636956</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 00:55:56 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 00:55:56 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwHuJ9wYOKXMnpcVrSf5UQmA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 00:56:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwHuJ9wYOKXMnpcVrSf5UQmA]]></FromUserName>
+<CreateTime>1476636979</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 00:56:19 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 00:56:19 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwHuJ9wYOKXMnpcVrSf5UQmA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 01:06:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwP9B0BpU_kIVtIghEuG6zdo]]></FromUserName>
+<CreateTime>1476637585</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 01:06:25 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 01:06:25 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwP9B0BpU_kIVtIghEuG6zdo ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 01:08:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwP9B0BpU_kIVtIghEuG6zdo]]></FromUserName>
+<CreateTime>1476637683</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 01:08:03 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 01:08:03 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwP9B0BpU_kIVtIghEuG6zdo ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 01:08:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwP9B0BpU_kIVtIghEuG6zdo]]></FromUserName>
+<CreateTime>1476637710</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 01:08:30 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 01:08:30 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwP9B0BpU_kIVtIghEuG6zdo ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 02:05:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwKvVDzsRdoObY_p31ZD7s4A]]></FromUserName>
+<CreateTime>1476641149</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 02:05:49 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 02:05:49 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwKvVDzsRdoObY_p31ZD7s4A ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 02:06:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwKvVDzsRdoObY_p31ZD7s4A]]></FromUserName>
+<CreateTime>1476641168</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 02:06:08 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 02:06:08 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwKvVDzsRdoObY_p31ZD7s4A ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 02:06:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwKvVDzsRdoObY_p31ZD7s4A]]></FromUserName>
+<CreateTime>1476641186</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 02:06:26 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 02:06:26 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwKvVDzsRdoObY_p31ZD7s4A ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 02:09:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwKvVDzsRdoObY_p31ZD7s4A]]></FromUserName>
+<CreateTime>1476641371</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 02:09:32 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 02:09:32 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwKvVDzsRdoObY_p31ZD7s4A ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 02:32:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwFZht3TcyGk72CZjYtgaIhE]]></FromUserName>
+<CreateTime>1476642764</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 02:32:44 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 02:32:44 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwFZht3TcyGk72CZjYtgaIhE ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 03:50:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwErwyMDx0x2QWPvi-RQdb3c]]></FromUserName>
+<CreateTime>1476647457</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 03:50:57 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 03:50:57 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwErwyMDx0x2QWPvi-RQdb3c ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 04:35:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwK8WrK-TP94z6v5hi4LilCA]]></FromUserName>
+<CreateTime>1476650111</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 04:35:12 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 04:35:12 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwK8WrK-TP94z6v5hi4LilCA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 07:28:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNZ2xlMEbBvLfQDnMjqKEAQ]]></FromUserName>
+<CreateTime>1476660528</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 07:28:48 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 07:28:48 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNZ2xlMEbBvLfQDnMjqKEAQ ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 07:32:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJKKbRz75fgvUPd6T1oPJ-o]]></FromUserName>
+<CreateTime>1476660762</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 07:32:42 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 07:32:42 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwJKKbRz75fgvUPd6T1oPJ-o ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 07:33:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLfH47kIYsiNwjPIW80SCcc]]></FromUserName>
+<CreateTime>1476660799</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 07:33:19 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 07:33:19 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLfH47kIYsiNwjPIW80SCcc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 07:33:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLfH47kIYsiNwjPIW80SCcc]]></FromUserName>
+<CreateTime>1476660804</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 07:33:24 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 07:33:24 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLfH47kIYsiNwjPIW80SCcc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 07:33:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLfH47kIYsiNwjPIW80SCcc]]></FromUserName>
+<CreateTime>1476660809</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 07:33:29 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 07:33:29 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLfH47kIYsiNwjPIW80SCcc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 07:33:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLfH47kIYsiNwjPIW80SCcc]]></FromUserName>
+<CreateTime>1476660823</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 07:33:43 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 07:33:43 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLfH47kIYsiNwjPIW80SCcc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 07:34:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLfH47kIYsiNwjPIW80SCcc]]></FromUserName>
+<CreateTime>1476660844</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 07:34:04 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 07:34:04 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLfH47kIYsiNwjPIW80SCcc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 07:35:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwAjZCblVyvQzczPAnsPyobw]]></FromUserName>
+<CreateTime>1476660915</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 07:35:15 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 07:35:15 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwAjZCblVyvQzczPAnsPyobw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 07:36:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwAjZCblVyvQzczPAnsPyobw]]></FromUserName>
+<CreateTime>1476660988</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 07:36:29 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 07:36:29 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwAjZCblVyvQzczPAnsPyobw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 07:37:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwAjZCblVyvQzczPAnsPyobw]]></FromUserName>
+<CreateTime>1476661039</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 07:37:19 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 07:37:19 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwAjZCblVyvQzczPAnsPyobw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 07:48:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwG2d2QLSbI5H6pPgZy0dx2w]]></FromUserName>
+<CreateTime>1476661707</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 07:48:28 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 07:48:28 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwG2d2QLSbI5H6pPgZy0dx2w ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 07:53:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwPd7-Op8hKcWeoYnL7dLzq4]]></FromUserName>
+<CreateTime>1476661985</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 07:53:05 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 07:53:05 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwPd7-Op8hKcWeoYnL7dLzq4 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 08:24:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBHzsC6Yf0xB8RMUtiOPcX8]]></FromUserName>
+<CreateTime>1476663866</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 08:24:27 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 08:24:27 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBHzsC6Yf0xB8RMUtiOPcX8 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 08:41:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGidm9Hi56zNC4KuGvVNWuk]]></FromUserName>
+<CreateTime>1476664883</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 08:41:24 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 08:41:24 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGidm9Hi56zNC4KuGvVNWuk ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 08:52:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGV2b3eGx-RQ8dMUOtIXG4g]]></FromUserName>
+<CreateTime>1476665557</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 08:52:37 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 08:52:37 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGV2b3eGx-RQ8dMUOtIXG4g ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 09:09:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLe1wLuL9Q3D31OwXDevfrI]]></FromUserName>
+<CreateTime>1476666554</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-17 09:09:15 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 09:09:15 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLe1wLuL9Q3D31OwXDevfrI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 09:09:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLe1wLuL9Q3D31OwXDevfrI]]></FromUserName>
+<CreateTime>1476666558</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 09:09:18 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 09:09:18 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLe1wLuL9Q3D31OwXDevfrI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 09:09:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLe1wLuL9Q3D31OwXDevfrI]]></FromUserName>
+<CreateTime>1476666572</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 09:09:32 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 09:09:32 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLe1wLuL9Q3D31OwXDevfrI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 09:09:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLe1wLuL9Q3D31OwXDevfrI]]></FromUserName>
+<CreateTime>1476666577</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 09:09:37 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 09:09:37 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLe1wLuL9Q3D31OwXDevfrI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 09:24:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJJMr0RYalXvSgnX3PuDEo4]]></FromUserName>
+<CreateTime>1476667454</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-17 09:24:14 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 09:24:14 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwJJMr0RYalXvSgnX3PuDEo4 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 09:26:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJJMr0RYalXvSgnX3PuDEo4]]></FromUserName>
+<CreateTime>1476667568</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 09:26:08 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 09:26:08 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwJJMr0RYalXvSgnX3PuDEo4 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 10:05:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJJMr0RYalXvSgnX3PuDEo4]]></FromUserName>
+<CreateTime>1476669943</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 10:05:43 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 10:05:43 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwJJMr0RYalXvSgnX3PuDEo4 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 10:05:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJJMr0RYalXvSgnX3PuDEo4]]></FromUserName>
+<CreateTime>1476669945</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 10:05:45 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 10:05:45 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwJJMr0RYalXvSgnX3PuDEo4 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 10:11:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGtv1X-Ltu0twVUqqsHZvnk]]></FromUserName>
+<CreateTime>1476670315</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 10:11:55 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 10:11:55 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGtv1X-Ltu0twVUqqsHZvnk ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 10:48:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwErwyMDx0x2QWPvi-RQdb3c]]></FromUserName>
+<CreateTime>1476672489</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 10:48:09 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 10:48:09 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwErwyMDx0x2QWPvi-RQdb3c ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 10:48:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwErwyMDx0x2QWPvi-RQdb3c]]></FromUserName>
+<CreateTime>1476672534</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 10:48:55 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 10:48:55 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwErwyMDx0x2QWPvi-RQdb3c ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 10:51:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGV2b3eGx-RQ8dMUOtIXG4g]]></FromUserName>
+<CreateTime>1476672662</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 10:51:03 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 10:51:03 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGV2b3eGx-RQ8dMUOtIXG4g ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 10:51:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGV2b3eGx-RQ8dMUOtIXG4g]]></FromUserName>
+<CreateTime>1476672678</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 10:51:18 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 10:51:18 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGV2b3eGx-RQ8dMUOtIXG4g ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 11:03:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNssadH5HNgfi-hTJ4RT5Bk]]></FromUserName>
+<CreateTime>1476673416</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 11:03:36 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 11:03:36 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNssadH5HNgfi-hTJ4RT5Bk ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 11:29:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJq-ouYn98U9eVCLuiVFEsI]]></FromUserName>
+<CreateTime>1476674974</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 11:29:34 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 11:29:34 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwJq-ouYn98U9eVCLuiVFEsI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 11:32:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJq-ouYn98U9eVCLuiVFEsI]]></FromUserName>
+<CreateTime>1476675135</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 11:32:15 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 11:32:15 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwJq-ouYn98U9eVCLuiVFEsI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 11:35:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJq-ouYn98U9eVCLuiVFEsI]]></FromUserName>
+<CreateTime>1476675322</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 11:35:22 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 11:35:22 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwJq-ouYn98U9eVCLuiVFEsI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 11:35:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJq-ouYn98U9eVCLuiVFEsI]]></FromUserName>
+<CreateTime>1476675341</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 11:35:41 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 11:35:41 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwJq-ouYn98U9eVCLuiVFEsI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 11:36:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJq-ouYn98U9eVCLuiVFEsI]]></FromUserName>
+<CreateTime>1476675368</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 11:36:08 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 11:36:08 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwJq-ouYn98U9eVCLuiVFEsI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 11:39:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwAjZCblVyvQzczPAnsPyobw]]></FromUserName>
+<CreateTime>1476675579</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 11:39:40 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 11:39:40 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwAjZCblVyvQzczPAnsPyobw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 11:40:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwAjZCblVyvQzczPAnsPyobw]]></FromUserName>
+<CreateTime>1476675645</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 11:40:45 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 11:40:45 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwAjZCblVyvQzczPAnsPyobw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 11:59:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwA0PJna5TCsn0GF-uXGMARM]]></FromUserName>
+<CreateTime>1476676782</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-17 11:59:43 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 11:59:43 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwA0PJna5TCsn0GF-uXGMARM ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 11:59:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwA0PJna5TCsn0GF-uXGMARM]]></FromUserName>
+<CreateTime>1476676785</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 11:59:46 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 11:59:46 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwA0PJna5TCsn0GF-uXGMARM ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 11:59:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwA0PJna5TCsn0GF-uXGMARM]]></FromUserName>
+<CreateTime>1476676787</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 11:59:48 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 11:59:48 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwA0PJna5TCsn0GF-uXGMARM ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 12:00:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwA0PJna5TCsn0GF-uXGMARM]]></FromUserName>
+<CreateTime>1476676824</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 12:00:24 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 12:00:24 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwA0PJna5TCsn0GF-uXGMARM ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 12:00:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwA0PJna5TCsn0GF-uXGMARM]]></FromUserName>
+<CreateTime>1476676840</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好]]></Content>
+<MsgId>6342278734972010958</MsgId>
+</xml>
+
+2016-10-17 12:00:41 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 12:00:41 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwA0PJna5TCsn0GF-uXGMARM ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 12:00:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwA0PJna5TCsn0GF-uXGMARM]]></FromUserName>
+<CreateTime>1476676843</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[优惠券]]></Content>
+<MsgId>6342278747856912848</MsgId>
+</xml>
+
+2016-10-17 12:00:43 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 12:00:43 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwA0PJna5TCsn0GF-uXGMARM ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 12:00:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwA0PJna5TCsn0GF-uXGMARM]]></FromUserName>
+<CreateTime>1476676847</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 12:00:47 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 12:00:47 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwA0PJna5TCsn0GF-uXGMARM ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 12:01:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwA0PJna5TCsn0GF-uXGMARM]]></FromUserName>
+<CreateTime>1476676869</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 12:01:09 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 12:01:09 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwA0PJna5TCsn0GF-uXGMARM ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 12:15:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwErwyMDx0x2QWPvi-RQdb3c]]></FromUserName>
+<CreateTime>1476677746</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 12:15:46 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 12:15:46 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwErwyMDx0x2QWPvi-RQdb3c ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 12:54:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwG6HeuC_aVLlvqonEriX1qQ]]></FromUserName>
+<CreateTime>1476680069</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 12:54:29 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 12:54:29 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwG6HeuC_aVLlvqonEriX1qQ ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 13:30:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJJMr0RYalXvSgnX3PuDEo4]]></FromUserName>
+<CreateTime>1476682207</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 13:30:08 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 13:30:08 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwJJMr0RYalXvSgnX3PuDEo4 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 13:38:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJJMr0RYalXvSgnX3PuDEo4]]></FromUserName>
+<CreateTime>1476682731</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 13:38:51 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 13:38:51 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwJJMr0RYalXvSgnX3PuDEo4 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 13:45:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwMAn175J97HQ0vVODilRtKw]]></FromUserName>
+<CreateTime>1476683115</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-17 13:45:16 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 13:45:16 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwMAn175J97HQ0vVODilRtKw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 13:45:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwMAn175J97HQ0vVODilRtKw]]></FromUserName>
+<CreateTime>1476683119</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 13:45:19 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 13:45:19 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwMAn175J97HQ0vVODilRtKw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 13:45:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwMAn175J97HQ0vVODilRtKw]]></FromUserName>
+<CreateTime>1476683130</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 13:45:30 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 13:45:30 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwMAn175J97HQ0vVODilRtKw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 13:48:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwMAn175J97HQ0vVODilRtKw]]></FromUserName>
+<CreateTime>1476683315</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 13:48:35 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 13:48:35 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwMAn175J97HQ0vVODilRtKw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 13:48:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwB-MrMb043SyAXjpuE0n1tw]]></FromUserName>
+<CreateTime>1476683318</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/04iaiaL7ATVpLEsFS8REE6qHjkAIQ8IH4ibORfJiaJyrHG1wv5CICLQ20cW0TzTjPdEW7fMQCYLLYQ73aR6XxDFT1A/0]]></PicUrl>
+<MsgId>6342306557770156881</MsgId>
+<MediaId><![CDATA[u_ECjSrIcuIAV9tbnK3_x_IFhql17wlqe77i_n3FihMGVxXMhYz5z86-noaXC5yK]]></MediaId>
+</xml>
+
+2016-10-17 13:48:40 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 13:48:40 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwB-MrMb043SyAXjpuE0n1tw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 13:57:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwMAn175J97HQ0vVODilRtKw]]></FromUserName>
+<CreateTime>1476683857</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 13:57:37 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 13:57:37 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwMAn175J97HQ0vVODilRtKw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 13:59:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwMAn175J97HQ0vVODilRtKw]]></FromUserName>
+<CreateTime>1476683949</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 13:59:10 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 13:59:10 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwMAn175J97HQ0vVODilRtKw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 14:06:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwFJmBi1a7mB2ye75JAjSi4E]]></FromUserName>
+<CreateTime>1476684370</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 14:06:11 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 14:06:11 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwFJmBi1a7mB2ye75JAjSi4E ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 14:09:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwErwyMDx0x2QWPvi-RQdb3c]]></FromUserName>
+<CreateTime>1476684594</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 14:09:54 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 14:09:54 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwErwyMDx0x2QWPvi-RQdb3c ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 14:10:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwFJmBi1a7mB2ye75JAjSi4E]]></FromUserName>
+<CreateTime>1476684605</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 14:10:05 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 14:10:05 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwFJmBi1a7mB2ye75JAjSi4E ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 14:10:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwFJmBi1a7mB2ye75JAjSi4E]]></FromUserName>
+<CreateTime>1476684622</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 14:10:22 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 14:10:22 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwFJmBi1a7mB2ye75JAjSi4E ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 14:10:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwFJmBi1a7mB2ye75JAjSi4E]]></FromUserName>
+<CreateTime>1476684650</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 14:10:50 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 14:10:50 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwFJmBi1a7mB2ye75JAjSi4E ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 14:18:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwErwyMDx0x2QWPvi-RQdb3c]]></FromUserName>
+<CreateTime>1476685099</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 14:18:19 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 14:18:19 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwErwyMDx0x2QWPvi-RQdb3c ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 14:19:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwErwyMDx0x2QWPvi-RQdb3c]]></FromUserName>
+<CreateTime>1476685184</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[订单:SH20161017110323404发货没]]></Content>
+<MsgId>6342314572179131831</MsgId>
+</xml>
+
+2016-10-17 14:19:44 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 14:19:44 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwErwyMDx0x2QWPvi-RQdb3c ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 14:20:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwErwyMDx0x2QWPvi-RQdb3c]]></FromUserName>
+<CreateTime>1476685200</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 14:20:00 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 14:20:00 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwErwyMDx0x2QWPvi-RQdb3c ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 14:20:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwErwyMDx0x2QWPvi-RQdb3c]]></FromUserName>
+<CreateTime>1476685223</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[？？]]></Content>
+<MsgId>6342314739682856389</MsgId>
+</xml>
+
+2016-10-17 14:20:23 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 14:20:23 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwErwyMDx0x2QWPvi-RQdb3c ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 14:40:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwDfaf8RtAYMQZ5S3aKdj6yc]]></FromUserName>
+<CreateTime>1476686423</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 14:40:23 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 14:40:23 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwDfaf8RtAYMQZ5S3aKdj6yc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 14:48:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGV2b3eGx-RQ8dMUOtIXG4g]]></FromUserName>
+<CreateTime>1476686916</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 14:48:36 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 14:48:36 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGV2b3eGx-RQ8dMUOtIXG4g ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 14:57:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwErwyMDx0x2QWPvi-RQdb3c]]></FromUserName>
+<CreateTime>1476687422</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 14:57:02 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 14:57:02 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwErwyMDx0x2QWPvi-RQdb3c ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:01:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwErwyMDx0x2QWPvi-RQdb3c]]></FromUserName>
+<CreateTime>1476687693</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:01:33 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:01:33 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwErwyMDx0x2QWPvi-RQdb3c ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:08:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwFJmBi1a7mB2ye75JAjSi4E]]></FromUserName>
+<CreateTime>1476688119</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:08:39 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:08:39 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwFJmBi1a7mB2ye75JAjSi4E ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:11:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwKCepLZy7dqunyXhf8oBj_o]]></FromUserName>
+<CreateTime>1476688289</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:11:29 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:11:29 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwKCepLZy7dqunyXhf8oBj_o ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:17:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwC2Qy5zsSb0zj72SxBkXSuc]]></FromUserName>
+<CreateTime>1476688624</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:17:04 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:17:04 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwC2Qy5zsSb0zj72SxBkXSuc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:17:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwC2Qy5zsSb0zj72SxBkXSuc]]></FromUserName>
+<CreateTime>1476688629</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:17:09 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:17:09 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwC2Qy5zsSb0zj72SxBkXSuc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:17:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwC2Qy5zsSb0zj72SxBkXSuc]]></FromUserName>
+<CreateTime>1476688631</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:17:11 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:17:11 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwC2Qy5zsSb0zj72SxBkXSuc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:17:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwC2Qy5zsSb0zj72SxBkXSuc]]></FromUserName>
+<CreateTime>1476688634</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:17:14 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:17:14 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwC2Qy5zsSb0zj72SxBkXSuc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:18:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwAE1D-GDB3AbrdBEMMFqo38]]></FromUserName>
+<CreateTime>1476688714</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:18:34 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:18:34 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwAE1D-GDB3AbrdBEMMFqo38 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:23:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwFJmBi1a7mB2ye75JAjSi4E]]></FromUserName>
+<CreateTime>1476689038</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:23:58 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:23:58 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwFJmBi1a7mB2ye75JAjSi4E ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:24:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwFJmBi1a7mB2ye75JAjSi4E]]></FromUserName>
+<CreateTime>1476689081</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:24:41 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:24:41 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwFJmBi1a7mB2ye75JAjSi4E ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:25:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwFJmBi1a7mB2ye75JAjSi4E]]></FromUserName>
+<CreateTime>1476689152</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:25:52 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:25:52 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwFJmBi1a7mB2ye75JAjSi4E ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:29:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwKCepLZy7dqunyXhf8oBj_o]]></FromUserName>
+<CreateTime>1476689393</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:29:54 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:29:54 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwKCepLZy7dqunyXhf8oBj_o ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:29:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwKCepLZy7dqunyXhf8oBj_o]]></FromUserName>
+<CreateTime>1476689397</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:29:57 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:29:57 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwKCepLZy7dqunyXhf8oBj_o ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:35:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLxZ5-0caTjrjORBnO-sISc]]></FromUserName>
+<CreateTime>1476689705</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:35:05 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:35:05 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLxZ5-0caTjrjORBnO-sISc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:41:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwK8WrK-TP94z6v5hi4LilCA]]></FromUserName>
+<CreateTime>1476690064</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[我昨天已下单 不是有优惠吗]]></Content>
+<MsgId>6342335531619537989</MsgId>
+</xml>
+
+2016-10-17 15:41:05 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:41:05 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwK8WrK-TP94z6v5hi4LilCA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:42:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwErwyMDx0x2QWPvi-RQdb3c]]></FromUserName>
+<CreateTime>1476690163</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[订单:SH20161017110323404发货没]]></Content>
+<MsgId>6342335956821300317</MsgId>
+</xml>
+
+2016-10-17 15:42:43 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:42:43 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwErwyMDx0x2QWPvi-RQdb3c ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:43:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwErwyMDx0x2QWPvi-RQdb3c]]></FromUserName>
+<CreateTime>1476690223</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好的]]></Content>
+<MsgId>6342336214519338097</MsgId>
+</xml>
+
+2016-10-17 15:43:43 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:43:43 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwErwyMDx0x2QWPvi-RQdb3c ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:43:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwK8WrK-TP94z6v5hi4LilCA]]></FromUserName>
+<CreateTime>1476690225</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:43:45 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:43:45 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwK8WrK-TP94z6v5hi4LilCA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:44:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwK8WrK-TP94z6v5hi4LilCA]]></FromUserName>
+<CreateTime>1476690267</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/zVxYNFOpPzfibVENMp3te9Mcf6xtHdWPmRNOwbvgQWmuVCWuZry2kdNhM5IZiaSUrjBTzOVKVuxiaM8J7NZYoEoRw/0]]></PicUrl>
+<MsgId>6342336403497899139</MsgId>
+<MediaId><![CDATA[ZyxkRhHUE7Z4F9183vn80vA6w_2DXv7XOb2daBlLXk0rYvv1S5tWGIEwSUN5OZ6J]]></MediaId>
+</xml>
+
+2016-10-17 15:44:28 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:44:28 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwK8WrK-TP94z6v5hi4LilCA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:45:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwK8WrK-TP94z6v5hi4LilCA]]></FromUserName>
+<CreateTime>1476690312</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[要色子]]></Content>
+<MsgId>6342336596771427469</MsgId>
+</xml>
+
+2016-10-17 15:45:13 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:45:13 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwK8WrK-TP94z6v5hi4LilCA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:45:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwK8WrK-TP94z6v5hi4LilCA]]></FromUserName>
+<CreateTime>1476690318</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[摇色子]]></Content>
+<MsgId>6342336622541231251</MsgId>
+</xml>
+
+2016-10-17 15:45:18 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:45:18 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwK8WrK-TP94z6v5hi4LilCA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:54:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwK8WrK-TP94z6v5hi4LilCA]]></FromUserName>
+<CreateTime>1476690878</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[我一直在发截图]]></Content>
+<MsgId>6342339027722917136</MsgId>
+</xml>
+
+2016-10-17 15:54:39 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:54:39 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwK8WrK-TP94z6v5hi4LilCA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:54:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwK8WrK-TP94z6v5hi4LilCA]]></FromUserName>
+<CreateTime>1476690883</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/zVxYNFOpPzfibVENMp3te9Mcf6xtHdWPmRNOwbvgQWmuVCWuZry2kdNhM5IZiaSUrjBTzOVKVuxiaM8J7NZYoEoRw/0]]></PicUrl>
+<MsgId>6342339049197753618</MsgId>
+<MediaId><![CDATA[6mxVNClcOeVbyB-1RhNivVQcfbJFnN7_a-jog4LMxXNMeAraLMtKNF_rZo07sCFn]]></MediaId>
+</xml>
+
+2016-10-17 15:54:44 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:54:44 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwK8WrK-TP94z6v5hi4LilCA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:57:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwK8WrK-TP94z6v5hi4LilCA]]></FromUserName>
+<CreateTime>1476691059</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[👌]]></Content>
+<MsgId>6342339805111997769</MsgId>
+</xml>
+
+2016-10-17 15:57:39 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:57:39 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwK8WrK-TP94z6v5hi4LilCA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 15:58:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwK8WrK-TP94z6v5hi4LilCA]]></FromUserName>
+<CreateTime>1476691096</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 15:58:16 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 15:58:16 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwK8WrK-TP94z6v5hi4LilCA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:16:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBBh19PcWrVnGIMzPTnwuDA]]></FromUserName>
+<CreateTime>1476692177</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:16:17 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:16:17 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBBh19PcWrVnGIMzPTnwuDA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:18:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBVGRlU42uUP3CFMiQGlBfA]]></FromUserName>
+<CreateTime>1476692339</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:18:59 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:18:59 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBVGRlU42uUP3CFMiQGlBfA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:19:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBVGRlU42uUP3CFMiQGlBfA]]></FromUserName>
+<CreateTime>1476692346</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:19:06 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:19:06 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBVGRlU42uUP3CFMiQGlBfA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:19:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBBh19PcWrVnGIMzPTnwuDA]]></FromUserName>
+<CreateTime>1476692379</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:19:39 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:19:39 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBBh19PcWrVnGIMzPTnwuDA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:20:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBvIZtTL2QcOIU6Y2R-saQg]]></FromUserName>
+<CreateTime>1476692416</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-17 16:20:17 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:20:17 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBvIZtTL2QcOIU6Y2R-saQg ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:20:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBvIZtTL2QcOIU6Y2R-saQg]]></FromUserName>
+<CreateTime>1476692419</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:20:19 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:20:19 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBvIZtTL2QcOIU6Y2R-saQg ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:20:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBvIZtTL2QcOIU6Y2R-saQg]]></FromUserName>
+<CreateTime>1476692426</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:20:26 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:20:26 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBvIZtTL2QcOIU6Y2R-saQg ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:20:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBvIZtTL2QcOIU6Y2R-saQg]]></FromUserName>
+<CreateTime>1476692428</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:20:28 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:20:28 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBvIZtTL2QcOIU6Y2R-saQg ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:20:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBvIZtTL2QcOIU6Y2R-saQg]]></FromUserName>
+<CreateTime>1476692445</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:20:45 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:20:45 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBvIZtTL2QcOIU6Y2R-saQg ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:21:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBVGRlU42uUP3CFMiQGlBfA]]></FromUserName>
+<CreateTime>1476692499</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:21:39 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:21:39 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBVGRlU42uUP3CFMiQGlBfA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:22:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBvIZtTL2QcOIU6Y2R-saQg]]></FromUserName>
+<CreateTime>1476692521</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:22:01 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:22:01 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBvIZtTL2QcOIU6Y2R-saQg ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:22:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBvIZtTL2QcOIU6Y2R-saQg]]></FromUserName>
+<CreateTime>1476692575</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:22:55 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:22:55 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBvIZtTL2QcOIU6Y2R-saQg ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:25:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBvIZtTL2QcOIU6Y2R-saQg]]></FromUserName>
+<CreateTime>1476692746</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:25:46 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:25:46 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBvIZtTL2QcOIU6Y2R-saQg ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:30:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwFJmBi1a7mB2ye75JAjSi4E]]></FromUserName>
+<CreateTime>1476693032</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:30:32 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:30:32 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwFJmBi1a7mB2ye75JAjSi4E ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:31:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwB-MrMb043SyAXjpuE0n1tw]]></FromUserName>
+<CreateTime>1476693066</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[这张券是我朋友的]]></Content>
+<MsgId>6342348425111361609</MsgId>
+</xml>
+
+2016-10-17 16:31:06 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:31:06 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwB-MrMb043SyAXjpuE0n1tw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:31:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwB-MrMb043SyAXjpuE0n1tw]]></FromUserName>
+<CreateTime>1476693089</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[但是他关注不起你们的微信号]]></Content>
+<MsgId>6342348523895609426</MsgId>
+</xml>
+
+2016-10-17 16:31:29 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:31:29 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwB-MrMb043SyAXjpuE0n1tw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:31:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwB-MrMb043SyAXjpuE0n1tw]]></FromUserName>
+<CreateTime>1476693112</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[请问还有其他的可以关注的渠道吗？]]></Content>
+<MsgId>6342348622679857240</MsgId>
+</xml>
+
+2016-10-17 16:31:52 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:31:52 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwB-MrMb043SyAXjpuE0n1tw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:32:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwB-MrMb043SyAXjpuE0n1tw]]></FromUserName>
+<CreateTime>1476693141</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[能不能用名字关注]]></Content>
+<MsgId>6342348747233908831</MsgId>
+</xml>
+
+2016-10-17 16:32:21 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:32:21 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwB-MrMb043SyAXjpuE0n1tw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:37:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNkeHWdp1wNVlg2EiCBDRyE]]></FromUserName>
+<CreateTime>1476693423</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-17 16:37:03 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:37:03 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNkeHWdp1wNVlg2EiCBDRyE ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 16:37:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNkeHWdp1wNVlg2EiCBDRyE]]></FromUserName>
+<CreateTime>1476693426</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 16:37:06 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 16:37:06 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNkeHWdp1wNVlg2EiCBDRyE ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 17:01:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwPd7-Op8hKcWeoYnL7dLzq4]]></FromUserName>
+<CreateTime>1476694866</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 17:01:06 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 17:01:06 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwPd7-Op8hKcWeoYnL7dLzq4 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 17:45:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLwG25qOCUqAezFygW-_xhg]]></FromUserName>
+<CreateTime>1476697512</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 17:45:12 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 17:45:12 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLwG25qOCUqAezFygW-_xhg ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 17:53:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwB-MrMb043SyAXjpuE0n1tw]]></FromUserName>
+<CreateTime>1476698039</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好的]]></Content>
+<MsgId>6342369783983726437</MsgId>
+</xml>
+
+2016-10-17 17:53:59 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 17:53:59 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwB-MrMb043SyAXjpuE0n1tw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:04:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwPd7-Op8hKcWeoYnL7dLzq4]]></FromUserName>
+<CreateTime>1476698679</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:04:39 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:04:39 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwPd7-Op8hKcWeoYnL7dLzq4 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:15:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBBh19PcWrVnGIMzPTnwuDA]]></FromUserName>
+<CreateTime>1476699314</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:15:14 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:15:14 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBBh19PcWrVnGIMzPTnwuDA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:21:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwC2Qy5zsSb0zj72SxBkXSuc]]></FromUserName>
+<CreateTime>1476699709</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:21:49 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:21:49 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwC2Qy5zsSb0zj72SxBkXSuc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:27:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGEdeiRkUkOmslLHmfqX4W4]]></FromUserName>
+<CreateTime>1476700024</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:27:04 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:27:04 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGEdeiRkUkOmslLHmfqX4W4 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:27:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGj36I4OOeEMi1ntqzj4Thw]]></FromUserName>
+<CreateTime>1476700038</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:27:18 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:27:18 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGj36I4OOeEMi1ntqzj4Thw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:29:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGV2b3eGx-RQ8dMUOtIXG4g]]></FromUserName>
+<CreateTime>1476700156</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:29:15 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:29:15 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGV2b3eGx-RQ8dMUOtIXG4g ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:30:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNZ2xlMEbBvLfQDnMjqKEAQ]]></FromUserName>
+<CreateTime>1476700205</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:30:04 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:30:04 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNZ2xlMEbBvLfQDnMjqKEAQ ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:30:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBVLolnRKYCzQVyj-nuVGy0]]></FromUserName>
+<CreateTime>1476700240</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:30:40 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:30:40 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBVLolnRKYCzQVyj-nuVGy0 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:31:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGj36I4OOeEMi1ntqzj4Thw]]></FromUserName>
+<CreateTime>1476700317</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:31:57 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:31:57 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGj36I4OOeEMi1ntqzj4Thw ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:35:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwHhnY8wNNZF9vb8pSdK32Cc]]></FromUserName>
+<CreateTime>1476700507</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:35:07 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:35:07 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwHhnY8wNNZF9vb8pSdK32Cc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:37:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLC09XXuS3SRvwwam77I1_k]]></FromUserName>
+<CreateTime>1476700652</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:37:32 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:37:32 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLC09XXuS3SRvwwam77I1_k ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:37:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGarpWs-rKNU_N3DV_RcY3Q]]></FromUserName>
+<CreateTime>1476700657</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:37:36 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:37:36 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGarpWs-rKNU_N3DV_RcY3Q ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:38:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLC09XXuS3SRvwwam77I1_k]]></FromUserName>
+<CreateTime>1476700728</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:38:48 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:38:48 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLC09XXuS3SRvwwam77I1_k ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:40:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGV2b3eGx-RQ8dMUOtIXG4g]]></FromUserName>
+<CreateTime>1476700836</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:40:36 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:40:36 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGV2b3eGx-RQ8dMUOtIXG4g ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:41:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwJJMr0RYalXvSgnX3PuDEo4]]></FromUserName>
+<CreateTime>1476700873</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-17 18:46:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGarpWs-rKNU_N3DV_RcY3Q]]></FromUserName>
+<CreateTime>1476701161</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:46:01 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:46:01 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGarpWs-rKNU_N3DV_RcY3Q ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:55:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNfxPjzXEgPrC6mPIXWUvdU]]></FromUserName>
+<CreateTime>1476701714</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:55:14 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:55:14 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNfxPjzXEgPrC6mPIXWUvdU ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:56:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNfxPjzXEgPrC6mPIXWUvdU]]></FromUserName>
+<CreateTime>1476701769</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:56:09 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:56:09 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNfxPjzXEgPrC6mPIXWUvdU ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:57:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNfxPjzXEgPrC6mPIXWUvdU]]></FromUserName>
+<CreateTime>1476701866</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:57:46 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:57:46 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNfxPjzXEgPrC6mPIXWUvdU ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:58:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNfxPjzXEgPrC6mPIXWUvdU]]></FromUserName>
+<CreateTime>1476701917</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:58:37 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:58:37 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNfxPjzXEgPrC6mPIXWUvdU ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 18:59:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNZ2xlMEbBvLfQDnMjqKEAQ]]></FromUserName>
+<CreateTime>1476701953</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 18:59:12 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 18:59:12 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNZ2xlMEbBvLfQDnMjqKEAQ ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 19:00:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNfxPjzXEgPrC6mPIXWUvdU]]></FromUserName>
+<CreateTime>1476702020</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 19:00:20 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 19:00:20 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNfxPjzXEgPrC6mPIXWUvdU ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 19:00:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNfxPjzXEgPrC6mPIXWUvdU]]></FromUserName>
+<CreateTime>1476702037</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[在吗？]]></Content>
+<MsgId>6342386955262976848</MsgId>
+</xml>
+
+2016-10-17 19:00:37 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 19:00:37 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNfxPjzXEgPrC6mPIXWUvdU ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 19:01:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNfxPjzXEgPrC6mPIXWUvdU]]></FromUserName>
+<CreateTime>1476702064</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/JhOW4XibRh8uCy0238ib46jfYbBGb4ibltgqu7aGeFuhFA3LQmEjicpmKKjcvLTUnxExSwpBaImEsKBNLtpfD9RZ3g/0]]></PicUrl>
+<MsgId>6342387071227093844</MsgId>
+<MediaId><![CDATA[RlIpOssUu3mu8_520fNEnwbhv-F-fmzRaPD5c_Uvxpf5W-zBbrCe1LMTlSzGLJsA]]></MediaId>
+</xml>
+
+2016-10-17 19:01:05 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 19:01:05 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNfxPjzXEgPrC6mPIXWUvdU ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 19:01:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNfxPjzXEgPrC6mPIXWUvdU]]></FromUserName>
+<CreateTime>1476702087</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[这个券怎样用？]]></Content>
+<MsgId>6342387170011341663</MsgId>
+</xml>
+
+2016-10-17 19:01:27 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 19:01:27 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNfxPjzXEgPrC6mPIXWUvdU ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 19:16:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwBBh19PcWrVnGIMzPTnwuDA]]></FromUserName>
+<CreateTime>1476703017</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 19:16:57 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 19:16:57 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwBBh19PcWrVnGIMzPTnwuDA ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 19:18:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwHhnY8wNNZF9vb8pSdK32Cc]]></FromUserName>
+<CreateTime>1476703080</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 19:18:00 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 19:18:00 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwHhnY8wNNZF9vb8pSdK32Cc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 19:20:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwHhnY8wNNZF9vb8pSdK32Cc]]></FromUserName>
+<CreateTime>1476703200</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 19:20:00 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 19:20:00 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwHhnY8wNNZF9vb8pSdK32Cc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 19:20:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwGV2b3eGx-RQ8dMUOtIXG4g]]></FromUserName>
+<CreateTime>1476703250</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 19:20:50 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 19:20:50 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwGV2b3eGx-RQ8dMUOtIXG4g ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 19:27:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwHhnY8wNNZF9vb8pSdK32Cc]]></FromUserName>
+<CreateTime>1476703646</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 19:27:26 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 19:27:26 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwHhnY8wNNZF9vb8pSdK32Cc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 19:34:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwEMSi8MkLBJBXW4VjyhlJBI]]></FromUserName>
+<CreateTime>1476704041</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-17 19:34:01 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 19:34:01 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwEMSi8MkLBJBXW4VjyhlJBI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 19:34:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwEMSi8MkLBJBXW4VjyhlJBI]]></FromUserName>
+<CreateTime>1476704075</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/VILptV501icm246Ficuwp8XKQ7wrZ3wrPV7vwicSaMytpxf0b0kj4f3aGw7WnOQ8QpAQQfoveJkUh2tZV42bp0MAA/0]]></PicUrl>
+<MsgId>6342395708406326667</MsgId>
+<MediaId><![CDATA[evqwKJaWjxfdLPCwkHVN_JTHBEV8G7SKsWYrQv7JX26tKtx56RP7iOHd5VfLCzBN]]></MediaId>
+</xml>
+
+2016-10-17 19:34:36 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 19:34:36 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwEMSi8MkLBJBXW4VjyhlJBI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 19:34:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwHhnY8wNNZF9vb8pSdK32Cc]]></FromUserName>
+<CreateTime>1476704093</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 19:34:53 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 19:34:53 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwHhnY8wNNZF9vb8pSdK32Cc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 20:12:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwEMSi8MkLBJBXW4VjyhlJBI]]></FromUserName>
+<CreateTime>1476706330</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好的]]></Content>
+<MsgId>6342405393557579744</MsgId>
+</xml>
+
+2016-10-17 20:12:11 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 20:12:11 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwEMSi8MkLBJBXW4VjyhlJBI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 20:36:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLxZ5-0caTjrjORBnO-sISc]]></FromUserName>
+<CreateTime>1476707774</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 20:36:14 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 20:36:14 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLxZ5-0caTjrjORBnO-sISc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 20:38:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLfPMOaXt47PEbawrWpI1II]]></FromUserName>
+<CreateTime>1476707904</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-17 20:38:24 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 20:38:24 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLfPMOaXt47PEbawrWpI1II ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 20:38:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLfPMOaXt47PEbawrWpI1II]]></FromUserName>
+<CreateTime>1476707907</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 20:38:27 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 20:38:27 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLfPMOaXt47PEbawrWpI1II ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 21:09:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwE43MJ7HBCzkOR2s16YdofM]]></FromUserName>
+<CreateTime>1476709792</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-17 21:09:53 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 21:09:53 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwE43MJ7HBCzkOR2s16YdofM ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 21:09:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwE43MJ7HBCzkOR2s16YdofM]]></FromUserName>
+<CreateTime>1476709799</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 21:09:59 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 21:09:59 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwE43MJ7HBCzkOR2s16YdofM ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 21:10:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwE43MJ7HBCzkOR2s16YdofM]]></FromUserName>
+<CreateTime>1476709810</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 21:10:10 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 21:10:10 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwE43MJ7HBCzkOR2s16YdofM ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 21:51:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNeNk9AUyOh2SbNfsIMJ-X0]]></FromUserName>
+<CreateTime>1476712268</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 21:51:08 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 21:51:08 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNeNk9AUyOh2SbNfsIMJ-X0 ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 22:08:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNnLncLp2pIKDKSQGcHj5gI]]></FromUserName>
+<CreateTime>1476713302</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 22:08:22 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 22:08:22 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNnLncLp2pIKDKSQGcHj5gI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 22:08:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNnLncLp2pIKDKSQGcHj5gI]]></FromUserName>
+<CreateTime>1476713313</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 22:08:33 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 22:08:33 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNnLncLp2pIKDKSQGcHj5gI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 22:10:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNnLncLp2pIKDKSQGcHj5gI]]></FromUserName>
+<CreateTime>1476713454</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 22:10:55 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 22:10:55 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNnLncLp2pIKDKSQGcHj5gI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 22:11:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNnLncLp2pIKDKSQGcHj5gI]]></FromUserName>
+<CreateTime>1476713470</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 22:11:10 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 22:11:10 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNnLncLp2pIKDKSQGcHj5gI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 22:11:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNnLncLp2pIKDKSQGcHj5gI]]></FromUserName>
+<CreateTime>1476713478</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 22:11:18 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 22:11:18 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNnLncLp2pIKDKSQGcHj5gI ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 22:13:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNZ2xlMEbBvLfQDnMjqKEAQ]]></FromUserName>
+<CreateTime>1476713619</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 22:13:39 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 22:13:39 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNZ2xlMEbBvLfQDnMjqKEAQ ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 22:19:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwNZ2xlMEbBvLfQDnMjqKEAQ]]></FromUserName>
+<CreateTime>1476713951</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 22:19:12 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 22:19:12 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwNZ2xlMEbBvLfQDnMjqKEAQ ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 22:31:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwEA661zP8_v0SYIE06XY8vg]]></FromUserName>
+<CreateTime>1476714709</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 22:31:49 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 22:31:49 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwEA661zP8_v0SYIE06XY8vg ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 22:37:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwEHZPqterK_yraaOQBFV9ro]]></FromUserName>
+<CreateTime>1476715063</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[还没有认证啊]]></Content>
+<MsgId>6342442901506978514</MsgId>
+</xml>
+
+2016-10-17 22:37:43 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 22:37:43 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwEHZPqterK_yraaOQBFV9ro ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 22:37:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwEHZPqterK_yraaOQBFV9ro]]></FromUserName>
+<CreateTime>1476715066</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 22:37:46 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 22:37:46 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwEHZPqterK_yraaOQBFV9ro ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 22:38:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLfPMOaXt47PEbawrWpI1II]]></FromUserName>
+<CreateTime>1476715129</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 22:38:49 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 22:38:49 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLfPMOaXt47PEbawrWpI1II ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 22:45:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwOOtQchO6Wm1FjZxmosuvZs]]></FromUserName>
+<CreateTime>1476715531</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 22:45:31 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 22:45:31 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwOOtQchO6Wm1FjZxmosuvZs ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 22:49:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLfPMOaXt47PEbawrWpI1II]]></FromUserName>
+<CreateTime>1476715791</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 22:49:51 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 22:49:51 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLfPMOaXt47PEbawrWpI1II ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 23:08:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLxZ5-0caTjrjORBnO-sISc]]></FromUserName>
+<CreateTime>1476716924</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 23:08:44 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 23:08:44 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLxZ5-0caTjrjORBnO-sISc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 23:19:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwLxZ5-0caTjrjORBnO-sISc]]></FromUserName>
+<CreateTime>1476717545</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 23:19:05 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 23:19:05 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwLxZ5-0caTjrjORBnO-sISc ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 23:50:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwPr-3ZZdmy6P_7uec4xoyUE]]></FromUserName>
+<CreateTime>1476719434</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-10-17 23:50:35 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 23:50:35 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwPr-3ZZdmy6P_7uec4xoyUE ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 23:50:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwPr-3ZZdmy6P_7uec4xoyUE]]></FromUserName>
+<CreateTime>1476719437</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shop.as-ba.cn/app/index.php?i=2&c=entry&eid=1226]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 23:50:37 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 23:50:37 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwPr-3ZZdmy6P_7uec4xoyUE ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 23:51:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwPr-3ZZdmy6P_7uec4xoyUE]]></FromUserName>
+<CreateTime>1476719469</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 23:51:09 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 23:51:09 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwPr-3ZZdmy6P_7uec4xoyUE ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 23:51:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwPr-3ZZdmy6P_7uec4xoyUE]]></FromUserName>
+<CreateTime>1476719478</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000008&idx=1&sn=2d555dc3267b6e8aa600a60f370c00de&chksm=68d48df45fa304e20e07ad2f92c401d50ef654330852a4a021a6c1d93c53efe7cd4c1fee93dd&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 23:51:18 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 23:51:18 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwPr-3ZZdmy6P_7uec4xoyUE ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 23:51:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwPr-3ZZdmy6P_7uec4xoyUE]]></FromUserName>
+<CreateTime>1476719486</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNjU3NjE0Nw==&mid=100000003&idx=1&sn=9f278bf2c9551e284d86d94a1d66531c&chksm=68d48dff5fa304e9efa09678c06cced7921cb9a11defc616b176ba28aeb6e33ab4794b999d72&scene=0#wechat_redirect]]></EventKey>
+<MenuId>411228721</MenuId>
+</xml>
+
+2016-10-17 23:51:26 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 23:51:26 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwPr-3ZZdmy6P_7uec4xoyUE ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+
+2016-10-17 23:51:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_c111557e4720]]></ToUserName>
+<FromUserName><![CDATA[okzvqwPr-3ZZdmy6P_7uec4xoyUE]]></FromUserName>
+<CreateTime>1476719506</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[进不去要ID]]></Content>
+<MsgId>6342461984046675966</MsgId>
+</xml>
+
+2016-10-17 23:51:46 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 87 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-17 23:51:46 response :
+------------
+Array:
+FromUserName : gh_c111557e4720 ;
+ToUserName : okzvqwPr-3ZZdmy6P_7uec4xoyUE ;
+MsgType : text ;
+Content : 亲，欢迎关注爱尚彼岸跨境商城，点击左下角的“商城入口”即可进入商城，我们致力于将全球进口商品带到你眼前，祝您购物愉快/玫瑰 ;
+

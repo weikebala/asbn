@@ -1,0 +1,182 @@
+{template 'common/base_header'}
+<body class="showshop">
+    <div id="newhead">
+    <div class="nav">
+            <div class="navbox">
+                <div class="navone help">
+                    <a href="javascript:void(0)">客户服务<i></i></a>
+                    <div class="menu">
+                        <a href="{php echo $this->createMobileUrl('shop/notice')}" class="menuone">买家问题</a>
+                        <a href="{php echo $this->createMobileUrl('shop/notice')}" class="menuone">卖家问题</a>
+                        <a href="javascript:void(0)" onclick="mechatClick();return false;" class="menuone">联系客服</a>
+                    </div>
+                </div>
+                <div class="navone seller">
+                    <a href="{php echo $this->createMobileUrl('member/info')}">个人中心</a>
+                </div>
+                <a href="{php echo $this->createMobileUrl('shop/cart')}" class="navone cart" style="width:66px;background:#f2f2f2;"><i></i>购物车</a>
+                <div class="navone">
+                    <a href="{php echo $this->createMobileUrl('order/list')}">我的订单</a>
+                </div>
+                <div class="navone queryorder ">
+                    <span>
+                <a href="{php echo $this->createMobileUrl('member/register')}">注册</a>
+                <a href="{php echo $this->createMobileUrl('member')}" class="udz-popup-login">登录</a>
+                </span>
+                    <div class="menu none">
+                        <a href="{php echo $this->createMobileUrl('member/forget')}" class="menuone">修改密码</a>
+                        <a href="{php echo $this->createMobileUrl('member/logout')}" class="menuone logout">退出</a>
+                    </div>
+                </div>
+                <a href="{php echo $this->createMobileUrl('shop/index')}" class="navone">首页</a>
+            </div>
+        </div>
+        <div class="search">
+        <a href="{php echo $this->createMobileUrl('shop/index')}" class="logo" style="line-height:0px;position: absolute;top:14px;left:0px;">
+                {if $this->yzShopSet['pclogo']}
+                <img style="width:240px;height:35px" src="{php echo $_W['siteroot'] . "attachment/" . $this->yzShopSet['pclogo']}"  title="{php echo $this->yzShopSet['pctitle']}" >
+                {else}
+                <img src="../addons/sea/template/pc/default/static/images/logo.png" title="" alt="我是默认logo">
+                {/if}
+            </a>
+            <div class="searchmain" style="position: absolute;top:44px;left:220px;">
+                <div class="searchbor">
+                    <input type="text" placeholder="搜索你喜欢的风格T恤" id="keyword">
+                    <div class="select"><span>搜商品</span><!-- <i></i> -->
+                        <!-- <div class="searchtypelist">
+                            <div class="searchtypeone">搜商品</div>
+                            <div class="searchtypeone">搜店铺</div>
+                        </div> -->
+                    </div>
+                    <div class="searchbtn " id="search"><i></i></div>
+                </div>
+                <p class="KEYWORD">
+                    <a  class="SEARCH" onclick="hot_keyword(this);" >动漫</a>
+                    <a  class="SEARCH" onclick="hot_keyword(this);">篮球</a>
+                    <a  class="SEARCH" onclick="hot_keyword(this);">美剧</a>
+                    <a  class="SEARCH" onclick="hot_keyword(this);">足球</a>
+                    <a  class="SEARCH" onclick="hot_keyword(this);">哲学</a>
+                    <a  class="SEARCH" onclick="hot_keyword(this);">dota</a>
+                    <a  class="SEARCH" onclick="hot_keyword(this);">火影</a>
+                </p>
+            </div>
+            <a href="#" class="appdown">
+                <img src="../addons/sea/template/pc/default/static/style/img/design.png" alt="">
+            </a>
+        </div>
+        <div class="st-line">
+            <div class="o-l"></div>
+            <div class="g-l"></div>
+            <div class="v-l"></div>
+            <div class="b-l"></div>
+            <div class="l-l"></div>
+            <div class="r-l"></div>
+        </div>
+
+        <!--<div id="indexmenu">
+            <div class="w100">
+                <a href="javascript:void(0)" class="menuone act">首页</a>
+                <a href="search.html" class="menuone">分类</a>
+                <a href="" class="menuone">专题</a>
+            </div>
+        </div>-->
+    </div>
+    <script type="text/javascript">
+    require(['tpl', 'core'], function(tpl, core) {
+    $('#keyword').keyup(function(){
+        if(event.keyCode == 13){
+        $('#search').click();
+        return;
+        }
+    });
+        $('#search').click(function(){
+            var args  = {
+                   page:"{$_GPC['page']}",
+                   isnew: "{$_GPC['isnew']}",
+                   ishot: "{$_GPC['ishot']}",
+                   isrecommand:"{$_GPC['isrecommand']}",
+                   isdiscount:"{$_GPC['isdiscount']}",
+                   keywords:"{$_GPC['keywords']}",
+                   istime:"{$_GPC['istime']}",
+                   pcate:"{$_GPC['pcate']}",
+                   ccate:"{$_GPC['ccate']}",
+                   tcate:"{$_GPC['tcate']}",
+                   order:"{$_GPC['order']}",
+                   by:"{$_GPC['by']}",
+                   shopid:"{$_GPC['shopid']}",
+                   keywords:$("#keyword").val()
+            };
+            location.href=core.getUrl('shop/list', args);
+        });
+    })
+function hot_keyword(obj){
+    var hotword = obj.innerHTML; 
+    location.href="{php echo $this->createMobileUrl('shop/list')}&keywords="+hotword;  
+}
+</script>
+
+    <div class="shop-head shop-h1252">
+        <div class="shop-head-ct">
+            <div class="shop-photo">
+                <img width="100" height="100" src="{$my_message['member_message']['avatar']}">
+            </div>
+            <div class="shop-name">
+                <h3>{$my_message['member_message']['nickname']}</h3>
+                <span class="act-num"><em class="e1">&nbsp;</em>商品数：{$my_message['count']}</span>
+                <!-- <span class="fans-num"><em class="e2">&nbsp;</em>粉丝数：<span class="num">46</span></span> -->
+            </div>
+            <!-- <div class="shop-btn">
+                <span data-focus="0" class="focus-shop btn-s1 btn-o8">关注店铺</span>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="shop-slogan">
+        <div class="shop-slogan-ct clearfix">
+            <div class="slogan-txt">
+                <em class="e1">&nbsp;</em> Just buy it！
+            </div>
+            <div >
+            	<span data-cmd="more">一键分享：</span>              
+            	<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone"></a><a href="#" class="bds_tsina" data-cmd="tsina"></a><a href="#" class="bds_tqq" data-cmd="tqq"></a><a href="#" class="bds_renren" data-cmd="renren"></a><a href="#" class="bds_weixin" data-cmd="weixin"></a></div>
+            	<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="mainbody" class="container clearfix">
+        <div class="page-tab clearfix">
+            <a class="i active" href="#">我的产品</a>
+        </div>
+        <div class="main-container">
+            <div class="list-container clearfix">
+            {loop $my_message['goods_list'] $v}
+                <div class="item-ct" data-sort="0" data-state="1" data-url="2qkz99u7bat">
+                
+                    <div class="item">
+                        <a href="{php echo $this->createMobileUrl('shop/detail',array('id'=>$v['id']))}" title="{$v['title']}" target="_blank">
+                            <img title="{$v['title']}" alt="{$v['title']}" src="{$v['thumb']}">
+                            <span class="ohe">{$v['title']}</span>
+                        </a>
+                        <div class="status clearfix">
+                            <div class="price">¥ {$v['marketprice']}</div>
+                            <div class="first"></div>
+                            <div><span class="num">{$v['sales']}</span><span class="txt">已售</span></div>
+                        </div>
+                    </div>
+               
+                    <div class="shade none">
+                        <div class="layer"></div>
+                        <div class="icon"></div>
+                    </div>
+                    <div class="tools none">
+                        <div class="btn totop"><span class="icon"></span><span>置顶</span></div>
+                        <div class="btn hidden"><span class="icon"></span><span>隐藏</span></div>
+                    </div>
+                </div> {/loop}
+            </div>
+            <div class="loading none" style="display: none;"></div>
+        </div>
+    </section>
+{template 'common/footer'}

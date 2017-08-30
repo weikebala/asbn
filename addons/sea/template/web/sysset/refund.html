@@ -1,0 +1,40 @@
+{template 'web/_header'}
+{template 'web/sysset/tabs'}
+	<table class='table' style='float:left;border:1px solid #ccc;'>
+		<tr style='background:#efefef; height:50px; font-weight:900;'>
+			<td style="width:50px">ID</td>
+			<td style="width:150px">退货地址名称</td>
+			<td style="width:80px">联系人</td>
+			<td style="width:100px">手机号</td>
+			<td style="width:100px">省</td>
+			<td style="width:100px">市</td>
+			<td style="width:100px">县（区）</td>
+			<td style="width:200px">详细地址</td>
+			<td style="width:70px">是否默认</td>
+			<td style="width:100px">供货商</td>
+			<td style="width: 80px">操作</td>
+		</tr>
+		{loop $list $key $refund}
+		<tr>
+			<td>{$refund['id']}</td>
+			<td>{$refund['title']}</td>
+			<td>{$refund['name']}</td>
+			<td>{$refund['mobile']}</td>
+			<td>{$refund['province']}</td>
+			<td>{$refund['city']}</td>
+			<td>{$refund['area']}</td>
+			<td>{$refund['address']}</td>
+			<td><label class='label  label-default {if $refund['isdefault']==1}label-info{/if}'>{if $refund['isdefault']==1}是{else}否{/if}</label></td>
+			<td>{$refund['username']}/{$refund['realname']}</td>
+			<td>
+				<a href="{php echo $this->createWebUrl('sysset',array('id' => $refund['id'],'op'=>'refund_add','wwe'=>'edit'))}" class="btn btn-sm btn-default" title="编辑"><i class="fa fa-pencil"></i></a>
+				<a href="{php echo $this->createWebUrl('sysset/sysset', array('id' => $refund['id'], 'wwe' => 'delete'))}" onclick="return confirm('确认删除此商品？');return false;" class="btn btn-default  btn-sm" title="删除"><i class="fa fa-times"></i></a>
+			
+			</td>
+		</tr>
+		{/loop}
+   </table>
+{$pager}
+ <a href="{php echo $this->createWebUrl('sysset',array('op'=>'refund_add'))}" style="margin-top:10px;" class="btn btn-default"  title="添加退货地址"><i class='fa fa-plus'></i> 添加退货地址</a>
+
+{template 'web/_footer'}     

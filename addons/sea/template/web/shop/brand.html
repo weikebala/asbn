@@ -1,0 +1,228 @@
+{template 'web/_header'}
+{template 'web/shop/tabs'}
+
+{if $operation == 'post'}
+<div class="main">
+    <form  {ife 'shop.brand' $item}action="" method="post"{/if} class="form-horizontal form" enctype="multipart/form-data" >
+    
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                商品品牌
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">排序</label>
+                    <div class="col-sm-9 col-xs-12">
+                        {ife 'shop.brand' $item}
+                           <input type="text" name="displayorder" class="form-control" value="{$item['displayorder']}" />
+                        {else}
+                           <div class='form-control-static'>{$item['displayorder']}</div>
+                        {/if}
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label"><span style="color:red">*</span>品牌名称</label>
+                    <div class="col-sm-9 col-xs-12">
+                         {ife 'shop.brand' $item}
+                        <input type="text" name="catename" class="form-control" value="{$item['name']}" />
+                           {else}
+                           <div class='form-control-static'>{$item['name']}</div>
+                        {/if}
+                    </div>
+                </div>
+                {if $item['id']}
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">品牌页链接</label>
+                    <div class="col-sm-9 col-xs-12">
+                    
+                        <input type="text" class="form-control" value="{php echo $this->createMobileUrl('shop/brandlist',array('bid'=>$item['id']))}" readonly="readonly" />
+                        
+                    
+                    </div>
+                </div>
+              {/if}
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">品牌缩略图</label>
+                    <div class="col-sm-9 col-xs-12">
+                      {ife 'shop.brand' $item}
+                             {php echo tpl_form_field_image('thumb', $item['thumb'])}
+                            <span class="help-block">建议尺寸: 100*50，或长方型图片 </span>
+                        {else}
+                            {if !empty($item['thumb'])}
+                                  <a href='{php echo tomedia($item['thumb'])}' target='_blank'>
+                                <img src="{php echo tomedia($item['thumb'])}" style='width:100px;border:1px solid #ccc;padding:1px' />
+                                  </a>
+                            {/if}
+                        {/if}
+                    </div>
+                </div>
+				<div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">品牌图片</label>
+                    <div class="col-sm-9 col-xs-12">
+                      {ife 'shop.brand' $item}
+                             {php echo tpl_form_field_image('thumbs', $item['thumbs'])}
+                            <span class="help-block">建议尺寸: 100*50，或长方型图片 </span>
+                        {else}
+                            {if !empty($item['thumbs'])}
+                                  <a href='{php echo tomedia($item['thumbs'])}' target='_blank'>
+                                <img src="{php echo tomedia($item['thumbs'])}" style='width:100px;border:1px solid #ccc;padding:1px' />
+                                  </a>
+                            {/if}
+                        {/if}
+                    </div>
+                </div>
+              
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">品牌描述</label>
+                    <div class="col-sm-9 col-xs-12">
+                        {ife 'shop.brand' $item}
+                        <textarea name="description" class="form-control" cols="70">{$item['description']}</textarea>
+                        {else}
+                         <div class='form-control-static'>{$item['description']}</div>
+                        {/if}
+                        
+                    </div>
+                </div> 
+          
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">是否显示</label>
+                    <div class="col-sm-9 col-xs-12">
+                        {ife 'shop.brand' $item}
+                        <label class='radio-inline'>
+                            <input type='radio' name='enabled' value=1' {if $item['enabled']==1}checked{/if} /> 是
+                        </label>
+                        <label class='radio-inline'>
+                            <input type='radio' name='enabled' value=0' {if $item['enabled']==0}checked{/if} /> 否
+                        </label>
+                          {else}
+                           <div class='form-control-static'>{if empty($item['enabled'])}否{else}是{/if}</div>
+                           {/if}
+                    </div>
+                </div>
+                
+                 <div class="form-group"></div>
+            <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
+                    <div class="col-sm-9 col-xs-12">
+                           {ife 'shop.brand' $item}
+                            <input type="submit" name="submit" value="提交" class="btn btn-primary col-lg-1" onclick="return formcheck()" />
+                            <input type="hidden" name="token" value="{$_W['token']}" />
+                        {/if}
+                       <input type="button" name="back" onclick='history.back()' {ifp 'shop.brand.add|shop.brand.edit'}style='margin-left:10px;'{/if} value="返回列表" class="btn btn-default col-lg-1" />
+                    </div>
+            </div>
+                
+            </div>
+        </div>
+      
+    </form>
+</div>
+<script language='javascript'>
+         require(['util'],function(u){
+    $('#cp').each(function(){
+	u.clip(this, $(this).text());
+	});
+    })
+    $('form').submit(function(){
+        if($(':input[name=catename]').isEmpty()){
+            Tip.focus(':input[name=catename]','请输入品牌名称!');
+            return false;
+        }
+        return true;
+    });
+</script>
+{elseif $operation == 'display'}
+<script language="javascript" src="../addons/sea/static/js/dist/nestable/jquery.nestable.js"></script>
+<link rel="stylesheet" type="text/css" href="../addons/sea/static/js/dist/nestable/nestable.css" />
+<style type='text/css'>
+    .dd-handle { height: 40px; line-height: 30px}
+</style>
+<div class="main">
+    <div class="category" >
+        <form action="" method="post" >
+            <div class="panel panel-default" >
+                <div class="panel-body table-responsive" >
+
+                        <div class="dd" id="div_nestable" >
+                            <ol class="dd-list" >
+
+                               {loop $category $row} 
+                                
+                                 {if empty($row['parentid'])}
+                                <li class="dd-item" data-id="{$row['id']}">
+
+                                    <div class="dd-handle"  style='width:100%;'>
+                                        [ID: {$row['id']}] {$row['name']} <img style=" width:20px;" src="/attachment/{$row['thumb']} ">
+                                        
+                                        <span class="pull-right">
+                                           {ifp 'shop.brand.edit|shop.brand.view'}
+                                             <a class='btn btn-default btn-sm' href="{php echo $this->createWebUrl('shop/brand', array('id' => $row['id'], 'op' => 'post'))}" title="{ifp 'shop.brand.edit'}修改{else}查看{/if}" ><i class="fa fa-edit"></i></a>
+                                            {/if}
+                                            {ifp 'shop.brand.delete'}<a class='btn btn-default btn-sm' href="{php echo $this->createWebUrl('shop/brand', array('id' => $row['id'], 'op' => 'delete'))}" title='删除' onclick="return confirm('确认删除此品牌吗？');return false;"><i class="fa fa-remove"></i></a>{/if}
+
+                                        </span>
+                                    </div>
+
+                                </li>
+
+                                {/if}
+                                
+                              {/loop}
+                                
+                            </ol>
+                            <table class='table'>
+                                <tr>
+                                <td>
+                                    {ifp 'shop.brand.add'}
+                                    <a href="{php echo $this->createWebUrl('shop/brand',array('op' => 'post'))}" class="btn btn-default"><i class="fa fa-plus"></i> 添加新品牌</a>
+                                    {/if}
+                                   
+                                    <input type="hidden" name="token" value="{$_W['token']}" />
+                                    <input type="hidden" name="datas" value="" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+    <script language='javascript'>
+     
+      
+      
+    $(function(){
+      var depth = {php echo intval($shopset['catlevel'])};
+      if(depth<=0) {
+          depth =2;
+      }
+      $('#div_nestable').nestable({maxDepth: depth });
+         
+        $(".dd-handle a,dd-handle embed,dd-handle div").mousedown(function (e) {
+            e.stopPropagation();
+        }); 
+        var $expand = false;
+        $('#nestableMenu').on('click', function(e)
+        {
+            if ($expand) {
+                $expand = false;
+                $('.dd').nestable('expandAll');
+            }else {
+                $expand = true;
+                $('.dd').nestable('collapseAll');
+            }
+        });
+        
+        $("#save_category").click(function(){
+             var json = window.JSON.stringify($('#div_nestable').nestable("serialize"));
+             $(':input[name=datas]').val(json);
+             $('form').submit();
+        })
+        
+    })
+    </script>
+ 
+{/if}
+{template 'web/_footer'}
+

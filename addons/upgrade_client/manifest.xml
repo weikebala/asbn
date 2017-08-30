@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.iseasoft.cn" versionCode="0.6">
+    <application setting="false">
+        <name><![CDATA[海软在线升级模块客户端]]></name>
+        <identifie><![CDATA[upgrade_client]]></identifie>
+        <version><![CDATA[1.0]]></version>
+        <type><![CDATA[biz]]></type>
+        <ability><![CDATA[海软在线升级模块客户端]]></ability>
+        <description><![CDATA[海软在线升级模块客户端]]></description>
+        <author><![CDATA[海软]]></author>
+        <url><![CDATA[http://www.iseasoft.cn]]></url>
+    </application>
+    <!-- <platform>
+        <subscribes>
+        </subscribes>
+        <handles>
+            <message type="text" />
+        </handles>
+        <rule embed="true" />
+    </platform> -->
+    <bindings>
+        <!-- <cover>
+            <entry title="入口设置" do="index" />
+        </cover> -->
+        <menu>
+            <entry title="升级包列表" do="list" state="" direct="false" />
+        </menu>
+		 
+        <home call="getItemTiles"></home>
+    </bindings>
+	
+    <install><![CDATA[install.php]]></install>	  
+    <uninstall><![CDATA[]]></uninstall>
+    <upgrade><![CDATA[update.php]]></upgrade>
+
+</manifest>

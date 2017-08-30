@@ -1,0 +1,131 @@
+array (
+  'nihao2' => '10:43:49',
+  'period_number' => '20160506006564647038',
+  'jiexiao_time' => '3',
+  'lackopenid' => 'o9gg3v6cQLcsvTSlAkdB72MLXl-s',
+  'url2' => 'http://fx5.iseasoft.cn/app/index.php?i=4&c=entry&do=order_get&m=weliam_indiana',
+  'goodsid' => '4',
+  'uniacid' => '4',
+)
+array (
+  'nihao2' => '11:02:30',
+  'period_number' => '20160506004873397030',
+  'jiexiao_time' => '10',
+  'lackopenid' => 'o9gg3vy23Rp3VMybykUjaquIloLw',
+  'url2' => 'http://fx5.iseasoft.cn/app/index.php?i=4&c=entry&do=order_get&m=weliam_indiana',
+  'goodsid' => '2',
+  'uniacid' => '4',
+)
+array (
+  'nihao2' => '11:41:09',
+  'period_number' => '20160614755640785395',
+  'jiexiao_time' => '0',
+  'lackopenid' => 'o2LD4sss04w5D-dVciqogyw-g56I',
+  'url2' => 'http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=order_get&m=weliam_indiana',
+  'goodsid' => '7',
+  'uniacid' => '12',
+)
+array (
+  'nihao2' => '11:41:09',
+  'period_number' => '20160614755640785395',
+  'jiexiao_time' => '0',
+  'lackopenid' => 'o2LD4sss04w5D-dVciqogyw-g56I',
+  'url2' => 'http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=order_get&m=weliam_indiana',
+  'goodsid' => '7',
+  'uniacid' => '12',
+)
+array (
+  'acid' => '12',
+  'nihao2' => '11:41:09',
+  'period_number' => '20160614755640785395',
+  'jiexiao_time' => '0',
+  'lackopenid' => 'o2LD4sss04w5D-dVciqogyw-g56I',
+  'url2' => 'http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=order_get&m=weliam_indiana',
+  'goodsid' => '7',
+  'uniacid' => '12',
+  'datam' => 
+  array (
+    'first' => 
+    array (
+      'value' => '恭喜你！你参与的一元夺宝已中奖！',
+      'color' => '#173177',
+    ),
+    'keyword1' => 
+    array (
+      'value' => '一元夺宝',
+      'color' => '#4a5077',
+    ),
+    'keyword2' => 
+    array (
+      'value' => '精品水果',
+      'color' => '#4a5077',
+    ),
+    'remark' => 
+    array (
+      'value' => '点击查看详情',
+      'color' => '#4a5077',
+    ),
+  ),
+  'template_id' => '',
+)
+array (
+  'nihao2' => '13:53:10',
+  'period_number' => '20160614756691254064',
+  'jiexiao_time' => '0',
+  'lackopenid' => 'o2LD4sss04w5D-dVciqogyw-g56I',
+  'url2' => 'http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=order_get&m=weliam_indiana',
+  'goodsid' => '7',
+  'uniacid' => '12',
+)
+array (
+  'nihao2' => '13:53:10',
+  'period_number' => '20160614756691254064',
+  'jiexiao_time' => '0',
+  'lackopenid' => 'o2LD4sss04w5D-dVciqogyw-g56I',
+  'url2' => 'http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=order_get&m=weliam_indiana',
+  'goodsid' => '7',
+  'uniacid' => '12',
+)
+array (
+  'acid' => '12',
+  'nihao2' => '13:53:10',
+  'period_number' => '20160614756691254064',
+  'jiexiao_time' => '0',
+  'lackopenid' => 'o2LD4sss04w5D-dVciqogyw-g56I',
+  'url2' => 'http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=order_get&m=weliam_indiana',
+  'goodsid' => '7',
+  'uniacid' => '12',
+  'datam' => 
+  array (
+    'first' => 
+    array (
+      'value' => '恭喜你！你参与的一元夺宝已中奖！',
+      'color' => '#173177',
+    ),
+    'keyword1' => 
+    array (
+      'value' => '一元夺宝',
+      'color' => '#4a5077',
+    ),
+    'keyword2' => 
+    array (
+      'value' => '精品水果',
+      'color' => '#4a5077',
+    ),
+    'remark' => 
+    array (
+      'value' => '点击查看详情',
+      'color' => '#4a5077',
+    ),
+  ),
+  'template_id' => '',
+)
+array (
+  'nihao2' => '16:13:36',
+  'period_number' => '20160614839974434619',
+  'jiexiao_time' => '10',
+  'lackopenid' => 'o2LD4shThRbyBU3co1sSpVrfuk7c',
+  'url2' => 'http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=order_get&m=weliam_indiana',
+  'goodsid' => '10',
+  'uniacid' => '12',
+)

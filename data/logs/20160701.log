@@ -1,0 +1,116 @@
+2016-07-01 09:51:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3vy23Rp3VMybykUjaquIloLw]]></FromUserName>
+<CreateTime>1467337875</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[积分]]></Content>
+<MsgId>6302168185710863696</MsgId>
+</xml>
+
+2016-07-01 09:51:15 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 111 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-01 09:51:15 response :
+------------
+Array:
+FromUserName : gh_d6462660ad6d ;
+ToUserName : o9gg3vy23Rp3VMybykUjaquIloLw ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-07-01 10:32:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3vwC8Ysjdm8jpquWb5dUHl5E]]></FromUserName>
+<CreateTime>1467340368</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6302178893064332640</MsgId>
+</xml>
+
+2016-07-01 10:32:49 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-01 10:32:49 response :
+------------
+Array:
+FromUserName : gh_d6462660ad6d ;
+ToUserName : o9gg3vwC8Ysjdm8jpquWb5dUHl5E ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-07-01 16:35:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3vy23Rp3VMybykUjaquIloLw]]></FromUserName>
+<CreateTime>1467362156</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6302272471811780685</MsgId>
+</xml>
+
+2016-07-01 16:35:57 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-01 16:35:57 response :
+------------
+Array:
+FromUserName : gh_d6462660ad6d ;
+ToUserName : o9gg3vy23Rp3VMybykUjaquIloLw ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-07-01 16:39:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3v2uBwCt-Uvf0AXj8-0DgKHM]]></FromUserName>
+<CreateTime>1467362362</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6302273356575043664</MsgId>
+</xml>
+
+2016-07-01 16:39:23 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-01 16:39:23 response :
+------------
+Array:
+FromUserName : gh_d6462660ad6d ;
+ToUserName : o9gg3v2uBwCt-Uvf0AXj8-0DgKHM ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

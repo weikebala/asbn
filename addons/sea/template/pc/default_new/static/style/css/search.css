@@ -1,0 +1,59 @@
+﻿.search .wid1200{width: 1200px;margin:0 auto;padding:0 20px;margin-bottom:50px;}
+.search.store p.top,.search.store .findmodel,.search.store .hid{display: none}
+.search p.top{color:#333;line-height: 40px;height: 40px;font-size: 12px}
+	.search p.top span{padding:0 10px;}
+	.search .findmodel{background: #fafafa}
+	.search .findmodel .selecttab{height: 36px;line-height: 36px;text-indent: 20px;font-size: 16px}
+	.search .findmodel .selecttab span{color:#fc5454;}
+	.search .findmodel .selectone{line-height: 30px;border-top:1px solid #eee;font-size: 12px;background:#f2f2f2;}
+	.search .findmodel .selectone .tt{width: 96px;float:left;text-align: center;color:#999;padding:5px 0;}
+	.search .findmodel .selectone .tabs{background: #fafafa;width: 1100px;float:right;padding:5px 0;}
+	.search .findmodel .selectone a{margin:0 15px;cursor: pointer;white-space:nowrap;color:#000;}
+	.search .findmodel .selectone a:hover,.search .findmodel .selectone a.act{color:#fc5454;}
+	.search .searchtype {height: 44px;color:#000;background: #fafafa;margin-top: 15px}
+		.search .searchtype .tt{line-height: 44px;float: left;text-align: center;width: 96px;}
+		.search .searchtype .typeone,.search .searchtype .canfree{padding:0 30px;border:1px solid #fafafa;float:left;line-height: 42px;cursor:pointer;}
+		.search .searchtype .typeone.price i,.search .searchtype .canfree i{background: url(img/icon.png) 100px 0 no-repeat;margin-left:6px;display: inline-block;width: 14px;height: 14px;margin-top: -3px;vertical-align: middle;}
+		.search .searchtype .typeone.price i.up{background-position: 0 -90px;}
+		.search .searchtype .typeone.price i.down{background-position: -14px -90px;}
+		.search .searchtype .typeone.act{border:1px solid #f2f2f2;color: #fc5454;background: #fff}
+		.search .searchtype .canfree i{background-position: 0 -112px}
+		.search .searchtype .canfree.act i{background-position: -14px -112px}
+		.search .searchtype .canfree.act{color:#fc5454;}
+	.search .contentbox{}
+		.search .contentbox .nohave{text-align: center;height: 300px;line-height: 300px;color:#000;font-size: 16px}
+		.search .storeone{margin-top: 20px}
+			.search .storeone .fl,.search .storeone .fl img{width: 80px;height: 80px;display: block;}
+			.search .storeone .fr{width: 1100px;}
+			.search .storeone h2{height: 30px;line-height: 30px;}
+			.search .storeone p{color:#999;font-size: 12px;margin-top: 10px;height: 20px;line-height: 20px;}
+			.search .storeone .storetexts{color:#000;font-size: 12px;line-height: 20px;height: 20px;}
+				.search .storeone span{margin-right: 20px;}
+			.search .storeone h2 a{color:#000;font-size: 16px;}
+		.search .searchone{width: 210px;padding:14px;border:1px solid #eee;float:left;margin-left: -1px;line-height: 30px;margin-top:15px;position: relative;}
+		.search .searchone .img{display: block;text-align: center;}
+			.search .searchone img{width: 170px;height: 170px;}
+		.search .searchone p a{color:#000;}
+		.search .searchone p a:hover{color:#999;}
+		.search .searchone .line{position: relative;width: 100%;height: 6px;border-radius: 3px;background:#eee}
+		.search .searchone .ing{position: absolute;height: 6px;border-radius: 3px;background:#39ca74 ;left:0;top:0;}
+		.search .searchone .noplay .ing{background:#ccc;}
+		.search .searchone .info{font-size: 12px}
+		.search .searchone .info .fl{color:#fc5454;}
+		.search .searchone .info{color:#aaa;}
+		.search .searchone .info span{color:#333;}
+		.search .searchone .shop img{width: 20px;height: 20px;margin-right:5px;}
+		.search .searchone i.noplayicon{position: absolute;width: 48px;height: 48px;left:0;top:0;background:url(img/endjb.png);}
+.search .pages{margin-top:50px;text-align: center}
+	.search .pages a,.search .pages span{display: inline-block;margin:0 5px;}
+	.search .pages .next,.search .pages .prev{width: 30px;height: 30px;display: inline-block;vertical-align: middle;background-image: url(img/icon.png);background-repeat: no-repeat;*margin-top:-3px;margin-top:0;}
+
+	.search .pages .prev{background-position: 0 -150px}
+	.search .pages .next{background-position: 0 -180px}
+	.search .pages .page{background:#fff;border:1px solid #333;color: #333;width:28px;height: 28px;line-height: 28px;text-align: center;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-ms-border-radius: 4px;
+		-o-border-radius: 4px;
+		border-radius: 4px;}
+		.search .pages .page.act{color:#fff;background:#333;}

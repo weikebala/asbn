@@ -1,0 +1,28 @@
+2016-07-04 14:35:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d6462660ad6d]]></ToUserName>
+<FromUserName><![CDATA[o9gg3v-tAtt8XD3Uy2RUrRmLyApU]]></FromUserName>
+<CreateTime>1467614129</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-07-04 14:35:29 params :
+------------
+Array:
+message : Array ;
+module : czt_subscribe_redpack ;
+rule : 60 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-04 14:35:29 response :
+------------
+Array:
+FromUserName : gh_d6462660ad6d ;
+ToUserName : o9gg3v-tAtt8XD3Uy2RUrRmLyApU ;
+MsgType : text ;
+Content : 活动已经结束了！ ;
+

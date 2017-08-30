@@ -1,0 +1,98 @@
+<link href="../addons/sea/template/pc/default_new/static/style/css/main.css" rel="stylesheet" />
+<div id="newfooter" style="position: relative; height: 300px;width:100%; ">
+        <div class="w100 clearfix" style="position: absolute; top:50px;left:110px;">
+            <div class="fl">
+                <div class="logo">
+                {if $this->yzShopSet['pclogo']}
+                <img style="width:240px;height:35px" src="{php echo $_W['siteroot'] . "attachment/" . $this->yzShopSet['pclogo']}"  title="{php echo $this->yzShopSet['pctitle']}" >
+                {else}
+                <img src="../addons/sea/template/pc/default/static/images/logo.png" title="" alt="我是默认logo">
+                {/if}
+                </div>
+                <div class="text">
+                    {php echo htmlspecialchars_decode($this->yzShopSet['pccopyright'])}
+                </div>
+            </div>
+            <div class="fr">
+                <div class="footone">
+                    <div class="tit">关于上海云肯制</div>
+                    <p><a href="{php echo $this->createMobileUrl('shop/notice')}">关于我们</a></p>
+                    <p><a href="{php echo $this->createMobileUrl('shop/notice')}">最新动态</a></p>
+                    <p><a href="{php echo $this->createMobileUrl('shop/notice')}">招聘信息</a></p>
+                    <p><a href="{php echo $this->createMobileUrl('shop/notice')}">联系我们</a></p>
+                </div>
+                <div class="footone">
+                    <div class="tit">消费者权益</div>
+                    <p><a href="{php echo $this->createMobileUrl('shop/notice')}">消费者服务</a></p>
+                    <p><a href="{php echo $this->createMobileUrl('shop/notice')}">意见反馈</a></p>
+                    <p><a href="{php echo $this->createMobileUrl('shop/notice')}">手机版下载</a></p>
+                </div>
+                <div class="footone">
+                    <div class="tit">商家</div>
+                    <p><a href="{php echo $this->createMobileUrl('shop/notice')}">如何开始</a></p>
+                    <p><a href="{php echo $this->createMobileUrl('shop/notice')}">商家问题</a></p>
+                </div>
+                <div class="footone other">
+                    <div class="tit">权威认证</div>
+                    <img height="50" src='../addons/sea/template/pc/default_new/static/style/img/cert1.png'>
+                    <img class="icon-i" height="50" src='../addons/sea/template/pc/default_new/static/style/img/zfbtysj.jpg'>
+                    <img class="icon-i" height="50" src='../addons/sea/template/pc/default_new/static/style/img/yltysh.jpg'>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../addons/sea/template/pc/default_new/static/style/js/require.min.js" type="text/javascript"></script>
+    <script src="../addons/sea/template/pc/default_new/static/style/js/main.js" type="text/javascript"></script>
+    <script>
+        var n = 0;
+        $(".ban_ctrl span").click(function() {
+            var iwd = $(".banner_box").width();
+            $("#banner_list img").css("width", iwd + "px");
+            n = $(this).index();
+            $(".banner_list").stop(true, false).animate({
+                marginLeft: -iwd * n
+            });
+            $(this).addClass("current").siblings().removeClass("current");
+        })
+
+        function run() {
+            var iwd = $(".banner_box").width();
+            $("#banner_list img").css("width", iwd + "px");
+            $("#banner").css("height", iwd * (25 / 96) + "px");
+            if (n < 2) {
+                n = n + 1;
+            } else {
+                n = 0;
+                $(".banner_list").css({
+                    marginLeft: -n
+                })
+            }
+            var iwd = $(".banner_box").width();
+            $(".banner_list").animate({
+                marginLeft: -iwd * n
+            }, 300, function() {
+                if (n == 2) {
+                    $(".banner_list").css({
+                        marginLeft: 0
+                    })
+                }
+            });
+            $(".ban_ctrl span").eq(n).addClass("current").siblings().removeClass("current")
+            if (n == 2) {
+                $(".ban_ctrl span").eq(0).addClass("current").siblings().removeClass("current");
+            }
+        }
+        setInterval(run, 5000)
+
+    </script>
+    <script type="text/javascript" src="../addons/sea/template/pc/default_new/static/style/js/ld.js" async></script>
+    <script src="../addons/sea/template/pc/default_new/static/style/js/main.js" type="text/javascript"></script>
+<script>
+$(".search .searchtype .canfree i").click(function(){
+    $(this).parent(".search .searchtype .canfree").toggleClass("act");
+})
+</script>
+<script src="../addons/sea/template/pc/default_new/static/style/js/mechat.js" charset="UTF-8" defer async></script>
+</body>
+
+</html>

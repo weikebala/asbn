@@ -1,0 +1,1 @@
+<?php if(!defined('IN_IA')) {exit('Access Denied');}if(!defined('sea_VERSION')) {define('sea_VERSION', '1.5.3');}

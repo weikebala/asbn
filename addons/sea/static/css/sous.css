@@ -1,0 +1,69 @@
+@charset "utf-8";
+/*产品搜素 20150702*/
+*{
+	font-size: 12px;
+}
+.ss-tb{position: relative;width: 100%;display: inline-block;height: 55px;background: #000;}
+.ss-hder{padding:0px 40px 0px 10px;position: relative;margin-top:12px;}
+.ss-ssk{background:#F0EFF5;height: 32px;border-radius: 2px;padding-left: 30px;}
+.ss-sk{position: relative;}
+.cp-ss-i{
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA8CAYAAAA34qk1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAxJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDM0MiwgMjAxMC8wMS8xMC0xODowNjo0MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RjI5RUZFRTkyMDlCMTFFNTlENjRDRjUwRkJEQ0JEQzYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RjI5RUZFRTgyMDlCMTFFNTlENjRDRjUwRkJEQ0JEQzYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ1dWlkOjY2ODlFQzMyNDVGREU0MTE4MzM1Qjc4NzBCMjE2NjQzIiBzdFJlZjpkb2N1bWVudElEPSJ1dWlkOjg5N0MwQTlGQUJGN0U0MTE4NDQ2QjFBREI5N0VCMEYwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+urehXwAAAyVJREFUeNrsmmFkVWEYx8+6M2KMGBH7dDMixrJEibEsTR+yRH2J0rWUsilSyqZPZWOk3Kt9KU0ppTEbY8SYxiWmEfsUEeMSlzGu2/+x/+HtstvO2fs+59Z9H/7ec7Z7zzm/9znv8zznObehXC4H9WC7gjoxD+pBPagH9aAe1IN6UA8aWmPcL2YymZ2ctw1qNfbzOwXJZrNuQCPaEegU1A+1b/GZAjQLvYPmoGJNeHSbJnCPoAPG35YJscz9fdBeTsB5Sv7/GBqzBewKNA09h45zf46emoJ+bvGdJqgHOk3YYWgAGoImazEYycV+JuQSdAw6AeWqQIptQNOy/KH90DOu41fQKJSqJdBL0AzUDF2HDkMLMY4jE3IVOgStQoPQR3o9cVDxpIS+dXrwiYVjfuFkLXK9Z5MGlTX5lttnoU8WJ1Ci8Ul69iK9mwhoiuuoBbrNFGHbfkF9HCWKdyQBKrPcRS+OOUxV36A7nNhRbVA56S1uDykUHjkCd0NHNUG7meg/2CjjtmEl6B63r2iC9nOcUKzPpxig5Ny7tUB7mU7mFUE3GPAEslMDdA+fQvKE1bRFjl0aoGkjGmrbasU1OPeo2FoCoGHN3KIBmgqSs5LxxOMctBj1ZBatueIanIJ+j7pOLFobxx9aoOtsk2hbmFZWNEBLDPPycHxQGbSX44IGaMDST+ycImQ7JzZvLB/noG9YqQwYAcK13eD4UrPWXeMJJadeU4BMs11TiFpf23gefcAwfz/4s61p2yRvP2U6GwkitkFtgEqIv8kie9ghqHQWehgAI/ejbPV1J3hbjTuClBgwyEk9Y1RG6qAB2xwu7C70kDm7L6jeG3Z667pMIzOEDEvN2DGgFkFlCUj/9isLA2m6XWYaexFsvq4Ikrx1q0XL18HmK4p5aqXiYb2T9av5tq3A6DpuBL33hBWbrDXQNL3RxArqb1WUVDw55mdzMmYZiGLBaoBKB+ICPSu3orwm7OB+K4sOyYlLvE2rBZvYsI2Ka09SwrSF48SC/Vd/wxDChgGq538FNWGLXA5VrcH/MNmDelAP6kE9qAf1oB603kB/CzAALpykce6h+dsAAAAASUVORK5CYII=) no-repeat;
+width:29px;height: 30px;
+background-size: 29px;
+position: absolute;
+display: inline-block;
+left:0px;
+top:0px;
+}
+.cp-ssk{width: 100%;border:0px;height: 30px;line-height: 30px;color:#999999;background:#F0EFF5;border:0px;outline: none;}
+.cpss-qx{
+	width: 37px;
+	height: 30px;position: absolute;
+	right: 2px;
+	text-align: center;
+	line-height: 30px;
+	top:0px;
+	color: #fff;
+	font-size: 14px;
+
+}
+.cpss-cter{
+	padding:0px 10px;
+}
+.rs-k{position: relative;width: 100%;margin-top: 10px;display: inline-block;height: 22px;}
+.rs-wz{text-align: center;width: 35px;height: 16px;line-height: 16px;color: #333333;position: absolute;left: 0px;top:0px;border-left:2px solid #000;padding-left: 5px;}
+.rs-r-k{width: 100%;display: inline-block;}
+.r-z-l{height: 1px;background: #E5E5E5;width: 100%;}
+.rs-jh{padding: 0 5px 5px 0px;width: 100%;display:inline-block;margin-top:5px;}
+.rs-lk{background: #000;padding:5px 8px;color: #fff;margin-top: 8px;margin-left: 6px;display: inline-block;text-decoration: none;float: left;}
+.rs-ss-ul{
+	width: 100%;padding:0px 10px;
+	display: inline-block;
+}
+.rs-jh-list{
+	display: inline-block;
+	width: 100%;
+}
+.rs-ss-ul li{display: inline-block;height: 30px;line-height: 30px;text-align:left;color: #999999;width: 99%;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;
+	border-bottom:1px solid #E4E4E6;
+	padding-left: 2px;
+}
+.search-clark{
+	width: 100%;
+	display: inline-block;
+	margin-top: 20px;
+}
+.clear-btnk{
+	height: 25px;
+	line-height: 25px;
+	width: 80%;
+	display: block;
+	border:1px solid #000;
+	text-align: center;
+	margin: 0 auto;
+	color: #000;
+	text-decoration: none;
+
+}
+/*end */

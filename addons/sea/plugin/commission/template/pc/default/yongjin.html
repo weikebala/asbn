@@ -1,0 +1,129 @@
+{template 'member/center'}
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<title>{if $switch ==0}积分{/if} {if $switch ==1}消费{/if} {if $switch ==2}佣金{/if} 排行榜</title>
+	<!--<link href="{$_W['siteroot']}app/resource/css/bootstrap.min.css" rel="stylesheet">-->
+	 <link rel="stylesheet" type="text/css" href="/addons/sea/static/css/jfpx/integral.css"> 
+	<script type='text/javascript' src='resource/js/lib/jquery-1.11.1.min.js'></script>
+	<style type="text/css">
+	.list-myorder{padding-left:250px;padding-top:10px;}
+    .credit_list {height:40px; width:94%; background:#fff; padding:10px 3%;margin-top:5px;}
+    .credit_list .info {height:40px; width:50%; float:left;  font-size:16px; color:#666; line-height:20px; text-align:left;}
+    .credit_list .info span {font-size:14px; color:#999;}
+    .credit_list .num {height:40px; border-left:1px solid #eaeaea; width:40%;line-height:20px; float:right; text-align:left; font-size:16px; color:#666;}
+    .credit_list .num span {font-size:14px; color:#999;}
+    .credit_tab {height:30px; margin:5px; border:1px solid #eb5f5f; border-radius:2px; overflow:hidden;font-size:13px;background:#fff;padding-right: -2px;}
+   
+    .credit_nav1 {height:30px;width:100%; background:#fff; color:#666; text-align:center; line-height:30px; float:left;}
+    .credit_nav2 {height:30px;width:50%; background:#fff; color:#666; text-align:center; line-height:30px; float:left;}
+    .credit_nav3 {height:30px;width:33.33%; background:#fff; color:#666; text-align:center; line-height:30px; float:left;}
+    .credit_navon {color:#fff; background:#eb5f5f;}
+    .credit_no {height:100px; width:100%; margin:50px 0px 60px; color:#ccc; font-size:12px; text-align:center;}
+    #credit_loading { padding:10px;color:#666;text-align: center;}
+    .new-list ul li p{width: 40%}
+	</style>
+</head>
+<body style="background-color:#FFF;padding-top:0px; padding-bottom:0px;" class="body-gray my-memvers">
+
+<div class="list-myorder" style="background:#ffffff;padding-top:0;">
+
+	<ul class="ul-product" style="color:#ffcc00;font-size:20px;">
+        <li style="height:100%">{if $isopen['isintegral']}<a href="{php echo $this->createPluginMobileUrl('commission/yongjin')}"><div class="credit_nav{$count} {if $_GPC['type'] == 0}credit_navon{/if}" data-type='0'>{$name['integralname']}</div></a>{/if}
+            {if $isopen['isexpense']}<a href="{php echo $this->createPluginMobileUrl('commission/yongjin',array('type'=>1))}"><div class="credit_nav{$count}   {if $_GPC['type'] == 1}credit_navon{/if}" data-type='1'>{$name['expensename']}</div></a>{/if}
+            {if $isopen['iscommission']}<a href="{php echo $this->createPluginMobileUrl('commission/yongjin',array('type'=>2))}"><div class="credit_nav{$count}  {if $_GPC['type'] == 2}credit_navon{/if}" data-type='2'>{$name['commissionname']}</div></a>{/if}
+       </li>
+
+        <li style="height:100px;background-color:#eb5f5f;padding-left:30px;padding-top:15px;font-size:15px">
+              <div>我的名次
+                    <span class="pic" onClick="newMsg('{$avatar["openid"]}');" style="float:right;"><img src="{php echo tomedia($avatar['avatar']);}"  style="border-radius:50px;"></span>
+              </div>
+              <div style="padding-top:30px">{if $m_num}{$m_num}{elseif !$m_num}未上榜{/if}
+               <span style="float:right;">
+                      总{if $switch ==0}积分:{php echo number_format($m)}{/if}{if $switch ==1}消费:{php echo number_format($m)}{/if}{if $switch ==2}佣金:{php echo number_format($m)}{/if}   
+                    </span>
+              </div>
+              
+                    
+            </li>
+           {if $isopen['iscommission']}
+           {if $switch == 2}
+           {php $key=1}
+           {loop $list $member}
+           {if $key <=10}
+			<li>
+            <span style="float:left;margin-right:10px;border-radius:3px;">{$key}</span>
+            
+            {if $key==1||$key==2||$key==3}
+            <span style="float:right;margin-left:10px;border-radius:3px;"><img style="width:30px;height:42px;" src="/addons/sea/static/images/0{$key}.jpg" style="border-width:0px;"></span>
+            {/if}
+            
+				<span class="pic" onClick="newMsg('{$member["openid"]}');"><img src="{php echo tomedia($member['avatar']);}" style="border-radius:50px;"></span>
+				<div class="text">
+					<span class="pro-name">昵称：{$member['nickname']}</span>
+						<div class="pro-pric" style="color:#ff9900;font-size:25px;"><span>佣金：</span>{php echo number_format($member['commission'],0,'','')}</div>
+				</div>
+			</li>
+            {/if}
+            {php $key++}
+            {/loop}
+           {/if}
+           {/if}
+           
+           {if $isopen['isintegral']}
+           {if $switch == 0}
+           {php $key=1}
+		   {loop $list $member} 
+			<li>
+            <span style="float:left;margin-right:10px;border-radius:3px;">{$key}</span>
+            {if $key==1||$key==2||$key==3}
+            <span style="float:right;margin-left:10px;border-radius:3px;"><img style="width:30px;height:42px;" src="/addons/sea/static/images/0{$key}.jpg" style="border-width:0px;"></span>
+            {/if}
+				<span class="pic" onClick="newMsg('{$member["openid"]}');"><img src="{php echo tomedia($member['avatar']);}" style="border-radius:50px;"></span>
+				<div class="text">
+					<span class="pro-name">昵称：{$member['nickname']}</span>
+						<div class="pro-pric" style="color:#ff9900;font-size:25px;"><span>积分：</span>{php echo number_format($member['credit1'],0,'','')}</div>
+				</div>
+			</li>
+		  {php $key++}
+		  {/loop}
+          {/if}
+          {/if}
+          
+          {if $isopen['isexpense']}
+          {if $switch == 1}
+          {php $key=1}
+		  {loop $list $member}
+			<li>
+            <span style="float:left;margin-right:10px;border-radius:3px;">{$key}</span>
+            {if $key==1||$key==2||$key==3}
+            <span style="float:right;margin-left:10px;border-radius:3px;"><img style="width:30px;height:42px;" src="/addons/sea/static/images/0{$key}.jpg" style="border-width:0px;"></span>
+            {/if}
+				<span class="pic" onClick="newMsg('{$member["openid"]}');"><img src="{php echo tomedia($member['avatar']);}"  style="border-radius:50px;"></span>
+				<div class="text">
+					<span class="pro-name">昵称：{$member['nickname']}</span>
+						<div class="pro-pric" style="color:#ff9900;font-size:25px;"><span>消费：</span>{php echo number_format($member['ordermoney'],0,'','')}</div>
+				</div>
+			</li>
+		 {php $key++}
+		 {/loop}
+         {/if}
+         {/if}
+	</ul>
+    {if $switch ==0}
+	<div align="center"><span style="color:#FFC502;font-size:16px; padding-bottom:60px;">赶紧加油获得更多积分上榜吧</span></div>
+    {/if}
+    {if $switch ==1}
+	<div align="center"><span style="color:#FFC502;font-size:16px; padding-bottom:60px;">赶紧加油获得更多消费上榜吧</span></div>
+    {/if}
+    {if $switch ==2}
+	<div align="center"><span style="color:#FFC502;font-size:16px; padding-bottom:60px;">赶紧加油获得更多佣金上榜吧</span></div>
+    {/if}
+</div>
+
+{php $show_footer=true}
+{php $footer_current='member'}
+{template 'common/bottom'}

@@ -1,0 +1,2060 @@
+2016-06-18 08:44:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466210669</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 08:44:30 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 08:44:30 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 08:44:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466210675</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 08:44:35 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 08:44:35 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 10:18:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wdfbx4H5Fmgmdipb6ZKj_gk]]></FromUserName>
+<CreateTime>1466216291</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-18 10:18:11 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 79 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 10:18:11 response :
+------------
+Array:
+FromUserName : gh_9ef36f25dc50 ;
+ToUserName : oN38-wdfbx4H5Fmgmdipb6ZKj_gk ;
+MsgType : text ;
+Content : 欢迎您的关注！！！ ;
+
+2016-06-18 10:18:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wdfbx4H5Fmgmdipb6ZKj_gk]]></FromUserName>
+<CreateTime>1466216304</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.myyll.com/]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-18 10:18:25 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-18 10:18:25 response :
+------------
+
+2016-06-18 10:18:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wdfbx4H5Fmgmdipb6ZKj_gk]]></FromUserName>
+<CreateTime>1466216328</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wfx.iseasoft.cn/app/index.php?i=51&j=54&c=entry&do=shop&m=ewei_shop&wxref=mp.weixin.qq.com&wxref=mp.weixin.qq.com#wechat_redirect]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-18 10:18:48 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-18 10:18:48 response :
+------------
+
+2016-06-18 10:20:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wdfbx4H5Fmgmdipb6ZKj_gk]]></FromUserName>
+<CreateTime>1466216418</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=5&c=entry&eid=1226]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-18 10:20:18 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-18 10:20:18 response :
+------------
+
+2016-06-18 10:20:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wdfbx4H5Fmgmdipb6ZKj_gk]]></FromUserName>
+<CreateTime>1466216455</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/list/?9_1.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-18 10:20:55 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-18 10:20:55 response :
+------------
+
+2016-06-18 10:21:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wdfbx4H5Fmgmdipb6ZKj_gk]]></FromUserName>
+<CreateTime>1466216478</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-18 10:41:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwVpIWGq1m6FUWOh5W8mSDDk]]></FromUserName>
+<CreateTime>1466217667</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 10:41:07 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 10:41:07 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwVpIWGq1m6FUWOh5W8mSDDk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 12:48:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwVpIWGq1m6FUWOh5W8mSDDk]]></FromUserName>
+<CreateTime>1466225320</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 12:48:41 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 12:48:41 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwVpIWGq1m6FUWOh5W8mSDDk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 13:37:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwUnEJzgRnZZ4-1LYVd38Dd0]]></FromUserName>
+<CreateTime>1466228263</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-18 13:37:43 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 13:37:43 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwUnEJzgRnZZ4-1LYVd38Dd0 ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 13:37:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwUnEJzgRnZZ4-1LYVd38Dd0]]></FromUserName>
+<CreateTime>1466228266</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 13:37:46 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 13:37:46 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwUnEJzgRnZZ4-1LYVd38Dd0 ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 14:11:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wbDdVARzSenJw7AF0JeARuU]]></FromUserName>
+<CreateTime>1466230292</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6297411152954058354</MsgId>
+</xml>
+
+2016-06-18 14:11:32 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 65 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 14:11:32 response :
+------------
+Array:
+FromUserName : gh_9ef36f25dc50 ;
+ToUserName : oN38-wbDdVARzSenJw7AF0JeARuU ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-06-18 14:19:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466230753</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 14:19:14 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 14:19:14 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 14:41:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4svZTaMalJ06iu1__n50D57E]]></FromUserName>
+<CreateTime>1466232094</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=shop&m=sea]]></EventKey>
+<MenuId>404455364</MenuId>
+</xml>
+
+2016-06-18 14:41:34 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-18 14:41:34 response :
+------------
+
+2016-06-18 14:42:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466232151</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-18 14:42:31 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 14:42:31 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 14:42:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466232156</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 14:42:36 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 14:42:36 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 14:45:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466232331</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1230]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 14:45:32 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 14:45:32 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 14:49:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466232548</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 14:49:08 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 14:49:08 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 14:51:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466232661</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 14:51:01 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 14:51:01 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 14:51:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466232688</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 14:51:28 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 14:51:28 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 14:52:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466232757</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 14:52:37 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 14:52:37 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 14:54:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466232847</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 14:54:07 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 14:54:07 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:07:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466233635</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:07:15 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:07:15 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:11:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466233896</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:11:36 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:11:36 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:19:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466234371</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:19:31 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:19:31 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:20:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466234405</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:20:05 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:20:05 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:24:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466234646</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:24:06 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:24:06 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:24:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466234670</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:24:30 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:24:30 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:27:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwVpIWGq1m6FUWOh5W8mSDDk]]></FromUserName>
+<CreateTime>1466234856</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:27:36 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:27:36 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwVpIWGq1m6FUWOh5W8mSDDk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:30:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466235008</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzI0NTQwMzUwNg==&mid=100000001&idx=1&sn=c1f5d4cb7038fbcea35a9c3891e50569&scene=18#rd]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:30:08 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:30:08 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:34:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466235245</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1230]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:34:05 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:34:05 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:34:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466235274</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:34:34 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:34:34 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:34:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466235288</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:34:48 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:34:48 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:35:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466235308</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:35:08 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:35:08 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:35:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-we68BoGp1wevgKTEMnY69FY]]></FromUserName>
+<CreateTime>1466235318</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?34.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-18 15:35:18 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-18 15:35:18 response :
+------------
+
+2016-06-18 15:35:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466235322</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1230]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:35:22 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:35:22 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:35:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466235355</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:35:55 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:35:55 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:39:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466235552</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:39:12 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:39:12 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:39:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466235579</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:39:39 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:39:39 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:39:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466235595</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:39:55 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:39:55 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 15:55:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466236515</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 15:55:15 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 15:55:15 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 16:04:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466237091</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 16:04:51 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 16:04:51 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 16:09:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwYhy3SkF_oFr0EnpXKWOqqw]]></FromUserName>
+<CreateTime>1466237349</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 16:09:09 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 16:09:09 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwYhy3SkF_oFr0EnpXKWOqqw ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 16:09:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466237364</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 16:09:24 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 16:09:24 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 16:09:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466237391</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 16:09:51 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 16:09:51 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 16:15:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwWYcKPZmvKXVG1K6LBp6_O0]]></FromUserName>
+<CreateTime>1466237754</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&p=commission&m=sea&do=plugin]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 16:15:54 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 16:15:54 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwWYcKPZmvKXVG1K6LBp6_O0 ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 16:17:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwVpIWGq1m6FUWOh5W8mSDDk]]></FromUserName>
+<CreateTime>1466237850</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 16:17:30 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 16:17:30 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwVpIWGq1m6FUWOh5W8mSDDk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 16:35:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wLrGATQxsHFbXC-ndX0a-9M]]></FromUserName>
+<CreateTime>1466238930</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-18 16:35:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwccTySBfYI7e-dtDN57uF24]]></FromUserName>
+<CreateTime>1466238937</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&p=commission&m=sea&do=plugin]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 16:35:37 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 16:35:37 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwccTySBfYI7e-dtDN57uF24 ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 16:40:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wbDdVARzSenJw7AF0JeARuU]]></FromUserName>
+<CreateTime>1466239208</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://wer.souyiba.com/app/index.php?i=19&c=entry&method=myshop&p=commission&mid=1&m=sea&do=plugin]]></Content>
+<MsgId>6297449446882471102</MsgId>
+</xml>
+
+2016-06-18 16:40:08 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-18 16:40:08 response :
+------------
+
+2016-06-18 16:42:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wbDdVARzSenJw7AF0JeARuU]]></FromUserName>
+<CreateTime>1466239344</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://wer.souyiba.com/app/index.php?i=19&c=entry&method=shares&p=commission&goodsid=1&m=sea&do=plugin&from=singlemessage&isappinstalled=0]]></Content>
+<MsgId>6297450030998023387</MsgId>
+</xml>
+
+2016-06-18 16:42:24 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-18 16:42:24 response :
+------------
+
+2016-06-18 16:46:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466239576</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 16:46:16 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 16:46:16 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 16:48:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwVpIWGq1m6FUWOh5W8mSDDk]]></FromUserName>
+<CreateTime>1466239690</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 16:48:11 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 16:48:11 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwVpIWGq1m6FUWOh5W8mSDDk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 16:58:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466240333</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 16:58:53 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 16:58:53 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 17:05:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466240723</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 17:05:23 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 17:05:23 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 17:06:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466240764</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 17:06:04 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 17:06:04 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 17:16:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466241410</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 17:16:50 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 17:16:50 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 17:32:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466242332</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 17:32:12 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 17:32:12 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 17:50:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466243403</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 17:50:03 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 17:50:03 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 17:50:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466243415</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 17:50:15 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 17:50:15 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 18:36:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466246160</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 18:36:00 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 18:36:00 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 18:36:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466246193</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 18:36:33 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 18:36:33 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 18:44:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwVpIWGq1m6FUWOh5W8mSDDk]]></FromUserName>
+<CreateTime>1466246694</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 18:44:54 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 18:44:54 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwVpIWGq1m6FUWOh5W8mSDDk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 19:04:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466247851</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 19:04:11 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 19:04:11 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 19:05:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466247910</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 19:05:10 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 19:05:10 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 19:07:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466248076</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 19:07:56 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 19:07:56 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 19:19:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466248796</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 19:19:57 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 19:19:57 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 19:21:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466248863</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 19:21:03 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 19:21:03 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 21:47:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwdAkNIW4dNJg_XsNo5GZpgg]]></FromUserName>
+<CreateTime>1466257664</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[qrscene_100001]]></EventKey>
+<Ticket><![CDATA[gQH_7zoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xLzFUclJxUXpsT2ZkQWhfSXlGeFMyAAIEep1WVwMEAI0nAA==]]></Ticket>
+</xml>
+
+2016-06-18 21:47:44 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 21:47:44 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwdAkNIW4dNJg_XsNo5GZpgg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 21:47:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwdAkNIW4dNJg_XsNo5GZpgg]]></FromUserName>
+<CreateTime>1466257667</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 21:47:47 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 21:47:47 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwdAkNIW4dNJg_XsNo5GZpgg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 21:55:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwZRBi7SteASRR5qfd-7v2Ks]]></FromUserName>
+<CreateTime>1466258117</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 21:55:17 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 21:55:17 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwZRBi7SteASRR5qfd-7v2Ks ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 22:04:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwZRBi7SteASRR5qfd-7v2Ks]]></FromUserName>
+<CreateTime>1466258690</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 22:04:51 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 22:04:51 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwZRBi7SteASRR5qfd-7v2Ks ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 22:10:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwdAkNIW4dNJg_XsNo5GZpgg]]></FromUserName>
+<CreateTime>1466259035</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-18 22:10:35 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-18 22:10:35 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwdAkNIW4dNJg_XsNo5GZpgg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-18 23:41:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4ss2LrF4ziq79_VrFpKoYPT8]]></FromUserName>
+<CreateTime>1466264486</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

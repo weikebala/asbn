@@ -1,0 +1,183 @@
+2016-09-08 15:59:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3128f28e9fe3]]></ToUserName>
+<FromUserName><![CDATA[oW-CejkE3NSpVjahbmf4PM-S6VjY]]></FromUserName>
+<CreateTime>1473321547</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[3]]></Content>
+<MsgId>6327867861283682494</MsgId>
+</xml>
+
+2016-09-08 15:59:07 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-09-08 15:59:07 response :
+------------
+Array:
+FromUserName : gh_3128f28e9fe3 ;
+ToUserName : oW-CejkE3NSpVjahbmf4PM-S6VjY ;
+MsgType : text ;
+Content : 3 ;
+
+2016-09-08 16:05:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3128f28e9fe3]]></ToUserName>
+<FromUserName><![CDATA[oW-Cejr8e62tsdZ0Of3uXefxn8dA]]></FromUserName>
+<CreateTime>1473321942</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6327869557795764565</MsgId>
+</xml>
+
+2016-09-08 16:05:42 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-09-08 16:05:42 response :
+------------
+
+2016-09-08 16:07:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3128f28e9fe3]]></ToUserName>
+<FromUserName><![CDATA[oW-Cejr8e62tsdZ0Of3uXefxn8dA]]></FromUserName>
+<CreateTime>1473322030</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6327869935752886640</MsgId>
+</xml>
+
+2016-09-08 16:07:10 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 82 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-09-08 16:07:10 response :
+------------
+Array:
+FromUserName : gh_3128f28e9fe3 ;
+ToUserName : oW-Cejr8e62tsdZ0Of3uXefxn8dA ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-09-08 16:10:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3128f28e9fe3]]></ToUserName>
+<FromUserName><![CDATA[oW-Cejr8e62tsdZ0Of3uXefxn8dA]]></FromUserName>
+<CreateTime>1473322225</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://f1.iseasoft.cn/app/index.php?i=1&c=entry&do=shop&m=sea&wxref=mp.weixin.qq.com#wechat_redirect]]></Content>
+<MsgId>6327870773271509446</MsgId>
+</xml>
+
+2016-09-08 16:10:25 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-09-08 16:10:25 response :
+------------
+
+2016-09-08 16:45:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3128f28e9fe3]]></ToUserName>
+<FromUserName><![CDATA[oW-Cejr8e62tsdZ0Of3uXefxn8dA]]></FromUserName>
+<CreateTime>1473324320</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://f1.iseasoft.cn/app/index.php?i=1&c=entry&p=bs&do=member&m=sea]]></Content>
+<MsgId>6327879771227995640</MsgId>
+</xml>
+
+2016-09-08 16:45:20 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-09-08 16:45:20 response :
+------------
+
+2016-09-08 19:20:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3128f28e9fe3]]></ToUserName>
+<FromUserName><![CDATA[oW-Cejr8e62tsdZ0Of3uXefxn8dA]]></FromUserName>
+<CreateTime>1473333635</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://f1.iseasoft.cn/app/index.php?i=1&c=auth&a=forward&uniacid=1&__auth=eyJvcGVuaWQiOiJvVy1DZWpyOGU2MnRzZFowT2YzdVhlZnhuOGRBIiwiYWNpZCI6IjEiLCJ0aW1lIjoxNDczMzIyMDMwLCJoYXNoIjoiZjQ1NmQzMmJlMjM1MGJlMmE5MDU2ZWFjMTZjMzJiNDcifQ%3D%3D&forward=Li9pbmRleC5waHA%2FaT0xJmM9ZW50cnkmZG89c2hvcCZtPXNlYQ%3D%3D&wxref=mp.weixin.qq.com#wechat_redirect]]></Content>
+<MsgId>6327919778848362725</MsgId>
+</xml>
+
+2016-09-08 19:20:35 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-09-08 19:20:35 response :
+------------
+
+2016-09-08 19:21:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3128f28e9fe3]]></ToUserName>
+<FromUserName><![CDATA[oW-Cejr8e62tsdZ0Of3uXefxn8dA]]></FromUserName>
+<CreateTime>1473333713</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://f1.iseasoft.cn/app/index.php?i=1&c=entry&do=shop&m=sea&wxref=mp.weixin.qq.com#wechat_redirect]]></Content>
+<MsgId>6327920113855811856</MsgId>
+</xml>
+
+2016-09-08 19:21:53 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-09-08 19:21:53 response :
+------------
+
+2016-09-08 19:23:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_3128f28e9fe3]]></ToUserName>
+<FromUserName><![CDATA[oW-Cejr8e62tsdZ0Of3uXefxn8dA]]></FromUserName>
+<CreateTime>1473333786</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://f1.iseasoft.cn/app/index.php?i=1&c=entry&p=bs&do=member&m=]]></Content>
+<MsgId>6327920427388424499</MsgId>
+</xml>
+
+2016-09-08 19:23:06 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-09-08 19:23:06 response :
+------------
+

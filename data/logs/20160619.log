@@ -1,0 +1,1091 @@
+2016-06-19 00:24:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wStUjmCHSqBn7lXpBgQ7wC8]]></FromUserName>
+<CreateTime>1466267045</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[订餐]]></Content>
+<MsgId>6297569005887092441</MsgId>
+</xml>
+
+2016-06-19 00:24:05 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-19 00:24:05 response :
+------------
+
+2016-06-19 01:29:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466270954</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 01:29:14 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 01:29:14 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 01:32:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466271123</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1230]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 01:32:03 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 01:32:03 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 07:29:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwZRBi7SteASRR5qfd-7v2Ks]]></FromUserName>
+<CreateTime>1466292580</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 07:29:40 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 07:29:40 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwZRBi7SteASRR5qfd-7v2Ks ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 07:30:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwZRBi7SteASRR5qfd-7v2Ks]]></FromUserName>
+<CreateTime>1466292652</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 07:30:52 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 07:30:52 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwZRBi7SteASRR5qfd-7v2Ks ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 08:44:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwdOCC2O8Voq_pFet4IzmYSk]]></FromUserName>
+<CreateTime>1466297077</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 08:44:38 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 08:44:38 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwdOCC2O8Voq_pFet4IzmYSk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 08:58:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwVpIWGq1m6FUWOh5W8mSDDk]]></FromUserName>
+<CreateTime>1466297907</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 08:58:28 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 08:58:28 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwVpIWGq1m6FUWOh5W8mSDDk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 09:33:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwdOCC2O8Voq_pFet4IzmYSk]]></FromUserName>
+<CreateTime>1466300019</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 09:33:39 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 09:33:39 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwdOCC2O8Voq_pFet4IzmYSk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 09:35:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwdOCC2O8Voq_pFet4IzmYSk]]></FromUserName>
+<CreateTime>1466300150</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 09:35:50 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 09:35:50 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwdOCC2O8Voq_pFet4IzmYSk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 09:40:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwdOCC2O8Voq_pFet4IzmYSk]]></FromUserName>
+<CreateTime>1466300420</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 09:40:20 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 09:40:20 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwdOCC2O8Voq_pFet4IzmYSk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 10:10:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwS8vYqG_SoXK8jnHedASrCk]]></FromUserName>
+<CreateTime>1466302253</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 10:10:54 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 10:10:54 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwS8vYqG_SoXK8jnHedASrCk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 10:18:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wArDRL7IG_MlZKioJ1joerU]]></FromUserName>
+<CreateTime>1466302720</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-19 10:18:41 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 10:18:41 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wArDRL7IG_MlZKioJ1joerU ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-19 10:18:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wArDRL7IG_MlZKioJ1joerU]]></FromUserName>
+<CreateTime>1466302727</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=9&c=entry&p=commission&m=sea&do=plugin]]></EventKey>
+<MenuId>409870668</MenuId>
+</xml>
+
+2016-06-19 10:18:47 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 10:18:47 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wArDRL7IG_MlZKioJ1joerU ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-19 10:20:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wArDRL7IG_MlZKioJ1joerU]]></FromUserName>
+<CreateTime>1466302833</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=9&c=entry&eid=1226]]></EventKey>
+<MenuId>409870668</MenuId>
+</xml>
+
+2016-06-19 10:20:34 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 10:20:34 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wArDRL7IG_MlZKioJ1joerU ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-19 10:22:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wArDRL7IG_MlZKioJ1joerU]]></FromUserName>
+<CreateTime>1466302971</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=9&c=entry&eid=1226]]></EventKey>
+<MenuId>409870668</MenuId>
+</xml>
+
+2016-06-19 10:22:51 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 10:22:51 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wArDRL7IG_MlZKioJ1joerU ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-19 10:25:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wArDRL7IG_MlZKioJ1joerU]]></FromUserName>
+<CreateTime>1466303113</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=9&c=entry&eid=1226]]></EventKey>
+<MenuId>409870668</MenuId>
+</xml>
+
+2016-06-19 10:25:13 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 10:25:13 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wArDRL7IG_MlZKioJ1joerU ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-19 10:25:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wArDRL7IG_MlZKioJ1joerU]]></FromUserName>
+<CreateTime>1466303157</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[招商加盟]]></EventKey>
+</xml>
+
+2016-06-19 10:25:57 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 83 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 10:25:57 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wArDRL7IG_MlZKioJ1joerU ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-06-19 10:26:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wArDRL7IG_MlZKioJ1joerU]]></FromUserName>
+<CreateTime>1466303162</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[企业介绍]]></EventKey>
+</xml>
+
+2016-06-19 10:26:02 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 82 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 10:26:02 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wArDRL7IG_MlZKioJ1joerU ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-06-19 10:26:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wArDRL7IG_MlZKioJ1joerU]]></FromUserName>
+<CreateTime>1466303168</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=9&c=entry&eid=1226]]></EventKey>
+<MenuId>409870668</MenuId>
+</xml>
+
+2016-06-19 10:26:08 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 10:26:08 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wArDRL7IG_MlZKioJ1joerU ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-19 10:26:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wArDRL7IG_MlZKioJ1joerU]]></FromUserName>
+<CreateTime>1466303170</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=9&c=entry&p=commission&m=sea&do=plugin]]></EventKey>
+<MenuId>409870668</MenuId>
+</xml>
+
+2016-06-19 10:26:10 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 10:26:10 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wArDRL7IG_MlZKioJ1joerU ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-19 10:55:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466304908</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 10:55:09 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 10:55:09 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 11:01:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwdOCC2O8Voq_pFet4IzmYSk]]></FromUserName>
+<CreateTime>1466305282</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 11:01:22 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 11:01:22 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwdOCC2O8Voq_pFet4IzmYSk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 12:04:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwZRBi7SteASRR5qfd-7v2Ks]]></FromUserName>
+<CreateTime>1466309042</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 12:04:03 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 12:04:03 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwZRBi7SteASRR5qfd-7v2Ks ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 14:28:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwdOCC2O8Voq_pFet4IzmYSk]]></FromUserName>
+<CreateTime>1466317738</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 14:28:58 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 14:28:58 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwdOCC2O8Voq_pFet4IzmYSk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 20:08:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wMMQxmvRVIpo0JXKmSSgRWE]]></FromUserName>
+<CreateTime>1466338091</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-19 20:08:12 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 20:08:12 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wMMQxmvRVIpo0JXKmSSgRWE ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-19 20:08:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wMMQxmvRVIpo0JXKmSSgRWE]]></FromUserName>
+<CreateTime>1466338095</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=9&c=entry&eid=1226]]></EventKey>
+<MenuId>409870668</MenuId>
+</xml>
+
+2016-06-19 20:08:15 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 20:08:15 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wMMQxmvRVIpo0JXKmSSgRWE ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-19 20:10:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wMMQxmvRVIpo0JXKmSSgRWE]]></FromUserName>
+<CreateTime>1466338223</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=9&c=entry&eid=1226]]></EventKey>
+<MenuId>409870668</MenuId>
+</xml>
+
+2016-06-19 20:10:23 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 20:10:23 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wMMQxmvRVIpo0JXKmSSgRWE ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-19 20:25:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wBa2o001bpgZDtkcm_4U0Ic]]></FromUserName>
+<CreateTime>1466339132</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-19 20:25:32 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 20:25:32 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wBa2o001bpgZDtkcm_4U0Ic ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-19 20:25:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wBa2o001bpgZDtkcm_4U0Ic]]></FromUserName>
+<CreateTime>1466339135</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=9&c=entry&eid=1226]]></EventKey>
+<MenuId>409870668</MenuId>
+</xml>
+
+2016-06-19 20:25:35 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 20:25:35 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wBa2o001bpgZDtkcm_4U0Ic ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-19 20:27:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wBa2o001bpgZDtkcm_4U0Ic]]></FromUserName>
+<CreateTime>1466339259</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=9&c=entry&eid=1226]]></EventKey>
+<MenuId>409870668</MenuId>
+</xml>
+
+2016-06-19 20:27:40 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 20:27:40 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wBa2o001bpgZDtkcm_4U0Ic ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-19 22:36:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466346983</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&p=commission&m=sea&do=plugin]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 22:36:23 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 22:36:23 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 22:40:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466347201</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzI0NTQwMzUwNg==&mid=100000001&idx=1&sn=c1f5d4cb7038fbcea35a9c3891e50569&scene=18#rd]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 22:40:02 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 22:40:02 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 22:40:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466347208</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&p=commission&m=sea&do=plugin]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 22:40:09 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 22:40:09 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 22:41:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466347262</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1230]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 22:41:02 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 22:41:02 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 22:41:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466347268</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 22:41:08 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 22:41:08 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 22:42:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466347336</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 22:42:17 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 22:42:17 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 22:42:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466347370</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 22:42:50 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 22:42:50 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-19 22:43:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSHvNEaWFU8uxtnuMqiUHwg]]></FromUserName>
+<CreateTime>1466347409</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-19 22:43:29 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-19 22:43:29 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSHvNEaWFU8uxtnuMqiUHwg ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+

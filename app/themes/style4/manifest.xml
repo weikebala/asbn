@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest versionCode="0.6">
+    <identifie><![CDATA[style4]]></identifie>
+    <title><![CDATA[海软style4]]></title>
+	<type><![CDATA[car]]></type>
+    <description><![CDATA[由海软提供默认微站模板套系]]></description>
+    <author><![CDATA[海软]]></author>
+    <url><![CDATA[http://bbs.iseasoft.cn]]></url>
+	<sections><![CDATA[0]]></sections>
+	<settings>
+	</settings>
+</manifest>

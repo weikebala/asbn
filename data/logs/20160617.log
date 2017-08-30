@@ -1,0 +1,1485 @@
+2016-06-17 00:35:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wStUjmCHSqBn7lXpBgQ7wC8]]></FromUserName>
+<CreateTime>1466094909</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?34.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 00:35:09 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 00:35:09 response :
+------------
+
+2016-06-17 00:35:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wStUjmCHSqBn7lXpBgQ7wC8]]></FromUserName>
+<CreateTime>1466094920</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?7.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 00:35:20 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 00:35:20 response :
+------------
+
+2016-06-17 09:20:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4sss04w5D-dVciqogyw-g56I]]></FromUserName>
+<CreateTime>1466126403</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>31.882153</Latitude>
+<Longitude>117.277687</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2016-06-17 09:20:03 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2016-06-17 09:20:03 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2016-06-17 09:20:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4sss04w5D-dVciqogyw-g56I]]></FromUserName>
+<CreateTime>1466126405</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=shop&m=sea]]></EventKey>
+<MenuId>404455364</MenuId>
+</xml>
+
+2016-06-17 09:20:05 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 09:20:05 response :
+------------
+
+2016-06-17 09:20:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4sgtoYhshexvJG8X9WWYjX64]]></FromUserName>
+<CreateTime>1466126436</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=shop&m=sea]]></EventKey>
+<MenuId>404455364</MenuId>
+</xml>
+
+2016-06-17 09:20:36 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 09:20:36 response :
+------------
+
+2016-06-17 09:21:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4suEc1P6Io6rAI71zUB2k1ZI]]></FromUserName>
+<CreateTime>1466126475</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=shop&m=sea]]></EventKey>
+<MenuId>404455364</MenuId>
+</xml>
+
+2016-06-17 09:21:15 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 09:21:15 response :
+------------
+
+2016-06-17 09:25:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4sgtoYhshexvJG8X9WWYjX64]]></FromUserName>
+<CreateTime>1466126705</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=member&m=sea]]></EventKey>
+<MenuId>404455364</MenuId>
+</xml>
+
+2016-06-17 09:25:05 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 09:25:05 response :
+------------
+
+2016-06-17 10:05:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwccTySBfYI7e-dtDN57uF24]]></FromUserName>
+<CreateTime>1466129159</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1229]]></EventKey>
+<MenuId>428862708</MenuId>
+</xml>
+
+2016-06-17 10:05:59 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 10:05:59 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwccTySBfYI7e-dtDN57uF24 ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-17 11:20:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4sumlWLgH-WjOylvPYLxSUXk]]></FromUserName>
+<CreateTime>1466133616</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=shop&m=sea]]></EventKey>
+<MenuId>404455364</MenuId>
+</xml>
+
+2016-06-17 11:20:16 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 11:20:16 response :
+------------
+
+2016-06-17 11:46:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wX2P2yU9Bm_4Wvk0NFJpdvw]]></FromUserName>
+<CreateTime>1466135200</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-17 11:46:40 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 79 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 11:46:40 response :
+------------
+Array:
+FromUserName : gh_9ef36f25dc50 ;
+ToUserName : oN38-wX2P2yU9Bm_4Wvk0NFJpdvw ;
+MsgType : text ;
+Content : 欢迎您的关注！！！ ;
+
+2016-06-17 12:15:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wAFyOTvOFB7owiOtl6f6mo8]]></FromUserName>
+<CreateTime>1466136958</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-17 12:15:59 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 12:15:59 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wAFyOTvOFB7owiOtl6f6mo8 ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-17 12:16:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wAFyOTvOFB7owiOtl6f6mo8]]></FromUserName>
+<CreateTime>1466136998</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好]]></Content>
+<MsgId>6297010458275765626</MsgId>
+</xml>
+
+2016-06-17 12:16:38 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 12:16:38 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wAFyOTvOFB7owiOtl6f6mo8 ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-17 12:52:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSzftMJ1oCmuji3ZyheT5eU]]></FromUserName>
+<CreateTime>1466139144</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-17 12:52:24 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 12:52:24 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSzftMJ1oCmuji3ZyheT5eU ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-17 12:52:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSzftMJ1oCmuji3ZyheT5eU]]></FromUserName>
+<CreateTime>1466139147</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-17 12:52:27 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 12:52:27 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSzftMJ1oCmuji3ZyheT5eU ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-17 14:05:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4sss04w5D-dVciqogyw-g56I]]></FromUserName>
+<CreateTime>1466143523</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>31.882059</Latitude>
+<Longitude>117.277657</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2016-06-17 14:05:23 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2016-06-17 14:05:23 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2016-06-17 14:05:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4sss04w5D-dVciqogyw-g56I]]></FromUserName>
+<CreateTime>1466143524</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=shop&m=sea]]></EventKey>
+<MenuId>404455364</MenuId>
+</xml>
+
+2016-06-17 14:05:25 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 14:05:25 response :
+------------
+
+2016-06-17 14:32:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-we3xHZTbMGyHb_fuTL5iyl0]]></FromUserName>
+<CreateTime>1466145133</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?7.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 14:32:13 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 14:32:13 response :
+------------
+
+2016-06-17 14:32:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-we3xHZTbMGyHb_fuTL5iyl0]]></FromUserName>
+<CreateTime>1466145139</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?8.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 14:32:19 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 14:32:19 response :
+------------
+
+2016-06-17 14:32:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-we3xHZTbMGyHb_fuTL5iyl0]]></FromUserName>
+<CreateTime>1466145143</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?34.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 14:32:23 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 14:32:23 response :
+------------
+
+2016-06-17 14:32:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-we3xHZTbMGyHb_fuTL5iyl0]]></FromUserName>
+<CreateTime>1466145156</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=5&c=entry&eid=1226]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 14:32:36 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 14:32:36 response :
+------------
+
+2016-06-17 14:38:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wStUjmCHSqBn7lXpBgQ7wC8]]></FromUserName>
+<CreateTime>1466145511</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?34.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 14:38:31 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 14:38:31 response :
+------------
+
+2016-06-17 14:38:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ce84963696ea]]></ToUserName>
+<FromUserName><![CDATA[ogOo_wGf6_CFdhA7Zwi221zROAZI]]></FromUserName>
+<CreateTime>1466145523</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=9&c=entry&eid=1226]]></EventKey>
+<MenuId>409870668</MenuId>
+</xml>
+
+2016-06-17 14:38:43 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 81 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 14:38:43 response :
+------------
+Array:
+FromUserName : gh_ce84963696ea ;
+ToUserName : ogOo_wGf6_CFdhA7Zwi221zROAZI ;
+MsgType : text ;
+Content : 欢迎关注昵多丽环保家居官方微信，系统正在完善中，更多精彩，敬请期待…… ;
+
+2016-06-17 14:39:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4stgu3Nyf8kurXeI0l_Do3JE]]></FromUserName>
+<CreateTime>1466145560</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=shop&m=sea]]></EventKey>
+<MenuId>404455364</MenuId>
+</xml>
+
+2016-06-17 14:39:20 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 14:39:20 response :
+------------
+
+2016-06-17 14:39:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4stgu3Nyf8kurXeI0l_Do3JE]]></FromUserName>
+<CreateTime>1466145578</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=index&m=feng_fightgroups]]></EventKey>
+<MenuId>404455364</MenuId>
+</xml>
+
+2016-06-17 14:39:38 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 14:39:38 response :
+------------
+
+2016-06-17 14:39:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4stgu3Nyf8kurXeI0l_Do3JE]]></FromUserName>
+<CreateTime>1466145583</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[投票]]></EventKey>
+</xml>
+
+2016-06-17 14:39:43 params :
+------------
+Array:
+message : Array ;
+module : fm_photosvote ;
+rule : 105 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 14:39:43 response :
+------------
+Array:
+FromUserName : gh_994b4bf94dd3 ;
+ToUserName : o2LD4stgu3Nyf8kurXeI0l_Do3JE ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-06-17 15:08:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSrjZn_tpFtJja2h2Oh8EO0]]></FromUserName>
+<CreateTime>1466147318</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&p=commission&m=sea&do=plugin]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-17 15:08:38 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 15:08:38 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSrjZn_tpFtJja2h2Oh8EO0 ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-17 15:10:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwSrjZn_tpFtJja2h2Oh8EO0]]></FromUserName>
+<CreateTime>1466147445</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-17 15:10:45 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 15:10:45 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwSrjZn_tpFtJja2h2Oh8EO0 ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-17 15:14:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4sjs735KGVYc-O0l0DSn_CBU]]></FromUserName>
+<CreateTime>1466147685</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.899120</Latitude>
+<Longitude>117.751541</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2016-06-17 15:14:45 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2016-06-17 15:14:45 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2016-06-17 15:14:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4sjs735KGVYc-O0l0DSn_CBU]]></FromUserName>
+<CreateTime>1466147689</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=shop&m=sea]]></EventKey>
+<MenuId>404455364</MenuId>
+</xml>
+
+2016-06-17 15:14:49 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 15:14:49 response :
+------------
+
+2016-06-17 15:21:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4stgu3Nyf8kurXeI0l_Do3JE]]></FromUserName>
+<CreateTime>1466148100</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[合肥天气]]></Content>
+<MsgId>6297058140996993409</MsgId>
+</xml>
+
+2016-06-17 15:21:41 params :
+------------
+Array:
+message : Array ;
+module : userapi ;
+rule : 1 ;
+priority : 255 ;
+keyword : Array ;
+
+2016-06-17 15:21:41 response :
+------------
+Array:
+FromUserName : gh_994b4bf94dd3 ;
+ToUserName : o2LD4stgu3Nyf8kurXeI0l_Do3JE ;
+MsgType : text ;
+Content : 合肥今日天气
+今天白天晴，32摄氏度。
+南风，3-4
+今天夜间晴，22摄氏度。
+南风，3-4
+==================
+【穿衣指数】：短袖衫、短裙、短裤、薄型T恤衫、敞领短袖棉衫
+
+【感冒指数】：低发期环境温度较高，要提防长时间在空调环境中引发的空调病；
+
+【空调指数】：比较适宜开启空调
+
+【污染物扩散条件】：优非常有利于空气污染物扩散
+
+【洗车指数】：不适宜洗车后当日有降水、大风或沙尘天气，不适宜洗车
+
+【运动指数】：不适宜天气炎热，不适宜户外运动；
+
+【紫外线指数】：强紫外线强
+
+【体感度指数】：较热户外活动不适宜在中午前后展开。
+ ;
+
+2016-06-17 15:42:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwVpIWGq1m6FUWOh5W8mSDDk]]></FromUserName>
+<CreateTime>1466149377</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-17 15:42:57 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 15:42:57 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwVpIWGq1m6FUWOh5W8mSDDk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-17 15:45:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwVpIWGq1m6FUWOh5W8mSDDk]]></FromUserName>
+<CreateTime>1466149500</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-17 15:45:00 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 15:45:00 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwVpIWGq1m6FUWOh5W8mSDDk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-17 15:46:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4sjs735KGVYc-O0l0DSn_CBU]]></FromUserName>
+<CreateTime>1466149564</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=shop&m=sea]]></EventKey>
+<MenuId>404455364</MenuId>
+</xml>
+
+2016-06-17 15:46:05 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 15:46:05 response :
+------------
+
+2016-06-17 16:01:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4stgu3Nyf8kurXeI0l_Do3JE]]></FromUserName>
+<CreateTime>1466150473</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=12&c=entry&do=shop&m=sea]]></EventKey>
+<MenuId>404455364</MenuId>
+</xml>
+
+2016-06-17 16:01:14 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 16:01:14 response :
+------------
+
+2016-06-17 16:14:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-we3xHZTbMGyHb_fuTL5iyl0]]></FromUserName>
+<CreateTime>1466151251</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=5&c=entry&eid=1226]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 16:14:11 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 16:14:11 response :
+------------
+
+2016-06-17 16:57:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wZnF2EX5HgS85pgI1xcHh_g]]></FromUserName>
+<CreateTime>1466153843</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>409520743</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>107</TotalCount>
+<FilterCount>107</FilterCount>
+<SentCount>107</SentCount>
+<ErrorCount>0</ErrorCount>
+</xml>
+
+2016-06-17 16:57:23 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 16:57:23 response :
+------------
+
+2016-06-17 16:58:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wbXbyYNu8kj_r7ThVnVHzHE]]></FromUserName>
+<CreateTime>1466153907</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/list/?10_1.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 16:58:27 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 16:58:28 response :
+------------
+
+2016-06-17 16:59:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-we-WnSYn3kM-vGrJ8vLseAk]]></FromUserName>
+<CreateTime>1466153964</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?34.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 16:59:25 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 16:59:25 response :
+------------
+
+2016-06-17 17:00:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-we-WnSYn3kM-vGrJ8vLseAk]]></FromUserName>
+<CreateTime>1466154001</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wfx.iseasoft.cn/app/index.php?i=51&j=54&c=entry&do=shop&m=ewei_shop&wxref=mp.weixin.qq.com&wxref=mp.weixin.qq.com#wechat_redirect]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:00:01 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:00:01 response :
+------------
+
+2016-06-17 17:07:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wRH0I5ll2pXS8C-m4OqPRso]]></FromUserName>
+<CreateTime>1466154425</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-17 17:07:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154445</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wfx.iseasoft.cn/app/index.php?i=51&j=54&c=entry&do=shop&m=ewei_shop&wxref=mp.weixin.qq.com&wxref=mp.weixin.qq.com#wechat_redirect]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:07:25 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:07:25 response :
+------------
+
+2016-06-17 17:07:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154448</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wfx.iseasoft.cn/app/index.php?i=51&j=54&c=entry&do=shop&m=ewei_shop&wxref=mp.weixin.qq.com&wxref=mp.weixin.qq.com#wechat_redirect]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:07:28 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:07:28 response :
+------------
+
+2016-06-17 17:07:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154453</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.myyll.com/]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:07:34 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:07:34 response :
+------------
+
+2016-06-17 17:07:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154465</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=5&c=entry&eid=1226]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:07:45 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:07:45 response :
+------------
+
+2016-06-17 17:08:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154506</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/list/?9_1.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:08:26 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:08:26 response :
+------------
+
+2016-06-17 17:08:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154516</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.myyll.com/]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:08:36 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:08:36 response :
+------------
+
+2016-06-17 17:08:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154529</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wfx.iseasoft.cn/app/index.php?i=51&j=54&c=entry&do=shop&m=ewei_shop&wxref=mp.weixin.qq.com&wxref=mp.weixin.qq.com#wechat_redirect]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:08:49 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:08:49 response :
+------------
+
+2016-06-17 17:09:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154549</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?34.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:09:09 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:09:09 response :
+------------
+
+2016-06-17 17:09:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154567</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?34.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:09:27 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:09:27 response :
+------------
+
+2016-06-17 17:09:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154575</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?7.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:09:35 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:09:35 response :
+------------
+
+2016-06-17 17:09:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154586</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?8.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:09:47 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:09:47 response :
+------------
+
+2016-06-17 17:09:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154596</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/list/?10_1.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:09:56 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:09:56 response :
+------------
+
+2016-06-17 17:10:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154640</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/list/?25_1.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:10:41 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:10:41 response :
+------------
+
+2016-06-17 17:10:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wWhee-3CiwX1CptD85jI3nI]]></FromUserName>
+<CreateTime>1466154646</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/about/?21.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 17:10:46 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 17:10:46 response :
+------------
+
+2016-06-17 17:30:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwVpIWGq1m6FUWOh5W8mSDDk]]></FromUserName>
+<CreateTime>1466155815</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-17 17:30:15 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 17:30:15 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwVpIWGq1m6FUWOh5W8mSDDk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-17 17:54:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_994b4bf94dd3]]></ToUserName>
+<FromUserName><![CDATA[o2LD4smZELWTla_vBhbcM9vYYBUo]]></FromUserName>
+<CreateTime>1466157245</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-17 18:02:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wQUKT0QCS7nyyP-3zVyBUWw]]></FromUserName>
+<CreateTime>1466157756</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-17 18:02:36 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 79 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 18:02:36 response :
+------------
+Array:
+FromUserName : gh_9ef36f25dc50 ;
+ToUserName : oN38-wQUKT0QCS7nyyP-3zVyBUWw ;
+MsgType : text ;
+Content : 欢迎您的关注！！！ ;
+
+2016-06-17 19:11:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-we68BoGp1wevgKTEMnY69FY]]></FromUserName>
+<CreateTime>1466161910</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?34.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 19:11:50 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 19:11:50 response :
+------------
+
+2016-06-17 20:00:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_173b187cfb81]]></ToUserName>
+<FromUserName><![CDATA[ocu1wwVpIWGq1m6FUWOh5W8mSDDk]]></FromUserName>
+<CreateTime>1466164847</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://f.iseasoft.cn/app/index.php?i=10&c=entry&eid=1226]]></EventKey>
+<MenuId>429849572</MenuId>
+</xml>
+
+2016-06-17 20:00:47 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 90 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-17 20:00:47 response :
+------------
+Array:
+FromUserName : gh_173b187cfb81 ;
+ToUserName : ocu1wwVpIWGq1m6FUWOh5W8mSDDk ;
+MsgType : text ;
+Content : 您好，欢迎来到玉田网上超市！ ;
+
+2016-06-17 22:45:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-we68BoGp1wevgKTEMnY69FY]]></FromUserName>
+<CreateTime>1466174747</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/about/?21.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 22:45:48 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 22:45:48 response :
+------------
+
+2016-06-17 22:45:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-we68BoGp1wevgKTEMnY69FY]]></FromUserName>
+<CreateTime>1466174751</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/list/?25_1.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 22:45:51 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 22:45:51 response :
+------------
+
+2016-06-17 23:03:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-we68BoGp1wevgKTEMnY69FY]]></FromUserName>
+<CreateTime>1466175801</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/about/?21.html]]></EventKey>
+<MenuId>409468597</MenuId>
+</xml>
+
+2016-06-17 23:03:21 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-17 23:03:21 response :
+------------
+

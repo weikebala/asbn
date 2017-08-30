@@ -1,0 +1,50 @@
+2016-06-01 10:53:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wR9dZw3nU5qyt0mZS7xD1mI]]></FromUserName>
+<CreateTime>1464749635</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-06-01 10:53:56 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 79 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-06-01 10:53:56 response :
+------------
+Array:
+FromUserName : gh_9ef36f25dc50 ;
+ToUserName : oN38-wR9dZw3nU5qyt0mZS7xD1mI ;
+MsgType : text ;
+Content : 欢迎您的关注！！！ ;
+
+2016-06-01 10:54:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9ef36f25dc50]]></ToUserName>
+<FromUserName><![CDATA[oN38-wR9dZw3nU5qyt0mZS7xD1mI]]></FromUserName>
+<CreateTime>1464749653</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.iseasoft.cn/wap/about/?7.html]]></EventKey>
+<MenuId>409172389</MenuId>
+</xml>
+
+2016-06-01 10:54:13 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-06-01 10:54:13 response :
+------------
+
