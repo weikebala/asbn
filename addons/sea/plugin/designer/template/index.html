@@ -659,24 +659,24 @@ UE.registerUI('myinsertimage',function(editor, uiName) {
             $scope.uploadImgChild = function(Mid,Cid,Type){
                 require(['jquery', 'util'], function($, util){
                     util.image('',function(data){
-                            var Items = $scope.Items;
-                            angular.forEach(Items, function(m,index1) {
-                                if(m.id==Mid){
-                                    if(Type=='cube'){
-                                        m.params.currentLayout.imgurl = data['url'];
-                                        $("div[mid="+Mid+"]").mouseover();
-                                        
-                                    }else{
-                                        angular.forEach(m.data, function(c,index2) {
-                                            if(c.id==Cid){
-                                                c.imgurl = data['url'];
-                                                $("div[mid="+Mid+"]").mouseover();
-                                                //console.log(Items);
-                                            }
-                                        });
-                                    }
+                        var Items = $scope.Items;
+                        angular.forEach(Items, function(m,index1) {
+                            if(m.id==Mid){
+                                if(Type=='cube'){
+                                    m.params.currentLayout.imgurl = data['url'];
+                                    $("div[mid="+Mid+"]").mouseover();
+
+                                }else{
+                                    angular.forEach(m.data, function(c,index2) {
+                                        if(c.id==Cid){
+                                            c.imgurl = data['url'];
+                                            $("div[mid="+Mid+"]").mouseover();
+                                            //console.log(Items);
+                                        }
+                                    });
                                 }
-                            });
+                            }
+                        });
                     });
                 });
             }
