@@ -71,7 +71,7 @@ if ($_W['isajax']) {
 					$row['statusstr'] = '待退款';
 				//}
 			}
-			
+
 			$canrefund = false;
 			if ($row['status'] == 1) {
 				$canrefund = true;
@@ -100,16 +100,16 @@ if ($_W['isajax']) {
 					}else{
 						$row['refund_button']="申请退款";
 					}
-				
+
 				}
-				
+
 			}
-			
-			
+
+
 			$row['canrefund'] = $canrefund;
 		}
 		unset($row);
-		
+
 		show_json(1, array('total' => $total, 'list' => $list, 'pagesize' => $psize));
 	}
 }

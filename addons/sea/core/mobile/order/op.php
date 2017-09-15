@@ -36,6 +36,7 @@ if ($_W['isajax']) {
 			show_json(0, '订单未发货，不能确认收货!');
 		}
 		pdo_update('sea_order', array('status' => 3, 'finishtime' => time()), array('id' => $order['id']));
+        #购买后会员升级
 		m('member')->upgradeLevel($order['openid']);
 		if (p('coupon') && !empty($order['couponid'])) {
 			p('coupon')->backConsumeCoupon($orderid);

@@ -2,7 +2,7 @@
 <?php (!empty($this) && $this instanceof WeModuleSite || 1) ? (include $this->template('tabs', TEMPLATE_INCLUDEPATH)) : (include template('tabs', TEMPLATE_INCLUDEPATH));?>
 
 <div class="panel panel-info">
-    <div class="panel-heading">查询分销商增长趋势</div>
+    <div class="panel-heading">查询加盟商增长趋势</div>
     <div class="panel-body">
 
         <form action="./index.php"  class="form-horizontal" onsubmit='return checkform()'>

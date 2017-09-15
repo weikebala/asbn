@@ -21,17 +21,29 @@ if (!class_exists('CommissionModel')) {
             $_var_0['texts'] = array('agent' => empty($_var_0['texts']['agent']) ? '加盟商' : $_var_0['texts']['agent'], 'shop' => empty($_var_0['texts']['shop']) ? '小店' : $_var_0['texts']['shop'], 'myshop' => empty($_var_0['texts']['myshop']) ? '我的小店' : $_var_0['texts']['myshop'], 'center' => empty($_var_0['texts']['center']) ? '加盟中心' : $_var_0['texts']['center'], 'become' => empty($_var_0['texts']['become']) ? '成为加盟商' : $_var_0['texts']['become'], 'withdraw' => empty($_var_0['texts']['withdraw']) ? '提现' : $_var_0['texts']['withdraw'], 'commission' => empty($_var_0['texts']['commission']) ? '佣金' : $_var_0['texts']['commission'], 'commission1' => empty($_var_0['texts']['commission1']) ? '加盟佣金' : $_var_0['texts']['commission1'], 'commission_total' => empty($_var_0['texts']['commission_total']) ? '累计佣金' : $_var_0['texts']['commission_total'], 'commission_ok' => empty($_var_0['texts']['commission_ok']) ? '可提现佣金' : $_var_0['texts']['commission_ok'], 'commission_apply' => empty($_var_0['texts']['commission_apply']) ? '已申请佣金' : $_var_0['texts']['commission_apply'], 'commission_check' => empty($_var_0['texts']['commission_check']) ? '待打款佣金' : $_var_0['texts']['commission_check'], 'commission_lock' => empty($_var_0['texts']['commission_lock']) ? '未结算佣金' : $_var_0['texts']['commission_lock'], 'commission_detail' => empty($_var_0['texts']['commission_detail']) ? '佣金明细' : $_var_0['texts']['commission_detail'], 'commission_pay' => empty($_var_0['texts']['commission_pay']) ? '成功提现佣金' : $_var_0['texts']['commission_pay'], 'order' => empty($_var_0['texts']['order']) ? '加盟订单' : $_var_0['texts']['order'], 'myteam' => empty($_var_0['texts']['myteam']) ? '我的团队' : $_var_0['texts']['myteam'], 'c1' => empty($_var_0['texts']['c1']) ? '一级' : $_var_0['texts']['c1'], 'c2' => empty($_var_0['texts']['c2']) ? '二级' : $_var_0['texts']['c2'], 'c3' => empty($_var_0['texts']['c3']) ? '三级' : $_var_0['texts']['c3'], 'mycustomer' => empty($_var_0['texts']['mycustomer']) ? '我的客户' : $_var_0['texts']['mycustomer']);
             return $_var_0;
         }
+
+        /**
+         * 计算订单各分销等级分红数据
+         * @param int $orderid
+         * @param bool $update
+         * @return array
+         */
         public function calculate($orderid = 0, $update = true)
         {
             global $_W;
             $_var_0 = $this->getSet();
             $_var_3 = $this->getLevels();
+            #上一级分销用户id
             $_var_4 = pdo_fetchcolumn('select agentid from ' . tablename('sea_order') . ' where id=:id limit 1', array(':id' => $orderid));
+            #订单商品信息
             $goods = pdo_fetchall('select og.id,og.realprice,og.total,g.hascommission,g.nocommission, g.commission1_rate,g.commission1_pay,g.commission2_rate,g.commission2_pay,g.commission3_rate,g.commission3_pay,og.commissions,og.optionid,g.productprice,g.marketprice,g.costprice from ' . tablename('sea_order_goods') . '  og ' . ' left join ' . tablename('sea_goods') . ' g on g.id = og.goodsid' . ' where og.orderid=:orderid and og.uniacid=:uniacid', array(':orderid' => $orderid, ':uniacid' => $_W['uniacid']));
             if ($_var_0['level'] > 0) {
                 foreach ($goods as &$cinfo) {
+                    #参与分销计算的金额
                     $_var_7 = $this->calculate_method($cinfo);
+                    #商品参与分销
                     if (empty($cinfo['nocommission']) && $_var_7 > 0) {
+                        #商品有自己的分销计算方式
                         if ($cinfo['hascommission'] == 1) {
                             $cinfo['commission1'] = array('default' => $_var_0['level'] >= 1 ? $cinfo['commission1_rate'] > 0 ? round($cinfo['commission1_rate'] * $_var_7 / 100, 2) . '' : round($cinfo['commission1_pay'] * $cinfo['total'], 2) : 0);
                             $cinfo['commission2'] = array('default' => $_var_0['level'] >= 2 ? $cinfo['commission2_rate'] > 0 ? round($cinfo['commission2_rate'] * $_var_7 / 100, 2) . '' : round($cinfo['commission2_pay'] * $cinfo['total'], 2) : 0);
@@ -41,7 +53,7 @@ if (!class_exists('CommissionModel')) {
                                 $cinfo['commission2']['level' . $_var_8['id']] = $cinfo['commission2_rate'] > 0 ? round($cinfo['commission2_rate'] * $_var_7 / 100, 2) . '' : round($cinfo['commission2_pay'] * $cinfo['total'], 2);
                                 $cinfo['commission3']['level' . $_var_8['id']] = $cinfo['commission3_rate'] > 0 ? round($cinfo['commission3_rate'] * $_var_7 / 100, 2) . '' : round($cinfo['commission3_pay'] * $cinfo['total'], 2);
                             }
-                        } else {
+                        } else {#商品没有自己的分销计算方式按后台设置的计算
                             $cinfo['commission1'] = array('default' => $_var_0['level'] >= 1 ? round($_var_0['commission1'] * $_var_7 / 100, 2) . '' : 0);
                             $cinfo['commission2'] = array('default' => $_var_0['level'] >= 2 ? round($_var_0['commission2'] * $_var_7 / 100, 2) . '' : 0);
                             $cinfo['commission3'] = array('default' => $_var_0['level'] >= 3 ? round($_var_0['commission3'] * $_var_7 / 100, 2) . '' : 0);
@@ -51,7 +63,7 @@ if (!class_exists('CommissionModel')) {
                                 $cinfo['commission3']['level' . $_var_8['id']] = $_var_0['level'] >= 3 ? round($_var_8['commission3'] * $_var_7 / 100, 2) . '' : 0;
                             }
                         }
-                    } else {
+                    } else {#商品不参与分销
                         $cinfo['commission1'] = array('default' => 0);
                         $cinfo['commission2'] = array('default' => 0);
                         $cinfo['commission3'] = array('default' => 0);
@@ -62,10 +74,12 @@ if (!class_exists('CommissionModel')) {
                         }
                     }
                     if ($update) {
+                        #上级应该分红的钱
                         $_var_9 = array('level1' => 0, 'level2' => 0, 'level3' => 0);
                         if (!empty($_var_4)) {
                             $_var_10 = m('member')->getMember($_var_4);
                             if ($_var_10['isagent'] == 1 && $_var_10['status'] == 1) {
+                                #分销商等级
                                 $_var_11 = $this->getLevel($_var_10['openid']);
                                 $_var_9['level1'] = empty($_var_11) ? round($cinfo['commission1']['default'], 2) : round($cinfo['commission1']['level' . $_var_11['id']], 2);
                                 if (!empty($_var_10['agentid'])) {
@@ -160,19 +174,28 @@ if (!class_exists('CommissionModel')) {
             }
             global $_W;
             $_var_0 = $this->getSet();
+            #分销等级 1 2 3
             $_var_38 = intval($_var_0['level']);
+            #微信用户
             $_var_39 = m('member')->getMember($openid);
+            #微信用户分销等级
             $_var_40 = $this->getLevel($openid);
+            #当前时间
             $_var_41 = time();
+            #分销体现时间
             $_var_42 = intval($_var_0['settledays']) * 3600 * 24;
+            #总的分销商的个数
             $_var_43 = 0;
+            #一级订单数量
             $_var_44 = 0;
+            #一级订单总金额
             $_var_45 = 0;
             $_var_46 = 0;
             $_var_47 = 0;
             $_var_48 = 0;
             $_var_49 = 0;
             $_var_50 = 0;
+            #一级分销得的钱
             $_var_51 = 0;
             $_var_52 = 0;
             $_var_53 = 0;
@@ -181,6 +204,7 @@ if (!class_exists('CommissionModel')) {
             $_var_56 = 0;
             $_var_57 = 0;
             $_var_58 = 0;
+            #一级订单数量
             $_var_59 = 0;
             $_var_60 = 0;
             $_var_61 = 0;
@@ -199,10 +223,15 @@ if (!class_exists('CommissionModel')) {
             $by_order_count=0;
             $by_order_money=0;
             if ($_var_38 >= 1) {
+                #得到总的分销数据
                 if (in_array('ordercount0', $options)) {
+                    #获取订单数量 订单总金额
                     $_var_73 = pdo_fetch('select sum(og.realprice) as ordermoney,count(distinct o.id) as ordercount from ' . tablename('sea_order') . ' o ' . ' left join  ' . tablename('sea_order_goods') . ' og on og.orderid=o.id ' . ' where o.agentid=:agentid and o.status>=0 and og.status1>=0 and og.nocommission=0 and o.uniacid=:uniacid  limit 1', array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_39['id']));
+                    #订单数量
                     $_var_59 += $_var_73['ordercount'];
+                    #订单数量
                     $_var_44 += $_var_73['ordercount'];
+                    #订单总金额
                     $_var_45 += $_var_73['ordermoney'];
                 }
                 if (in_array('ordercount', $options)) {
@@ -221,6 +250,7 @@ if (!class_exists('CommissionModel')) {
                     $_var_49 += $_var_74['ordermoney'];
                     $_var_68 += $_var_74['ordermoney'];
                 }
+                #得到总的数据
                 if (in_array('total', $options)) {
                     $_var_75 = pdo_fetchall('select og.commission1,og.commissions  from ' . tablename('sea_order_goods') . ' og ' . ' left join  ' . tablename('sea_order') . ' o on o.id = og.orderid' . ' where o.agentid=:agentid and o.status>=1 and og.nocommission=0 and o.uniacid=:uniacid', array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_39['id']));
                     foreach ($_var_75 as $_var_76) {
@@ -239,24 +269,29 @@ if (!class_exists('CommissionModel')) {
                         $by_var_26 = iunserializer($by_var_76['commissions']);
                         $by_var_77 = iunserializer($by_var_76['commission3']);
                         if (empty($_var_26)) {
+                            #这一个月的数据
                             $by_var_50 += isset($by_var_77['level' . $_var_40['id']]) ? $by_var_77['level' . $_var_40['id']] : $by_var_77['default'];
                         } else {
                             $by_var_50 += isset($by_var_26['level3']) ? $by_var_26['level3'] : 0;
                         }
                     }
                 }
-                if (in_array('ok', $options)) {
-                    $_var_75 = pdo_fetchall('select og.commission1,og.commissions  from ' . tablename('sea_order_goods') . ' og ' . ' left join  ' . tablename('sea_order') . ' o on o.id = og.orderid' . " where o.agentid=:agentid and o.status>=3 and og.nocommission=0 and ({$_var_41} - o.createtime > {$_var_42}) and og.status1=0  and o.uniacid=:uniacid", array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_39['id']));
-                    foreach ($_var_75 as $_var_76) {
-                        $_var_26 = iunserializer($_var_76['commissions']);
-                        $_var_77 = iunserializer($_var_76['commission1']);
-                        if (empty($_var_26)) {
-                            $_var_51 += isset($_var_77['level' . $_var_40['id']]) ? $_var_77['level' . $_var_40['id']] : $_var_77['default'];
-                        } else {
-                            $_var_51 += isset($_var_26['level1']) ? $_var_26['level1'] : 0;
+                #得到可以体现的订单数据
+                    if (in_array('ok', $options)) {
+                        $_var_75 = pdo_fetchall('select og.commission1,og.commissions  from ' . tablename('sea_order_goods') . ' og ' . ' left join  ' . tablename('sea_order') . ' o on o.id = og.orderid' . " where o.agentid=:agentid and o.status>=3 and og.nocommission=0 and ({$_var_41} - o.createtime > {$_var_42}) and og.status1=0  and o.uniacid=:uniacid", array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_39['id']));
+                        foreach ($_var_75 as $_var_76) {
+                            #默认分销分成数据
+                            $_var_26 = iunserializer($_var_76['commissions']);
+                            #一级分销数据
+                            $_var_77 = iunserializer($_var_76['commission1']);
+                            if (empty($_var_26)) {
+                                #一级分销得金额
+                                $_var_51 += isset($_var_77['level' . $_var_40['id']]) ? $_var_77['level' . $_var_40['id']] : $_var_77['default'];
+                            } else {
+                                $_var_51 += isset($_var_26['level1']) ? $_var_26['level1'] : 0;
+                            }
                         }
                     }
-                }
                 if (in_array('lock', $options)) {
                     $_var_78 = pdo_fetchall('select og.commission1,og.commissions  from ' . tablename('sea_order_goods') . ' og ' . ' left join  ' . tablename('sea_order') . ' o on o.id = og.orderid' . " where o.agentid=:agentid and o.status>=3 and og.nocommission=0 and ({$_var_41} - o.createtime <= {$_var_42})  and og.status1=0  and o.uniacid=:uniacid", array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_39['id']));
                     foreach ($_var_78 as $_var_76) {
@@ -305,7 +340,9 @@ if (!class_exists('CommissionModel')) {
                         }
                     }
                 }
+                #得到直接下级所有的分销商id数组
                 $_var_80 = pdo_fetchall('select id from ' . tablename('sea_member') . ' where agentid=:agentid and isagent=1 and status=1 and uniacid=:uniacid ', array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_39['id']), 'id');
+                #直接下级总的分销商的个数
                 $_var_56 = count($_var_80);
                 $_var_43 += $_var_56;
             }
@@ -912,39 +949,53 @@ if (!class_exists('CommissionModel')) {
                 }
             }
         }
+
+        /**
+         * 订单分销关系整理，计算分销各等级分销金额数据
+         * @param string $orderid
+         */
         public function checkOrderConfirm($orderid = '0')
         {
             global $_W, $_GPC;
             if (empty($orderid)) {
                 return;
             }
+            #分销配置
             $_var_0 = $this->getSet();
             if (empty($_var_0['level'])) {
                 return;
             }
+            #订单数据
             $_var_147 = pdo_fetch('select id,openid,ordersn,goodsprice,agentid,paytime from ' . tablename('sea_order') . ' where id=:id and status>=0 and uniacid=:uniacid limit 1', array(':id' => $orderid, ':uniacid' => $_W['uniacid']));
             if (empty($_var_147)) {
                 return;
             }
+            #openid
             $_var_148 = $_var_147['openid'];
+            #sea_menber 数据 
             $_var_149 = m('member')->getMember($_var_148);
             if (empty($_var_149)) {
                 return;
             }
+            #分红插件
             $_var_150 = p('bonus');
             if (!empty($_var_150)) {
+                #分红配置
                 $_var_151 = $_var_150->getSet();
                 if (!empty($_var_151['start'])) {
                     $_var_150->checkOrderConfirm($orderid);
                 }
             }
+            #成为下线条件  0:点击分享 1首次下单 2首次付款
             $_var_152 = intval($_var_0['become_child']);
+            #上一级分销用户数据
             $_var_153 = false;
             if (empty($_var_152)) {
                 $_var_153 = m('member')->getMember($_var_149['agentid']);
             } else {
                 $_var_153 = m('member')->getMember($_var_149['inviter']);
             }
+            #上一级分销用户是否是合法的分销用户
             $_var_154 = !empty($_var_153) && $_var_153['isagent'] == 1 && $_var_153['status'] == 1;
             $_var_155 = time();
             $_var_152 = intval($_var_0['become_child']);
@@ -960,6 +1011,7 @@ if (!class_exists('CommissionModel')) {
                     }
                 }
             }
+            #订单分销找到上一级
             $_var_4 = $_var_149['agentid'];
             if ($_var_149['isagent'] == 1 && $_var_149['status'] == 1) {
                 if (!empty($_var_0['selfbuy'])) {
@@ -1147,21 +1199,26 @@ if (!class_exists('CommissionModel')) {
                 }
             }
         }
+        #订单确认收货后微信发送分销订单数据信息，以及处理分销商等级升级处理
         public function checkOrderFinish($orderid = '')
         {
             global $_W, $_GPC;
             if (empty($orderid)) {
                 return;
             }
+            #订单信息
             $_var_147 = pdo_fetch('select id,openid, ordersn,goodsprice,agentid,finishtime from ' . tablename('sea_order') . ' where id=:id and status>=3 and uniacid=:uniacid limit 1', array(':id' => $orderid, ':uniacid' => $_W['uniacid']));
             if (empty($_var_147)) {
                 return;
             }
+            #分销配置信息
             $_var_0 = $this->getSet();
             if (empty($_var_0['level'])) {
                 return;
             }
+            #用户openid
             $_var_148 = $_var_147['openid'];
+            #用户
             $_var_149 = m('member')->getMember($_var_148);
             if (empty($_var_149)) {
                 return;
@@ -1175,6 +1232,7 @@ if (!class_exists('CommissionModel')) {
             }
             $_var_155 = time();
             $_var_156 = $_var_149['isagent'] == 1 && $_var_149['status'] == 1;
+            #不是分销商并且    消费条件统计的方式为完成后
             if (!$_var_156 && $_var_0['become_order'] == 1) {
                 if ($_var_0['become'] == 2 || $_var_0['become'] == 3) {
                     $_var_158 = true;
@@ -1210,14 +1268,20 @@ if (!class_exists('CommissionModel')) {
                     }
                 }
             }
+            #有上一级
             if (!empty($_var_147['agentid'])) {
+                #得到上一级
                 $_var_153 = m('member')->getMember($_var_147['agentid']);
                 if (!empty($_var_153) && $_var_153['isagent'] == 1 && $_var_153['status'] == 1) {
                     if ($_var_147['agentid'] == $_var_153['id']) {
+                        #订单商品
                         $_var_16 = pdo_fetchall('select g.id,g.title,og.total,og.realprice,og.price,og.optionname as optiontitle,g.noticeopenid,g.noticetype,og.commission1 from ' . tablename('sea_order_goods') . ' og ' . ' left join ' . tablename('sea_goods') . ' g on g.id=og.goodsid ' . ' where og.uniacid=:uniacid and og.orderid=:orderid ', array(':uniacid' => $_W['uniacid'], ':orderid' => $_var_147['id']));
                         $goods = '';
+                        #上一级分销商的分销等级
                         $_var_8 = $_var_153['agentlevel'];
+                        #一级分销得的钱
                         $_var_163 = 0;
+                        #商品总金额
                         $_var_164 = 0;
                         foreach ($_var_16 as $_var_165) {
                             $goods .= '' . $_var_165['title'] . '( ';
@@ -1361,6 +1425,7 @@ if (!class_exists('CommissionModel')) {
                     $_var_150->upgradeLevelByAgent($openid);
                 }
             }
+            #加盟商等级升级依据
             $_var_174 = intval($_var_0['leveltype']);
             if ($_var_174 == 4 || $_var_174 == 5) {
                 if (!empty($m['agentnotupgrade'])) {

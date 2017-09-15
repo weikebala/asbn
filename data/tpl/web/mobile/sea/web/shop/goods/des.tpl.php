@@ -33,6 +33,6 @@
 <div class="form-group">
     <label class="col-xs-12 col-sm-3 col-md-2 control-label">商品购买提醒</label>
     <div class="col-sm-9 col-xs-12">
-        <textarea name="buy_warn" style="width: 500px"><?php  echo $item['buy_warn'];?></textarea><span>*多个换行输入*</span>
+        <textarea name="buy_warn" style="width: 500px"><?php  echo $item['buy_warn'];?></textarea>
     </div>
 </div>

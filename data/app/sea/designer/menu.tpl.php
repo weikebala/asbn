@@ -22,9 +22,9 @@
           </div>
            <div class="sub" ng-style="{'border-color':params.bordercolor2,'background':params.bgcolor2}">
                 <span>
-                    <a 
+                    <a
                         class="designer-menu-link"
-                        ng-repeat="sub in menu.subMenus" 
+                        ng-repeat="sub in menu.subMenus"
                         ng-style="{'border-bottom-color':params.bordercolor2,'color':params.textcolor2}"
                         href="{{sub.url}}">{{sub.title}}</a>
                 </span>
@@ -32,7 +32,7 @@
                 <div class="corner2"  ng-style="{'border-top-color':params.bgcolor2}"></div>
             </div>
             <div class="designer-menu-spliter"  ng-show="params.showborder==1" ng-style="{'background':menu.bordercolor}"></div>
-        
+
           </li>
     </ul>
 </div>
@@ -40,13 +40,13 @@
 <?php  if(empty($_W['angular_loaded'])) { ?>
 </div>
 <?php  } ?>
- 
+
 <script type="text/javascript">
 <?php  if(empty($_W['angular_loaded'])) { ?>
    var app = angular.module('myApp', []);
- <?php  } ?> 
+ <?php  } ?>
     app.controller('MenuCtrl', ['$scope', function($scope){
-    
+
             $scope.menus = <?php echo !empty($this->footer['diymenus'])?$this->footer['diymenus']:json_encode($menus)?>;
             $scope.params = <?php echo !empty($this->footer['diyparams'])?$this->footer['diyparams']:json_encode($params)?>;
             $scope.clear =function(m){
@@ -75,13 +75,13 @@
                     if( !$.isNumber(bgalpha) || parseFloat(bgalpha )>1){
                         bgalpha = 1;
                     }
-          
+
                      if(bgalpha!=1){
                               //有透明度
                               if(parseInt(current.css('opacity'))>=1){ //弹出后隐藏
-                                    current.animate({opacity:0,bottom:-h-50},200);    
+                                    current.animate({opacity:0,bottom:-h-50},200);
                             } else{
-                                current.css('bottom',50).animate({opacity:1},200);        
+                                current.css('bottom',50).animate({opacity:1},200);
                                  menu.textcolor  = $scope.params.textcolorhigh;
                                  menu.bgcolor  = $scope.params.bgcolorhigh;
                                  menu.iconcolor  = $scope.params.iconcolorhigh;
@@ -89,14 +89,14 @@
                             }
                                 $(event.currentTarget).siblings().closest('li').find('.sub').each(function(){
                             var h = $(this).height();
-                           $(this).animate({opacity:0},200); 
+                           $(this).animate({opacity:0},200);
                      });
                      }
                      else{
                            if(parseInt(current.css('bottom'))>0){
-                                current.animate({bottom:-h-50,opacity:0},200);       
+                                current.animate({bottom:-h-50,opacity:0},200);
                            } else{
-                                current.animate({bottom:50,opacity:1},200);        
+                                current.animate({bottom:50,opacity:1},200);
                                 menu.textcolor  = $scope.params.textcolorhigh;
                                 menu.bgcolor  = $scope.params.bgcolorhigh;
                                 menu.iconcolor  = $scope.params.iconcolorhigh;
@@ -104,48 +104,48 @@
                            }
                                $(event.currentTarget).siblings().closest('li').find('.sub').each(function(){
                            var h = $(this).height();
-                          $(this).animate({bottom:-h-50,opacity:0},200); 
+                          $(this).animate({bottom:-h-50,opacity:0},200);
                     });
                      }
-                  
-                
+
+
             }
     }]);
 $(function(){
 	var len =$('.designer-menu .sub').length;
- 
+
     $('.designer-menu .sub').each(function(i){
          var h = $(this).height();
          var w = $(this).closest('li').width();
-   
+
          $(this).css('bottom',  -h-50);
          var left = parseFloat( $(this).offset().left.toString().replace('px',''));
          if(i==0){
          	if(left<0){
          		left =Math.abs(left);
          		$(this).offset({left:5});
-         	 
+
          		var corner = $(this).find('.corner');
          		var cornerleft = ( parseFloat( $(this).css('left').replace('px','')) - left  ) /2 + 5;
          		corner.css('left',cornerleft);
          	    $(this).find('.corner2').css('left',cornerleft);
          	}
         }else if(i+1==len){
-        	
+
         	var right = $(this).width() + left;
          	if(right>=$(document).width()){
          		var newoffset = $(document).width() - $(this).width() - 5;
          	    $(this).offset({left:newoffset});
-         	    
-         	    
+
+
          	    var corner = $(this).find('.corner');
          	    var cornerleft= ($(this).width() - $(this).closest('li').width()) / 2 + $(this).width()/2 + 5;
          		corner.css('left',cornerleft);
          	    $(this).find('.corner2').css('left',cornerleft);
-         	    
+
          	}
         }
-         
+
     })
 })
 </script>

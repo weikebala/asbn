@@ -34,7 +34,7 @@ if (empty($_W['session_id'])) {
 	$_W['session_id'] = $_COOKIE[session_name()];
 }
 if (empty($_W['session_id'])) {
-	$_W['session_id'] = "{$_W['uniacid']}-" . random(20) ;
+	$_W['session_id'] = "{$_W['uniacid']}-" . random(20);
 	$_W['session_id'] = md5($_W['session_id']);
 	setcookie(session_name(), $_W['session_id']);
 }

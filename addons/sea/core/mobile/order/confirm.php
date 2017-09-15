@@ -1388,8 +1388,10 @@ if ($_W['isajax']) {
                     $order['address'] = iserializer($address);
                 }
                 $order['customs_price']=$goodscustoms_price;
+                #生成订单
                 pdo_insert('sea_order', $order);
                 $orderid = pdo_insertid();
+                #生成订单收货信息表单
                 if ($_GPC['fromcart'] == 1) {
                     $cartids = $_GPC['cartids'];
                     if (!empty($cartids)) {
@@ -1398,6 +1400,7 @@ if ($_W['isajax']) {
                         pdo_query('update ' . tablename('sea_member_cart') . ' set deleted=1 where openid=:openid and uniacid=:uniacid ', array(':uniacid' => $uniacid, ':openid' => $openid));
                     }
                 }
+                #生成订单商品数据
                 foreach ($allgoods as $goods) {
                     $order_goods = array('uniacid' => $uniacid, 'orderid' => $orderid, 'goodsid' => $goods['goodsid'], 'price' => $goods['marketprice'] * $goods['total'], 'total' => $goods['total'], 'optionid' => $goods['optionid'], 'createtime' => time(), 'optionname' => $goods['optiontitle'], 'goodssn' => $goods['goodssn'], 'productsn' => $goods['productsn'], 'realprice' => $goods['realprice'], 'oldprice' => $goods['realprice'], 'openid' => $openid, 'goods_op_cost_price' => $goods['costprice']);
                     if ($diyform_plugin) {
@@ -1410,10 +1413,12 @@ if ($_W['isajax']) {
                     }
                     pdo_insert('sea_order_goods', $order_goods);
                 }
+                #生成积分余额消费记录
                 if ($deductcredit > 0) {
                     $shop = m('common')->getSysset('shop');
                     m('member')->setCredit($openid, 'credit1', -$deductcredit, array('0', $shop['name'] . "购物积分抵扣 消费积分: {$deductcredit} 抵扣金额: {$deductmoney} 订单号: {$ordersn}"));
                 }
+                #商品促销加减
                 if (empty($virtualid)) {
                     m('order')->setStocksAndCredits($orderid, 0);
                 } else {
@@ -1422,14 +1427,16 @@ if ($_W['isajax']) {
                         pdo_update('sea_goods', array('sales' => $vgoods['sales'] + $vgoods['total']), array('id' => $vgoods['goodsid']));
                     }
                 }
+                #处理优惠劵
                 $plugincoupon = p('coupon');
                 if ($plugincoupon) {
                     $plugincoupon->useConsumeCoupon($orderid);
                 }
+                #发送消息
                 m('notice')->sendOrderMessage($orderid);
                 $pluginc = p('commission');
                 if ($pluginc) {
-                    $pluginc->checkOrderConfirm($orderid);
+                        $pluginc->checkOrderConfirm($orderid);
                 }
                 show_json(1, array('orderid' => $orderid));
             }

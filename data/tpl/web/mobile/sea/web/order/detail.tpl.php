@@ -34,7 +34,7 @@
                     <div class='form-control-static'>ID: <?php  echo $member['id'];?> 姓名: <?php  echo $member['realname'];?> / 手机号: <?php  echo $member['mobile'];?> /微信号: <?php  echo $member['weixin'];?></div>
                 </div>
             </div>
-                
+
                 <?php  if($item['transid']) { ?>
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label">微信交易号 :</label>
@@ -49,7 +49,7 @@
                         <p class="form-control-static"><?php  echo $item['ordersn'];?> </p>
                     </div>
                 </div>
-                
+
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label">订单金额 :</label>
                     <div class="col-sm-9 col-xs-12">
@@ -68,7 +68,7 @@
 								<td  style='border:none;text-align:right;;'>-￥<?php  echo number_format( $item['discountprice'],2)?></td>
 							</tr>
 							<?php  } ?>
-							
+
 							<?php  if($item['deductprice']>0) { ?>
 							<tr>
 								<td  style='border:none;text-align:right;'>积分抵扣：</td>
@@ -79,7 +79,7 @@
 							<tr>
 								<td  style='border:none;text-align:right;'>余额抵扣：</td>
 								<td  style='border:none;text-align:right;;'>-￥<?php  echo number_format( $item['deductcredit2'],2)?></td>
-							</tr> 
+							</tr>
 							<?php  } ?>
 							<?php  if($item['deductenough']>0) { ?>
 							<tr>
@@ -104,7 +104,7 @@
 								<td  style='border:none;text-align:right;'>卖家改运费：</td>
 								<td  style='border:none;text-align:right;;'><span style="<?php  if(0<$item['changedispatchprice']) { ?>color:green<?php  } else { ?>color:red<?php  } ?>"><?php  if(0<$item['changedispatchprice']) { ?>+<?php  } else { ?>-<?php  } ?>￥<?php  echo abs($item['changedispatchprice'])?></span></td>
 							</tr>
-						         <?php  } ?> 
+						         <?php  } ?>
 						<tr>
 								<td style='border:none;text-align:right;'>应收款：</td>
 								<td  style='border:none;text-align:right;color:green;'>￥<?php  echo number_format($item['price'],2)?></td>
@@ -125,9 +125,9 @@
                     <div class="col-sm-9 col-xs-12">
 						<p class="form-control-static">
 							<a href="<?php  echo $this->createPluginWebUrl('coupon/coupon',array('op'=>'post','id'=>$coupon['id']))?>" target='_blank'>
-								
-							[<?php  echo $coupon['id'];?>]<?php  echo $coupon['couponname'];?></a> - 
-						  
+
+							[<?php  echo $coupon['id'];?>]<?php  echo $coupon['couponname'];?></a> -
+
 						   <?php  if($coupon['backtype']==0) { ?>
 						  立减 <?php  echo $coupon['deduct'];?> 元
 						  <?php  } else if($coupon['backtype']==1) { ?>
@@ -149,7 +149,7 @@
 						  <?php  } else { ?>
 						  <span class='label label-danger'>已返利 <?php  echo data('Y-m-d H:i',$coupon['backtime'])?></span>
 						  <?php  } ?>
-						  <?php  } ?> 
+						  <?php  } ?>
 					</p>
 				  </div>
 				  </div>
@@ -225,7 +225,7 @@
                     </div>
                 </div>
                 <?php  } ?>
-                
+
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label">下单日期 :</label>
                     <div class="col-sm-9 col-xs-12">
@@ -240,7 +240,7 @@
                     </div>
                 </div>
                 <?php  } ?>
-                
+
                 <?php  if($item['status']>=2 && !empty($item['addressid']) ) { ?>
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label">发货信息 :</label>
@@ -251,26 +251,26 @@
                     </div>
                 </div>
                 <?php  } ?>
-                  
+
                 <?php  if($item['status']>=2 && !empty($item['virtual']) ) { ?>
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label">发货信息 :</label>
                     <div class="col-sm-9 col-xs-12">
                         <p class="form-control-static"><?php  echo str_replace("\n","<br/>", $item['virtual_str'])?>
-						
-									   
+
+
 						</p>
                     </div>
                 </div>
                 <?php  } ?>
-                
+
                 <?php  if($item['status']>=3) { ?>
                 <?php  if($item['isverify']==1) { ?>
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label">核销信息 :</label>
                     <div class="col-sm-9 col-xs-12">
                         <p class="form-control-static">
-                            消费码: <?php  echo $item['verifycode'];?><br/> 
+                            消费码: <?php  echo $item['verifycode'];?><br/>
                             核销时间: <?php  echo date('Y-m-d H:i:s', $item['finishtime'])?><br/>
 			 <?php  if(!empty($saler)) { ?>
                             核销人:  <?php  echo $saler['nickname'];?>( <?php  echo $saler['salername'];?> )<br/>
@@ -289,13 +289,13 @@
                     </div>
                 </div>
                 <?php  } ?>
-                
+
                 <?php  } ?>
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label">备注 :</label>
                     <div class="col-sm-9 col-xs-12"><textarea style="height:150px;" class="form-control" name="remark" cols="70"><?php  echo $item['remark'];?></textarea></div>
                 </div>
-                
+
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
                     <div class="col-sm-9 col-xs-12">
@@ -317,13 +317,13 @@
                     <div class="col-sm-9 col-xs-12">
                         <p class="form-control-static">
 							<a href="<?php  echo $this->createWebUrl('member/list',array('op'=>'detail','id'=>$agents[0]['id']))?>" target='_blank'>
-							<img src='<?php  echo $agents[0]['avatar'];?>' style="width:30px;height:30px;padding:1px;border:1px solid #ccc" /> <?php  echo $agents[0]['nickname'];?> 
+							<img src='<?php  echo $agents[0]['avatar'];?>' style="width:30px;height:30px;padding:1px;border:1px solid #ccc" /> <?php  echo $agents[0]['nickname'];?>
 								  </a>
-								 <b>ID:</b> <?php  echo $agents[0]['id'];?> <b>姓名:</b> <?php  echo $agents[0]['realname'];?>  <b>手机号:</b> <?php  echo $agents[0]['mobile'];?> 
-								
+								 <b>ID:</b> <?php  echo $agents[0]['id'];?> <b>姓名:</b> <?php  echo $agents[0]['realname'];?>  <b>手机号:</b> <?php  echo $agents[0]['mobile'];?>
+
 							<b>佣金:</b> <?php  echo $commission1;?> 元
 								 </p>
-							
+
                     </div>
                 </div>
                 <?php  } ?>
@@ -333,7 +333,7 @@
                     <div class="col-sm-9 col-xs-12">
                         <p class="form-control-static">
 							<a href="<?php  echo $this->createWebUrl('member/list',array('op'=>'detail','id'=>$agents[1]['id']))?>" target='_blank'>
-								<img src='<?php  echo $agents[1]['avatar'];?>' style="width:30px;height:30px;padding:1px;border:1px solid #ccc" /> <?php  echo $agents[1]['nickname'];?> 
+								<img src='<?php  echo $agents[1]['avatar'];?>' style="width:30px;height:30px;padding:1px;border:1px solid #ccc" /> <?php  echo $agents[1]['nickname'];?>
 									 </a>
 							<b>ID:</b> <?php  echo $agents[1]['id'];?> <b>姓名:</b> <?php  echo $agents[1]['realname'];?>  <b>手机号:</b> <?php  echo $agents[1]['mobile'];?>
 							<b>佣金:</b> <?php  echo $commission2;?> 元
@@ -347,16 +347,16 @@
                     <div class="col-sm-9 col-xs-12">
                         <p class="form-control-static">
 														<a href="<?php  echo $this->createWebUrl('member/list',array('op'=>'detail','id'=>$agents[2]['id']))?>" target='_blank'>
-							<img src='<?php  echo $agents[2]['avatar'];?>' style="width:30px;height:30px;padding:1px;border:1px solid #ccc" />  <?php  echo $agents[2]['nickname'];?> 
+							<img src='<?php  echo $agents[2]['avatar'];?>' style="width:30px;height:30px;padding:1px;border:1px solid #ccc" />  <?php  echo $agents[2]['nickname'];?>
 								 </a>
 							<b>ID:</b> <?php  echo $agents[2]['id'];?> <b>姓名:</b> <?php  echo $agents[2]['realname'];?> <b>手机号:</b> <?php  echo $agents[2]['mobile'];?>
-								<b>佣金:</b> <?php  echo $commission3;?> 元						
-								 
+								<b>佣金:</b> <?php  echo $commission3;?> 元
+
 								 </p>
                     </div>
                 </div>
                 <?php  } ?>
-				
+
 				<?php if(cv('commission.changecommission')) { ?>
 				  <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
@@ -366,7 +366,7 @@
 						</p>
                     </div>
                 </div>
-							
+
 							<?php  } ?>
             </div>
         </div>
@@ -426,7 +426,7 @@
             </div>
         </div>
         <?php  } else if($item['isverify']==1 || !empty($item['virtual']) ||!empty($item['isvirtual'])) { ?>
-    		<?php  if($show==1) { ?>         
+    		<?php  if($show==1) { ?>
               <div class="panel panel-default">
                 <div class="panel-heading">
                    自提信息
@@ -446,19 +446,19 @@
                     </div>
                 </div>
               </div>
-    		<?php  } ?> 
+    		<?php  } ?>
         <?php  } ?>
-      
+
 
     <?php  if($diyform_flag == 1) { ?>
-	
+
 	<?php  if(!empty($order_data)) { ?>
    <div class='panel-heading'>
         订单统一表单信息
     </div>
     <div class='panel-body'>
         <!--<span>diyform</span>-->
-    
+
        <?php  $datas = $order_data?>
         <?php  if(is_array($order_fields)) { foreach($order_fields as $key => $value) { ?>
         <div class="form-group">
@@ -502,7 +502,7 @@
         </div>
 
         <?php  } } ?>
-     
+
     </div>
 	<?php  } ?>
 	  <?php  if(count($goods)==1 &&  !empty($goods[0]['diyformdata'])) { ?>
@@ -511,7 +511,7 @@
     </div>
     <div class='panel-body'>
         <!--<span>diyform</span>-->
-      
+
 		<?php  $datas = $goods[0]['diyformdata']?>
         <?php  if(is_array($goods[0]['diyformfields'])) { foreach($goods[0]['diyformfields'] as $key => $value) { ?>
         <div class="form-group">
@@ -555,11 +555,11 @@
         </div>
 
         <?php  } } ?>
-    
+
     </div>    <?php  } ?>
     <?php  } ?>
         <?php  if(!empty($refund)) { ?>
-		
+
         <div class="panel panel-default">
             <div class="panel-heading">
                 退款申请
@@ -613,7 +613,7 @@
                     </div>
                 </div>
                 <?php  } ?>
-                
+
                 <?php if(cv('order.op.refund')) { ?>
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
@@ -628,7 +628,7 @@
                         <span class='label label-danger'>已完成</span>
                         <?php  } ?>
                     </div>
-                </div> 
+                </div>
 				<?php  } ?>
 
                 <?php  if(!empty($refund['expresssn'])) { ?>
@@ -707,7 +707,7 @@
                     </div>
                 </div>
                 <?php  } ?>
-			
+
 			 <?php  if(!empty($refund['hhinfo'])) { ?>
 				   <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label">历史退货记录 :</label>
@@ -715,7 +715,7 @@
                         <div class="form-control-static"><?php  echo $refund['hhinfo'];?></div>
                     </div>
                 </div>
-		  
+
 			<?php  } ?>
 
             </div>
@@ -746,7 +746,7 @@
                     </div>
                 </div>
                 <?php  } ?>
-                
+
                 <?php if(cv('order.op.refund')) { ?>
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
@@ -759,7 +759,7 @@
                         <span class='label label-danger'>已退款</span>
                         <?php  } ?>
                     </div>
-                </div> 
+                </div>
                 <?php  } ?>
 
             </div>
@@ -778,12 +778,12 @@
                             <th style="width:15%;">商品规格</th>
                             <th style="width:10%;">商品编号</th>
                             <th style="width:10%;">商品条码</th>
-                       
+
                             <th style="width:20%;">现价/原价/成本价</th>
                             <th style="width:10%;">属性</th>
                             <th style="width:5%;">购买数量</th>
                             <th style="width:10%;color:red;">折扣前/折扣后</th>
-                            
+
                             <th style="width:10%;">操作</th>
                         </tr>
                     </thead>
@@ -808,17 +808,17 @@
 						<br/>(改价<?php  if($goods['changeprice']>0) { ?>+<?php  } ?><?php  echo number_format(abs($goods['changeprice']),2)?>)
 							<?php  } ?>
 						</td>
-                        <td>  
+                        <td>
                             <a href="<?php  echo $this->createWebUrl('shop/goods', array('id' => $goods['id'], 'op' => 'post'))?>" class="btn btn-default btn-sm" title="编辑"><i class="fa fa-edit"></i></a>&nbsp;&nbsp;
                         </td>
                     </tr>
 					<?php  if(count($item['goods'])>1 && $diyform_flag==1 && !empty($goods['diyformdata'])) { ?>
 					<tr>
 						<td colspan='10' style="background:#FCF8E3">
-							 
+
 							<a href='javascript:;' class='btn btn-default' hide="1" onclick="showDiyInfo(this)">查看用户信息</a>
 							<div style='display:none'>
-							  
+
 		<?php  $datas = $goods['diyformdata']?>
         <?php  if(is_array($goods['diyformfields'])) { foreach($goods['diyformfields'] as $key => $value) { ?>
         <div class="form-group">
@@ -862,17 +862,17 @@
         </div>
 
         <?php  } } ?>
-       
-					</div>		
+
+					</div>
 						</td>
 					</tr>
 					<?php  } ?>
                     <?php  } } ?>
                     <tr>
                         <td colspan="10">
-                            
+
                            <?php (!empty($this) && $this instanceof WeModuleSite || 1) ? (include $this->template('web/order/ops', TEMPLATE_INCLUDEPATH)) : (include template('web/order/ops', TEMPLATE_INCLUDEPATH));?>
-                           
+
                         </td>
                     </tr>
                 </table>
@@ -979,13 +979,13 @@
                     $('.ad1').show();
                     $('.ad2').hide();
                 }
-				
+
                 var province = $('#sel-provance').val();
                 var city = $('#sel-city').val();
                 var district = $('#sel-area').val();
                 var tradearea_area = $('#tradearea-area').val();
                 var order_id = <?php  echo $id?>;
-                
+
                 $.ajax({
                     url: "<?php  echo $this->createWebUrl('order/list',array('op'=>'tradearea_area'))?>",
                     dataType: "json",
@@ -1003,7 +1003,7 @@
 				$("#area-first").nextAll().remove();
                 var order_id =<?php  echo $id?>;
                 if (json.status == 1) {
-                    
+
                     var len = getJsonObjLength(json.result);
                     for (var i = 0; i < len; i++) {
                         if (json.result.orderaddress.tradearea_area == json.result[i]['id']) {
@@ -1016,10 +1016,10 @@
                         var option_id = $("#area_"+json.result[i]['id']+"").val();
                         if (option_id == undefined) {
                             $("#area-first").after(option);
-                        } 
+                        }
                     }
                 }else {
-                    
+
                     $("#area-first").nextAll().remove();
                 }
 
@@ -1037,7 +1037,7 @@
 			</script>
 <?php (!empty($this) && $this instanceof WeModuleSite || 1) ? (include $this->template('web/order/modals', TEMPLATE_INCLUDEPATH)) : (include template('web/order/modals', TEMPLATE_INCLUDEPATH));?>
   <?php  if(p('commission')) { ?>
-		  
+
 		   <?php (!empty($this) && $this instanceof WeModuleSite || 1) ? (include $this->template('commission/changecommission', TEMPLATE_INCLUDEPATH)) : (include template('commission/changecommission', TEMPLATE_INCLUDEPATH));?>
 		  <?php  } ?>
 

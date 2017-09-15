@@ -2,9 +2,12 @@
 
 //decode by QQ:45300551 http://www.iseasoft.cn/
 global $_W, $_GPC;
+#openid
 $openid = m('user')->getOpenid();
+#分红插件
 $pluginbonus = p('bonus');
 $bonus = 0;
+$
 $level = $this->model->getLevel($openid);
 if (!empty($pluginbonus)) {
     $bonus_set = $pluginbonus->getSet();

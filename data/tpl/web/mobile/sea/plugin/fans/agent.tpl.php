@@ -43,7 +43,7 @@
                      <th style='width:80px;'>会员ID</th>
                     <th style='width:120px;'>粉丝</th>
                     <th style='width:110px;'>姓名<br/>手机号码</th>
-                    <th style='width:80px;'>分销等级</th>
+                    <th style='width:80px;'>加盟等级</th>
                     <th style='width:200px;'>时间</th>
                      <th style='width:70px'>关注</th>
                 </tr>
@@ -96,7 +96,7 @@
     <input type="hidden" name="op" value="detail" />
     <div class='panel panel-default'>
         <div class='panel-heading'>
-            分销商详细信息
+            加盟商详细信息
         </div>
         <div class='panel-body'>
 
@@ -148,7 +148,7 @@
                 </div>
             </div>
              <div class="form-group">
-                <label class="col-xs-12 col-sm-3 col-md-2 control-label">分销商等级</label>
+                <label class="col-xs-12 col-sm-3 col-md-2 control-label">加盟商等级</label>
                <div class="col-sm-9 col-xs-12">
                          <?php if(cv('commission.agent.edit')) { ?>
                     <select name='data[agentlevel]' class='form-control'>
@@ -193,7 +193,7 @@
                 </div>
             </div>
            <div class="form-group">
-                <label class="col-xs-12 col-sm-3 col-md-2 control-label">分销商权限</label>
+                <label class="col-xs-12 col-sm-3 col-md-2 control-label">加盟商权限</label>
                 <div class="col-sm-9 col-xs-12">
                      <?php if(cv('commission.agent.check')) { ?>
                     <label class="radio-inline"><input type="radio" name="data[isagent]" value="1" <?php  if($member['isagent']==1) { ?>checked<?php  } ?>>是</label>
@@ -226,7 +226,7 @@
                       <?php if(cv('commission.agent.edit')) { ?>
                     <label class="radio-inline" ><input type="radio" name="data[agentnotupgrade]" value="0" <?php  if($member['agentnotupgrade']==0) { ?>checked<?php  } ?>>允许自动升级</label>
                     <label class="radio-inline"><input type="radio" name="data[agentnotupgrade]" value="1" <?php  if($member['agentnotupgrade']==1) { ?>checked<?php  } ?>>强制不自动升级</label>
-                    <span class="help-block">如果强制不自动升级，满足任何条件，此分销商的级别也不会改变</span>
+                    <span class="help-block">如果强制不自动升级，满足任何条件，此加盟商的级别也不会改变</span>
                     <?php  } else { ?>
                          <input type="hidden" name="data[agentnotupgrade]" class="form-control" value="<?php  echo $member['agentnotupgrade'];?>"  />
                       <div class='form-control-static'><?php  if($member['agentnotupgrade']==1) { ?>强制不自动升级<?php  } else { ?>允许自动升级<?php  } ?></div>
@@ -242,8 +242,8 @@
                     <label class="radio-inline"><input type="radio" name="data[agentselectgoods]" value="1" <?php  if($member['agentselectgoods']==1) { ?>checked<?php  } ?>>强制禁止</label>
                     <label class="radio-inline"><input type="radio" name="data[agentselectgoods]" value="2" <?php  if($member['agentselectgoods']==2) { ?>checked<?php  } ?>>强制开启</label>
                     <span class="help-block">系统设置： 跟随系统设置，系统关闭自选则为禁止，系统开启自选则为允许</span>
-                    <span class="help-block">强制禁止： 无论系统自选商品是否关闭或开启，此分销商永不能自选商品</span>
-                    <span class="help-block">强制允许： 无论系统自选商品是否关闭或开启，此分销商永可以自选商品</span>
+                    <span class="help-block">强制禁止： 无论系统自选商品是否关闭或开启，此加盟商永不能自选商品</span>
+                    <span class="help-block">强制允许： 无论系统自选商品是否关闭或开启，此加盟商永可以自选商品</span>
                     <?php  } else { ?>
                       <input type="hidden" name="data[agentselectgoods]" class="form-control" value="<?php  echo $member['agentselectgoods'];?>"  />
                       <div class='form-control-static'><?php  if($member['agentnotselectgoods']==1) { ?>
