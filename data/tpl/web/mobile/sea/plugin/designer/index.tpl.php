@@ -302,10 +302,7 @@
 <script type="text/javascript" src="../addons/sea/plugin/designer/template/imgsrc/angular.min.js"></script>
 <script type="text/javascript" src="../addons/sea/plugin/designer/template/imgsrc/angular-ueditor.js"></script>
 <script type="text/javascript" src="../addons/sea/plugin/designer/template/imgsrc/hhSwipe.js"></script>
-<script type="text/javascript" src="./resource/components/ueditor/ueditor.config.js"></script>
-<script type="text/javascript" src="./resource/components/ueditor/ueditor.all.min.js"></script>
-<script type="text/javascript" src="./resource/components/ueditor/ueditor.parse.js"></script>
-<script type="text/javascript" src="./resource/components/ueditor/lang/zh-cn/zh-cn.js"></script>
+
 <script type="text/javascript">
 // 百度编辑器初始化
 var opts = {type: 'image',direct: false,multi: true,tabs: {'upload': 'active','browser': '','crawler': ''},path: '',dest_dir: '',global: false,thumb: false,width: 0};
@@ -659,24 +656,24 @@ UE.registerUI('myinsertimage',function(editor, uiName) {
             $scope.uploadImgChild = function(Mid,Cid,Type){
                 require(['jquery', 'util'], function($, util){
                     util.image('',function(data){
-                            var Items = $scope.Items;
-                            angular.forEach(Items, function(m,index1) {
-                                if(m.id==Mid){
-                                    if(Type=='cube'){
-                                        m.params.currentLayout.imgurl = data['url'];
-                                        $("div[mid="+Mid+"]").mouseover();
-                                        
-                                    }else{
-                                        angular.forEach(m.data, function(c,index2) {
-                                            if(c.id==Cid){
-                                                c.imgurl = data['url'];
-                                                $("div[mid="+Mid+"]").mouseover();
-                                                //console.log(Items);
-                                            }
-                                        });
-                                    }
+                        var Items = $scope.Items;
+                        angular.forEach(Items, function(m,index1) {
+                            if(m.id==Mid){
+                                if(Type=='cube'){
+                                    m.params.currentLayout.imgurl = data['url'];
+                                    $("div[mid="+Mid+"]").mouseover();
+
+                                }else{
+                                    angular.forEach(m.data, function(c,index2) {
+                                        if(c.id==Cid){
+                                            c.imgurl = data['url'];
+                                            $("div[mid="+Mid+"]").mouseover();
+                                            //console.log(Items);
+                                        }
+                                    });
                                 }
-                            });
+                            }
+                        });
                     });
                 });
             }
